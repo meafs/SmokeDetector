@@ -359,6 +359,12 @@ def do_blacklist(blacklist_type, msg, force=False):
 
     pattern = get_pattern_from_content_source(msg)
 
+    has_u202d = ""
+    if '\u202d' in pattern:
+        has_u202d = (
+            "The pattern contains an invisible U+202D whitespace character;"
+            " - in most cases, you don't want that")
+
     has_unescaped_dot = ""
     if "number" not in blacklist_type:
         # Test for . without \., but not in comments.
@@ -391,10 +397,14 @@ def do_blacklist(blacklist_type, msg, force=False):
                 concretized_pattern, is_username=username, is_watchlist=is_watchlist, is_phone=is_phone)
 
             if reasons:
+                has_u202d = "; in addition, " + has_u202d.lower() if has_u202d else ""
                 has_unescaped_dot = "; in addition, " + has_unescaped_dot.lower() if has_unescaped_dot else ""
                 raise CmdException(
                     "That pattern looks like it's already caught by " +
-                    format_blacklist_reasons(reasons) + has_unescaped_dot + append_force_to_do)
+                    format_blacklist_reasons(reasons) + has_unescaped_dot + has_u202d + append_force_to_do)
+
+        if has_u202d:
+            raise CmdException(has_u202d + has_unescaped_dot + append_force_to_do)
 
         if has_unescaped_dot:
             raise CmdException(has_unescaped_dot + append_force_to_do)
@@ -522,7 +532,7 @@ def unblacklist(msg, item, alias_used="unwatch"):
     return result
 
 
-@command(int, privileged=True, whole_msg=True)
+@command(int, privileged=True, whole_msg=True, aliases=["accept"])
 def approve(msg, pr_id):
     code_permissions = is_code_privileged(msg._client.host, msg.owner.id)
     if not code_permissions:
@@ -863,7 +873,7 @@ def info():
     return "I'm " + GlobalVars.chatmessage_prefix +\
            ", a bot that detects spam and offensive posts on the network and"\
            " posts alerts to chat."\
-           " [A command list is available here](https://charcoal-se.org/smokey/Commands)."
+           " [A command list is available here](https://git.io/SD-Commands)."
 
 
 # noinspection PyIncorrectDocstring

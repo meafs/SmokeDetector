@@ -120,6 +120,193 @@ ASN_WHITELISTED_WEBSITES = [
     # Added to prevent having 3 detections on just the domain.
     "writingexplained.org", "eitren.com"]
 
+# Hostname whitelist for the "*bad IP for hostname in {}" detections (i.e. for ip_for_url_host)
+# Hostnames should be all lowercase, as the hostnames are obtained from
+# urlparse().hostname, which lowercases the hostname.
+WHITELISTED_IP_HOSTNAMES = [
+    "angular.io",
+    "api.flutter.dev",
+    "bot.run",
+    "build.ninja",
+    "data.gov.sg",
+    "ergoemacs.org",
+    "flutter.dev",
+    "form.as",
+    "godoc.org",
+    "image.network",
+    "log.info",
+    "maindomain.com",
+    "material.angular.io",
+    "model.fit",
+    "newsite.com",
+    "ourdomain.com",
+    "paint.net",
+    "pipeline.fit",
+    "portforward.com",
+    "pub.dev",
+    "shop.pimoroni.com",
+    "size.my",
+    "talkerscode.com",
+    "terrytao.wordpress.com",
+    "thepihut.com",
+    "tips4java.wordpress.com",
+    "ufile.io",
+    "usenix.org",
+    "whatever.com",
+    "www.sefaria.org",
+    "www.usenix.org",
+    "xahlee.info",
+    # Some which are in "bad IP for hostname in {}", but have only FP:
+    "oceansyrup.com",
+    "madainproject.com",
+]
+
+# Hostname whitelist for the "*bad NS for domain in {}" detections (i.e. for ns_for_url_domain)
+# Hostnames should be all lowercase, as the hostnames are obtained from
+# urlparse().hostname, which lowercases the hostname.
+# This was seeded with those in the query:
+# https://metasmoke.erwaysoftware.com/data/sql/queries/264-domains-in-bad-ns-for-domain-detections-by-fp
+# which had 0 TP and > 5 FP.
+# In addition, some which had a TP or two were also included, as those TP were individually determined to be
+# detected by other things, TP for some reason other than what was detected, or otherwise determined to not
+# need detection by this reason:
+# paint.net, caniuse.com, nesbot.com, mail.com, dev47apps.com, 2.to, rudrastyh.com, joxi.ru
+WHITELISTED_NS_HOSTNAMES = [
+    "1.run",
+    "123.com",
+    "2.to",
+    "4309.co.uk",
+    "4gtricks.com",
+    "5.run",
+    "7-zip.org",
+    "a2hosting.com",
+    "aaai.org",
+    "aiohttp.org",
+    "algoseek.com",
+    "ametsoc.org",
+    "anbox.io",
+    "antongerdelan.net",
+    "aspnetcore.app",
+    "automationtesting.in",
+    "bitsrc.io",
+    "bot.run",
+    "caniuse.com",
+    "ccel.org",
+    "cmake.org",
+    "cmder.net",
+    "coder.work",
+    "coinmarketcap.com",
+    "coinscious.io",
+    "convertcsv.com",
+    "cvedetails.com",
+    "datasciencemadesimple.com",
+    "deniz-tasarim.site",
+    "deploy.sh",
+    "desertbot.io",
+    "dev47apps.com",
+    "displaylink.com",
+    "duply.net",
+    "elecrow.com",
+    "engineeringtoolbox.com",
+    "ergoemacs.org",
+    "euclideanspace.com",
+    "everythingfonts.com",
+    "example2.com",
+    "expert-advice.org",
+    "flashrom.org",
+    "ftdichip.com",
+    "gitmemory.com",
+    "graphene-python.org",
+    "grymoire.com",
+    "hackingwithswift.com",
+    "harrisgeospatial.com",
+    "hashicorp.com",
+    "hopechurch.xyz",
+    "hostname.com",
+    "howtomechatronics.com",
+    "inmotionhosting.com",
+    "internaldomain.com",
+    "ionos.com",
+    "islamiqate.com",
+    "item.name",
+    "itsfoss.com",
+    "jazz-soft.net",
+    "johndcook.com",
+    "joxi.ru",
+    "json.org",
+    "json2csharp.com",
+    "jwork.org",
+    "keyboard.press",
+    "killernetworking.com",
+    "kitgram.cn",
+    "kitware.com",
+    "ledsupply.com",
+    "liberty-development.net",
+    "linfo.org",
+    "ludwig.guru",
+    "mail.com",
+    "mastertheboss.com",
+    "melpa.org",
+    "messagebox.show",
+    "myhost.com",
+    "mypage.com",
+    "nesbot.com",
+    "newtonsoft.com",
+    "nltk.org",
+    "orgmode.org",
+    "otexts.com",
+    "paint.net",
+    "pcpartpicker.com",
+    "pingcap.com",
+    "pointclouds.org",
+    "programming.vip",
+    "qgistutorials.com",
+    "qt.io",
+    "quasar.dev",
+    "raspberrytips.com",
+    "rcompanion.org",
+    "reactivex.io",
+    "regexstorm.net",
+    "relevantcodes.com",
+    "repairwin.com",
+    "requirejs.org",
+    "robjhyndman.com",
+    "rudrastyh.com",
+    "sane-project.org",
+    "scintilla.org",
+    "simos.info",
+    "smartmontools.org",
+    "springdoc.org",
+    "sqlitebrowser.org",
+    "sqlteam.com",
+    "stepik.org",
+    "sunfounder.cc",
+    "techmikael.com",
+    "terraform.io",
+    "this.how",
+    "this.id",
+    "tiamet3d.com",
+    "tinyapps.org",
+    "ubuntuupdates.org",
+    "uipath.com",
+    "user.email",
+    "uubyte.com",
+    "webslesson.info",
+    "wikidevi.com",
+    "wintips.org",
+    "wphierarchy.com",
+    "wpshout.com",
+    "x.com",
+    "xahlee.info",
+    "xda-developers.com",
+    "yoursite.com",
+    "zlib.net",
+    # Some which are blacklisted, but have FP
+    "mastertheboss.com",
+    "xenarmor.com",
+]
+
+
 if GlobalVars.perspective_key:
     PERSPECTIVE = "https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze?key=" + GlobalVars.perspective_key
     PERSPECTIVE_THRESHOLD = 0.85  # conservative
@@ -963,7 +1150,9 @@ def bad_link_text(s, site):   # suspicious text of a hyperlink
     s = regex.sub("</?(?:strong|em)>", "", s)  # remove font tags
     keywords = regex.compile(
         r"(?isu)"
-        r"\b(buy|cheap) |live[ -]?stream|"
+        r"sites\.google\.com/view/id\d++/google/?drive/file/downloads/storage|"
+        r"\b(buy|cheap) |"
+        r"live[ -]?stream|"
         r"\bmake (money|\$)|"
         r"\b(porno?|(whole)?sale|coins|luxury|coupons?|essays?|in \L<city>)\b|"
         r"\b\L<city>(?:\b.{1,20}\b)?(service|escort|call girls?)|"
@@ -1035,7 +1224,7 @@ def dns_query(label, qtype):
         return DNS_CACHE[(label, qtype)]['result']
     try:
         starttime = datetime.utcnow()
-        answer = dns.resolver.query(label, qtype)
+        answer = dns.resolver.resolve(label, qtype, search=True)
     except dns.exception.DNSException as exc:
         if str(exc).startswith('None of DNS query names exist:'):
             log('debug', 'DNS label {0} not found; skipping'.format(label))
@@ -1083,9 +1272,13 @@ def ns_for_url_domain(s, site, nslist):
 
     domains = []
     for hostname in post_hosts(s, check_tld=True):
+        if hostname in WHITELISTED_NS_HOSTNAMES:
+            continue
         domains.append(get_domain(hostname, full=True))
 
     for domain in set(domains):
+        if domain in WHITELISTED_NS_HOSTNAMES:
+            continue
         ns = dns_query(domain, 'ns')
         if ns is not None:
             nameservers = set([server.target.to_text().lower() for server in ns])
@@ -1147,6 +1340,8 @@ def watched_ns_for_url_domain(s, site):
 def ip_for_url_host(s, site, ip_list):
     # ######## FIXME: code duplication
     for hostname in post_hosts(s, check_tld=True):
+        if hostname in WHITELISTED_IP_HOSTNAMES:
+            continue
         a = dns_query(hostname, 'a')
         if a is not None:
             # ######## TODO: allow blocking of IP ranges with regex or CIDR
@@ -1213,7 +1408,7 @@ def is_offensive_post(s, site):
         r"pedo(?!bapt|dont|log|mete?r|troph)|fascis[tm]s?|cocksuck(e?[rd])?|"
         r"whore|cunt|jerk(ing)?\W?off|cumm(y|ie)|butthurt|queef|lesbo|"
         r"bitche?|(eat|suck|throbbing|sw[oe]ll(en|ing)?)\b.{0,20}\b(cock|dick)|dee[sz]e? nut[sz]|"
-        r"dumb\W?ass|wet\W?puss(y|ie)?|slut+y?|shot\W?my\W?(hot\W?)?load)s?)+)\b")
+        r"dumb\W?ass|wet\W?puss(y|ie)?|s[1l]ut+y?|shot\W?my\W?(hot\W?)?load)s?)+)\b")
 
     matches = list(offensive.finditer(s))
     len_of_match = 0
@@ -1568,7 +1763,7 @@ def body_starts_with_title(post):
 
 
 @create_rule("luncheon meat detected", title=False, max_rep=21,
-             all=False, sites=["stackoverflow.com"])
+             all=False, sites=["stackoverflow.com", "superuser.com"])
 def luncheon_meat(s, site):  # Random "signature" like asdfghjkl
     s = regex.search(r"<p>\s*?(\S{8,})\s*?</p>$", s.lower())
 
@@ -1667,7 +1862,6 @@ bad_keywords_nwb = [  # "nwb" == "no word boundary"
     "(?:skin|face(?<!interface)(?<!surface)|eye)[- ]?(?:serum|therapy|hydration|tip|renewal|gel|lotion|cream)",
     r"\bnutra(?!l(?:|y|ity|i[sz]ing|i[sz]ed?)s?\b)",
     r"contact (?:me|us)\W*<a ",
-    "ecoflex",
     r"\brsgold",
     "packers.{0,15}(?:movers|logistic)(?:.{0,25}</a>)",
     "(?:brain|breast|male|penile|penis)[- ]?(?:enhance|enlarge|improve|boost|plus|peak)(?:ment)?",
@@ -1918,7 +2112,7 @@ FindSpam.rule_blacklisted_usernames = create_rule("blacklisted username", regex=
                                                   skip_creation_sanity_check=True)
 
 # gratis near the beginning of post or in title, SoftwareRecs and es.stackoverflow.com are exempt
-create_rule("potentially bad keyword in {}", r"(?is)(?<=^.{0,200})\bgratis\b",
+create_rule("potentially bad keyword in {}", r"(?is)gratis\b(?<=^.{0,200}\bgratis\b)",
             sites=['softwarerecs.stackexchange.com', 'es.stackoverflow.com'],
             body_summary=True, max_rep=11)
 # Blacklist keto(?:nes?)?, but exempt Chemistry. Was a watch added by iBug on 1533209512.

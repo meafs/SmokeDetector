@@ -43,7 +43,6 @@ shitfuck
 ^ling xing$
 printers?\W?driver
 ^689 Cloud$
-JoeClark
 ^Gracia\W?Ryan\d*$
 ^Juliet Bell$
 ^Prasanta Shee$
@@ -201,7 +200,6 @@ quickbooks
 (?-i:^Tripnexts$)
 (?-i:^Arun A K$)
 (?-i:^ForeignExchange$)
-(?-i:^Jacob Ethan$)
 (?-i:^CoolGuy6969$)
 (?-i:Eva Wei$)
 \bcunt\d*\b
@@ -256,7 +254,7 @@ quran[\W_]*+for[\W_]*+kids
 (?-i:^Sheeba Karan$)
 (?-i:^ekeeda engineering$)
 omysexydoll
-sexdollxing‭
+sexdollxing
 oxybr(?:ea?)?th(?:(?<=\Boxybr(?:ea?)?th)|\B)
 (?-i:^Dhara Jain$)
 (?-i:^meemu jose$)
@@ -306,7 +304,6 @@ lustresparasala
 (?-i:^Marieromig$)
 (?-i:^wperror500$)
 ^retail[\W_]*+clouds?$
-(?-i:^Tony Wong$)
 (?-i:^Add Hunters$)
 ^techmartin$
 (?-i:^Rathva Dinesh$)
@@ -328,7 +325,6 @@ lustresparasala
 (?-i:^Jake Syd$)
 ^(?-i:jeffrey)\W*(?-i:cage)$
 (?-i:^Digital India$)
-(?-i:^Light[\W_]*+[Hh]ouse$)
 (?-i:^Gitpac Consultancy Service$)
 (?-i:^Yogesh Sambare$)
 (?-i:^Wowdesk Inc$)
@@ -344,14 +340,12 @@ drivingdirectionss\.com
 (?-i:^olive allen$)
 (?-i:^Alexavier Miller$)
 ^lovejit$
-^kavita$
 (?-i:^Stefanie Mills$)
 (?-i:^xosoplus$)
 (?-i:^kobedoll$)
 (?-i:^ghostrifles01$)
 (?-i:^shreyasehgal$)
 (?-i:^Hank Sauri$)
-(?-i:^ANKIT SHARMA$)
 (?-i:^Danush Shetty$)
 (?-i:^Sri Ramana$)
 (?-i:^Sharath Raju$)
@@ -372,7 +366,6 @@ Pound\W*define\W*MACRO
 (?-i:^Stoersender Gps$)
 (?-i:^Sheligiibs40$)
 (?-i:^ISO UAE$)
-(?!<^user\d{5,})96\W*+94
 (?-i:^sofia jonas$)
 (?-i:^Bella Gorden$)
 (?-i:^Languager$)
@@ -403,3 +396,42 @@ Pound\W*define\W*MACRO
 (?-i:^Amile Institute$)
 (?-i:^tritansolutions$)
 Mar(?:ikya|y)\W*Skula
+(?-i:^user266417$)
+(?-i:^key gen$)
+^(?-i:JoeClark)$
+^w11stop\.com$
+(?-i:^salihagenter$)
+(?-i:^joy clark$)
+(?-i:^Rabitechno$)
+(?-i:^gospeedcheck$)
+Wes.ey\W*Atwood
+^harold\W*coyer$
+96\W*+94(?!<^user\d{5,})
+(?-i:^Ann Watson$)
+(?-i:^Wesley call me this way$)
+(?-i:^Welsey Atwood$)
+(?-i:^TracySaree$)
+(?-i:^Ayush Antiwal$)
+[s5]+[3eé]*c(?:[uü]|\[_\])*r[1i]*t.*\W*(?:t[4h]*r[0oøuüôöõ]*[uü]*g[4h]*|p[aåâäã]r \W*[l1]?'?)\W*(?:[o0øuüôöõ]*(?:b|13)*[s5]+?c[uü]*r[1i]*t[yé]*|.*W\.?A)
+(?-i:^Cann0t pr0v1d3 4 n4m3$)
+(?-i:^J\. David Velleman$)
+(?-i:^Anna21dj$)
+(?-i:^New J$)
+(?-i:^Ella Mark$)
+(?:it\W*(?:'?s|is))?\W*(?:\\_?/\W*|w)+[\.\W]*(?:[eé3_ëêẽ]+\W*(?:[s5]\W*[l1]\W*|[l1]\W*[s5]\W*)+[eé3_ëêẽ]\W*.?)\W*(?:.*[a@]t?(?:\\_?/\W*|w)*\W*[0oøuüôöõ]{2}\W*d)?
+(?:y(?:ou?|[eé3_ëêẽ]).*|ban.*|c[4a]n\W*'?\W*n[0oøuüôöõ]?t.*)d[uü]des?$
+So face the music
+(?-i:^Franklin Josh$)
+(?-i:^gian tapia fuertes$)
+(?-i:^felishia green$)
+(?-i:^jys2020$)
+(?-i:^longpanda$)
+(?-i:^origamistudios$)
+(?-i:^upsaves energy$)
+(?-i:^RCMB Banglore$)
+(?-i:^Lovejit Chauhan$)
+(?-i:^Khalif Klenton swifts$)
+(?-i:^eSoftToolsNSFtoPSTConvert$)
+(?-i:^franca calab$)
+(?-i:^Sagar Maurya$)
+(?-i:^6Wresearch Market Intelligence$)

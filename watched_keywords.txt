@@ -394,7 +394,7 @@
 1500196630	Glorfindel	nomadrental\.com
 1500213472	tripleee	tipsstuff\.tk
 1500223391	Glorfindel	sosnovkino\.info
-1500223700	tripleee	(?<=/)t\.me(?=/)
+1500223700	tripleee	t\.me(?=/)(?<=/t\.me)(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
 1500261717	NobodyNada	heaterable\.com
 1500263279	tripleee	13626975607
 1500264026	tripleee	2885291930
@@ -1014,7 +1014,6 @@
 1506924670	tripleee	1?469\W*844\W*0536
 1506935371	Glorfindel	pbctimes\.com
 1506944134	Mithrandir	gamestore\.live
-1506945240	Mithrandir	hack(?:er)?\b.{0,50}\b(?:text|call|contact)
 1506959194	Owen Hines	boldcraze\.com
 1506961455	Glorfindel	bandbniagara\.com
 1506963780	Owen Hines	mr-android12\.blogspot\.com\.eg
@@ -1204,7 +1203,6 @@
 1508767429	bwDraco	movieboxappz\.com
 1508772404	tripleee	cassiopeiastudio\.com
 1508777497	bwDraco	collision\W?express
-1508791180	Mithrandir	fdsfs
 1508817954	Suraj Rao	tutorialslife\.com
 1508818670	tripleee	(?:1\W*)?518\W*855\W*8838
 1508819107	tripleee	(?:1\W*)?415\W*689\W*5065
@@ -1230,7 +1228,7 @@
 1508904581	tripleee	234\W*810\W*066\W*3964
 1508904939	tripleee	mmovip\.net
 1508906225	tripleee	holistic\W?life\W?cbd
-1508906625	tripleee	(?<=/)blue\W?pearl(?:[-/<]|$)
+1508906625	tripleee	blue\W?pearl(?<=/blue\W?pearl)(?:[-/<]|$)
 1508907317	tripleee	\W*كة مكافحة حشرات\W*
 1508907816	tripleee	organixx
 1508911038	tripleee	easysolutions\.repair
@@ -1332,7 +1330,7 @@
 1509599890	tripleee	termium\.com
 1509600226	tripleee	healthtrendz\.co
 1509601011	tripleee	tuturblog\.id
-1509604956	tripleee	(?<=[-/])focus\W?fast(?=[-/<"])
+1509604956	tripleee	focus\W?fast(?=[-/<"])(?<=[-/]focus\W?fast)
 1509610727	tripleee	medsdelta
 1509610906	tripleee	91\W*997\W*164\W*6666
 1509613319	tripleee	254\W*79\W*711\W*8868
@@ -1713,7 +1711,6 @@
 1512419270	Glorfindel	luxervrental\.com
 1512450079	Suraj Rao	advocateselvakumar\.com
 1512452409	Tetsuya Yamamoto	esearchadvisors\.com
-1512454811	Tetsuya Yamamoto	appngamereskin\.com
 1512456205	Glorfindel	technicalguru\.beep\.com
 1512459618	Glorfindel	novinwebsite\.com
 1512459768	Tetsuya Yamamoto	worldeyecam\.com
@@ -1735,7 +1732,6 @@
 1512482467	Federico	YEADOMAIN
 1512483260	tripleee	seoexperts\.ae
 1512487922	Federico	socialwander\.com
-1512488031	Federico	epicfollowers\.co
 1512498256	DJMcMayhem	SapamaCash
 1512505545	Glorfindel	.{0,10}keroncong.{0,10}\.blogspot\.co
 1512549833	Glorfindel	selenium-webdriver\.com
@@ -2244,7 +2240,6 @@
 1518429862	Byte Commander	crack\Wkeygen
 1518438959	iBug	nova\W?repair
 1518443095	iBug	socialprac(?:ha|ah)r\.com
-1518448208	Glorfindel	mcessay\.com
 1518459067	WELZ	alarmasalicante\.info
 1518472745	NobodyNada	hack\Wethics
 1518497424	iBug	bookhungama\.com
@@ -2484,7 +2479,6 @@
 1521094665	tripleee	anyrent\.in
 1521100057	Glorfindel	viniscookbook\.com
 1521100429	micsthepick	optigen\W?iq
-1521110186	Glorfindel	convertertools\.org
 1520947926	WELZ	btcerich\.com
 1520949439	K.Dᴀᴠɪs	api\W*amplience\W*(?:dot\W*)?net
 1521112190	Glorfindel	appexperts\.ae
@@ -2887,7 +2881,6 @@
 1524108897	tripleee	swiftcoin\.tech
 1524108914	tripleee	joysticksensor\.com
 1524109002	tripleee	ewmoney\.bid
-1524096230	Makyen	we\W*can\W*supply
 1524087571	Olivia Zoe	technical-tollfree-support\.com
 1524110188	tripleee	qnc\W*jelly
 1524111402	Tetsuya Yamamoto	kangarooindonesia\.id
@@ -3592,7 +3585,6 @@
 1528039866	Makyen	how\W?I\W?became\W?a\W?vampire
 1528054337	Zoe	hpsoftwaredrivers\.com
 1528055624	Makyen	kbsu\.ru
-1528075157	Makyen	templeofanswer@hotmail\.co\.uk
 1528075184	Makyen	drokougbespecialhome@gmail\.com
 1528075194	Makyen	357067391386912
 1528080710	NobodyNada	\L<city>\Wescorts?
@@ -3645,7 +3637,6 @@
 1528345008	tripleee	hyden\d{3,}
 1528348669	tripleee	ukhelpnumber\.com
 1528349750	tripleee	talentfore\.com
-1528350232	Makyen	(?<!api\.)hh\.(?:ru|ua)
 1528354541	Glorfindel	alconost\.com
 1528355015	Glorfindel	expodine\.com
 1528360609	A J	puriaanandvillas\.com
@@ -3795,7 +3786,6 @@
 1529053928	tripleee	[a-z_]*(?:1_*)?202[\W_]*570[\W_]*4495[a-z_]*
 1529054825	iBug	fresh\W?nature\W?hemp
 1529055139	tripleee	topwatch\.vn
-1529055398	tripleee	jovian
 1529066143	Zoe	moneyinthebanklive\.com
 1529066199	Zoe	money\W*in\W*the\W*bank\W*\d*\W*live
 1529067761	Chris	healthylifeandshape\.com
@@ -3884,7 +3874,7 @@
 1529573647	CalvT	install-ota\.com
 1529574764	CalvT	800it\.ae
 1529577247	Mithrandir	atoall\.com
-1529577416	doppelgreener	(?<=#)bestskillet
+1529577416	doppelgreener	bestskillet(?<=#bestskillet)
 1529578176	doppelgreener	shopifywebexpert\.com
 1529579865	tripleee	deep\W?belly\W?detox
 1529581756	tripleee	eckovation\.com
@@ -4251,7 +4241,7 @@
 1531390214	doppelgreener	uklaptopcharger\.co
 1531391150	doppelgreener	pckart\.co
 1531391542	doppelgreener	learn\Wtube\Wby\Wtechpassion
-1531407282	doppelgreener	\w*menshealth\w*
+1531407282	doppelgreener	\w*menshealth(?!time\.com(?<=menshealthtime\.com))(?!claimed\.com(?<=womenshealthclaimed\.com))(?!reviews\.org(?<=menshealthreviews\.org))(?!fact\.com(?<=menshealthfact\.com))(?!mag\.com(?<=\bwomenshealthmag\.com))\w*
 1531406651	bertieb	poweruser\.blog
 1531460171	Makyen	R6Ko3OCrO9r2BKuzbCHYIw
 1531460184	Makyen	v=_pje3XhRVbQ
@@ -4384,12 +4374,11 @@
 1531994093	Tetsuya Yamamoto	harshadwebsofts\.com
 1531995887	paper1111	worldacad\.com
 1532004365	Shree	holidayworldwide\.in
-1532012496	Makyen	myonlinetraininghub\.com
 1532043413	Makyen	datalingvo\.com
 1532054290	Makyen	britishtheopen\.de
 1532054299	Makyen	drochesolutiontempel(?:@gmail\.com)?
 1532054546	Makyen	oche\W*herbal\W*cream
-1532054899	Makyen	^.{1,15}?cream(?<!icecream)(?<!ice[\W_]cream)(?<!^bluescream)(?<!^bluscream)(?<!\bscream)(?<!^colorscream)(?<!\bhellscream)(?<!^wolfscream)(?<!^eyescream)(?<!^starscream)(?<!^olscream)(?<!^dreamcream)(?<!^stealthscream)(?<!^krispycream)(?<!^cameocream)(?<!^coffeewithcream)(?<!^soft cream)(?<!^handcream)(?<!^doughnut facecream)(?<!^don cream)(?<!^doncream)(?<!^Mayocream)(?<!^willcream)(?<!^bfdicream)(?<!^coder_scream)(?<!^confused_scream)(?<!^ice7cream)(?<!^iscream)(?<!^isecream)(?<!^mikacream)(?<!^paul cream)(?<!^sadscream)(?<!^spinescream)(?<!^sscream)(?<!^testscream)(?<!^whipcream)(?<!^whyscream)(?<!^SourCream)(?<!^Veep Cream)(?<!^crispyCream)(?<!^likescream)(?<!^peachesncream)(?<!^zack_cream)$(?#add additional exclusions as more legit users are detected)
+1532054899	Makyen	^.{1,15}?cream(?<!icecream)(?<!ice[\W_]cream)(?<!^bluescream)(?<!^bluscream)(?<!\bscream)(?<!^colorscream)(?<!\bhellscream)(?<!^wolfscream)(?<!^eyescream)(?<!^starscream)(?<!^olscream)(?<!^dreamcream)(?<!^stealthscream)(?<!^krispycream)(?<!^cameocream)(?<!^coffeewithcream)(?<!^soft cream)(?<!^handcream)(?<!^doughnut facecream)(?<!^don cream)(?<!^doncream)(?<!^Mayocream)(?<!^willcream)(?<!^bfdicream)(?<!^coder_scream)(?<!^confused_scream)(?<!^ice7cream)(?<!^iscream)(?<!^isecream)(?<!^mikacream)(?<!^paul cream)(?<!^sadscream)(?<!^spinescream)(?<!^sscream)(?<!^testscream)(?<!^whipcream)(?<!^whyscream)(?<!^SourCream)(?<!^Veep Cream)(?<!^crispyCream)(?<!^likescream)(?<!^peachesncream)(?<!^zack_cream)(?<!^bbcream)(?<!^rocketscream)(?<!^Cookiesandcream)(?<!^Winter_Cream)$(?#add additional exclusions as more legit users are detected)
 1532057688	Makyen	customer-carehelpline\.com
 1532057699	Makyen	[a-z_]*(?:1_*)?844[\W_]*794[\W_]*2729[a-z_]*
 1532066355	Makyen	[a-z_]*080[\W_]*3506[\W_]*1723[a-z_]*
@@ -4428,7 +4417,6 @@
 1532231516	Makyen	areazipcode\.org
 1532236865	Makyen	[a-z_]*91[\W_]*9587[\W_]*650[\W_]*908[a-z_]*
 1532251704	Makyen	ptvnbabaji(?:@gmail\.com)?
-1532251751	Makyen	qaclickacademy\.com
 1532252139	Makyen	intelligeme101
 1532252157	Makyen	sino-5000\.com
 1532276470	Makyen	24hwritemyessay\.com
@@ -5287,7 +5275,6 @@
 1536475458	iBug	shatabdiaviation\.com
 1536478840	Mithrandir	mobdroapkfree\.com
 1536478874	Mithrandir	Mobdro\W?Apk
-1536479085	Mithrandir	watch\Wfree
 1536485861	Mithrandir	where\Wto\Wbuy
 1536490910	Glorfindel	aluflagpole\.com
 1536504092	Makyen	javainterviewsolution\.in
@@ -5580,7 +5567,6 @@
 1537928787	Tetsuya Yamamoto	aluminum-producer\.com
 1537934211	Makyen	HH5EDxCEOwEp0pLIO28AmQ(?#t.me/joinchat)
 1537934223	Makyen	metatip\.org
-1537934231	Makyen	bitcointalk\.org
 1537934236	Makyen	explorer\.mvs\.org
 1537934242	Makyen	nesilguvenlik\.com
 1537934248	Makyen	online-tvchannel\.org
@@ -5747,7 +5733,6 @@
 1538646129	Glorfindel	toppik\W*hair
 1538652924	Shree	hhpsoftware\.com
 1538653859	tripleee	[a-z_]*0?11[\W_]*4290[\W_]*8899[a-z_]*
-1538655456	tripleee	staxx+
 1538656303	Shree	datarecoverysupports\.com
 1538657172	tripleee	[a-z_]*(?:1_*)?844[\W_]*517[\W_]*9751[a-z_]*
 1538698644	Makyen	08106997786(?#whatsapp & text)
@@ -6068,7 +6053,6 @@
 1540186764	Tetsuya Yamamoto	hatarcsarda\.com
 1540190708	Tetsuya Yamamoto	artelogic\.net
 1540192487	Tetsuya Yamamoto	droluherbs\.clan\.su
-1540206435	Shree	data-recovery-solutions\.com
 1540214924	WELZ	newbecca\.com
 1540219454	Erik the Outgolfer	astrologeryash\.com
 1540223592	Erik the Outgolfer	maniwebify\.com
@@ -6736,7 +6720,6 @@
 1543398848	Tetsuya Yamamoto	syntegre\.com
 1543402704	tripleee	sdcreation\.in
 1543404885	tripleee	innotek\.ml
-1543419523	Glorfindel	itechcraft\.com
 1543429854	Glorfindel	paperswizard\.com
 1543429930	Makyen	bestcheeseslicers\.com
 1543430998	Makyen	escobarthebest(?:@jabber\.hot-chilli\.net)?
@@ -6823,7 +6806,6 @@
 1543820983	Shree	shenchong\.com
 1543821950	K.Dᴀᴠɪs	skill4win\.com
 1543829095	Shree	jualboiler\.com
-1543829169	Shree	manvikakkar\.com
 1543835734	Shree	facebooknumbersupport\.com
 1543836897	Shree	trackinghunt\.com
 1543839727	Makyen	t-nation\.com
@@ -6963,7 +6945,6 @@
 1544524502	Shree	theleathermakers\.com
 1544527400	Shree	toothfairy\.co\.in
 1544530873	Shree	skylandcorp\.com
-1544552279	Makyen	sysadminxpert\.com
 1544567243	Makyen	dan\.clarke@shine\.tv
 1544567259	Makyen	shine\.tv
 1544567267	Makyen	endemolshineuk\.com
@@ -7068,7 +7049,7 @@
 1545111246	Tetsuya Yamamoto	assurancesolutionhome
 1545113181	Makyen	gadgetsright\.com
 1545113236	Makyen	DPJJPGv3TV6f7bRSvZiP8Q(?#hackmd.io page)
-1545113927	Makyen	(?<!<\/?code>.*?)buy\s*now(?!.*?<\/?code>)(?#buy now: no code)
+1545113927	Makyen	buy\s*now(?<!<\/?code>.*?)(?!.*?<\/?code>)(?#buy now: no code)
 1545114506	Tetsuya Yamamoto	dpgpapers\.com
 1545115789	Tetsuya Yamamoto	selectconcierge\.com
 1545117096	Tetsuya Yamamoto	unidax\.com
@@ -7518,7 +7499,6 @@
 1547800389	Glorfindel	pp\.io
 1547800448	tripleee	borxi\.com
 1547804967	Makyen	emergingindiagroup\.com
-1547806068	tripleee	(?:arlo(?<!^arlo)(?! zarate$)|arlo[\W_]*+(?:security|phone|pro|baby|camera|netgear|hub|app|login|base|integration|tech|contact|support|account)s?)
 1547811516	tripleee	mcafeeactivate\.website
 1547811629	Shree	adpost4u\.com
 1547811842	tripleee	lookchup\.com
@@ -7588,7 +7568,6 @@
 1548143541	Makyen	fileapps\.net
 1548148320	Tetsuya Yamamoto	vilina\.in
 1548149570	Makyen	pcbeducation\.com
-1548150199	Tetsuya Yamamoto	script-o-rama\.com
 1548153469	Makyen	hostdrop\.eu
 1548163254	tripleee	marblehill\.co\.uk
 1548163299	tripleee	travelocar\.com
@@ -7644,7 +7623,6 @@
 1548333738	tripleee	hatenablog\.com
 1548338654	tripleee	allitfeed\.com
 1548338517	Machavity	plumbwize\.ca
-1548347447	tripleee	faircom\.com
 1548385313	Tetsuya Yamamoto	likigram\.com
 1548391985	Sonic the Introverted Hedgehog	Homeocare International
 1548396179	Tetsuya Yamamoto	toolsbaer\.com
@@ -7859,7 +7837,7 @@
 1549517568	Tetsuya Yamamoto	exafluence\.com
 1549519988	Tetsuya Yamamoto	seotoolserp\.com
 1549521277	Tetsuya Yamamoto	dlmlanguagelab\.com
-1549521294	iBug	(?<=<a[^>*]>\W*)best
+1549521294	iBug	best(?<=<a[^>]*>\W*best)(?#best as first word in link text; fixed 1609526651)
 1549522385	Tetsuya Yamamoto	tc-ww\.com
 1549525288	Wai Ha Lee	thenewsgeeks\.com
 1549528565	Shree	glorioushimalaya\.com
@@ -8025,7 +8003,7 @@
 1550430299	Makyen	manualbirds\.com
 1550440182	Makyen	92q\.com
 1550457149	Makyen	profile_blue_pill
-1550457159	Makyen	(?<=@)mecha31(?#telegram)
+1550457159	Makyen	mecha31(?<=@mecha31)(?#telegram)
 1550464782	Shree	zabaza\.logan@yahoo\.com
 1550468091	Makyen	honingds\.com
 1550475362	Makyen	high[\W_]ranking[\W_]*solutions
@@ -8574,7 +8552,6 @@
 1552896762	Tetsuya Yamamoto	marktechnologies\.in
 1552907469	Shree	rackfinity\.com
 1552909164	tripleee	pakistanrailwayjobs\.com
-1552914831	tripleee	behance\.net
 1552934855	double-beep	tcyonline\.com
 1552934801	double-beep	valygreavu\.com
 1552934482	double-beep	gymfloorings\.co\.uk
@@ -8742,7 +8719,6 @@
 1553668000	tripleee	rs4uk\.com
 1553669556	tripleee	databaseserviceprovider\.com
 1553669683	tripleee	firstcall\.co\.in
-1553674348	tripleee	uber\W?clone
 1553682673	tripleee	fleetquid\.co\.uk
 1553683545	tripleee	erankita\.ml
 1553686351	tripleee	happyeasterweek\.org
@@ -8910,7 +8886,6 @@
 1554379825	tripleee	hungrysharkworldmodapk\.net
 1554379848	tripleee	freepcgamesdownloadhub\.com
 1554382874	tripleee	kids\W?earn\W?[kc]ash
-1554384322	doppelgreener	konfirmasi
 1554405616	Erik the Outgolfer	englishfrombasics\.blogspot
 1554406003	Erik the Outgolfer	pinoytvs\.su
 1554412486	Erik the Outgolfer	myairticketbooking\.com
@@ -9739,10 +9714,10 @@
 1557945163	Makyen	iphone-streaming\.ustream\.tv
 1557945188	Makyen	buyproxies247\.com
 1557952918	Makyen	smullin@rite-hire\.com
-1557952939	Makyen	(?<!smullin@)rite-hire\.com
+1557952939	Makyen	rite-hire\.com(?<!smullin@rite-hire\.com)
 1557958301	Makyen	coin\.ink
 1557962569	Makyen	bcalanza@delegata\.com
-1557962588	Makyen	(?<!bcalanza@)delegata\.com
+1557962588	Makyen	delegata\.com(?<!bcalanza@delegata\.com)
 1557981197	tripleee	codecondo\.com
 1557983355	Shree	abbssm\.edu\.in
 1557852448	double-beep	^Alex(?:andre)? Bat(?:ts)?
@@ -9818,7 +9793,6 @@
 1558328202	tripleee	argeseanul\.com
 1558328543	tripleee	r\W*a\W*p\W*e
 1558328830	Makyen	R\W*A\W*(?:Y\W*)?P\W*I\W*S\W*T
-1558329036	tripleee	blocked\W+my\W+IP
 1558329231	tripleee	genmedicare\.com
 1558329670	tripleee	amardeep\W?subadar09(?:@gmail\.com)?
 1558329695	tripleee	re-reality\.com
@@ -9836,8 +9810,6 @@
 1558348922	tripleee	optimusforexreview\.com
 1558350948	tripleee	goldcoastmotorcycles\.com
 1558351047	tripleee	halki\W?diabetes
-1558351231	doppelgreener	order now
-1558351365	doppelgreener	special offer
 1569875927	ArtOfCode	(?:order|shop|special)\W(?:today|now|offer)(?<!order\Worder)(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
 1558352212	tripleee	untappedreviews\.com
 1558354955	tripleee	whatpeopleswant\.com
@@ -10090,7 +10062,7 @@
 1559213784	doppelgreener	josaa
 1559221842	bertieb	trytoobest\.com
 1559230358	Machavity	paxforex\.com
-1559237272	Makyen	(?<!techjobs\.)sulekha\.com
+1559237272	Makyen	sulekha\.com(?<!techjobs\.sulekha\.com)
 1559239566	Machavity	nosteam\.ro
 1559249528	K.Dᴀᴠɪs	the-stirling-residence\.com\.sg
 1559249774	K.Dᴀᴠɪs	Stirling\W{0,3}Residence
@@ -10239,7 +10211,6 @@
 1560067056	Makyen	pyskool\.com
 1560067115	Makyen	mahadevestates\.com
 1560107512	Makyen	nixs\.in
-1560108578	Makyen	morningstar\.com
 1560108640	Makyen	americashealthrankings\.org(?!/api)
 1560112694	Machavity	peachyessay\.com
 1560137681	Makyen	(?-i:UCFIawk4L0-SDU72qI2WaiVQ)
@@ -10376,7 +10347,6 @@
 1560618115	Makyen	qwas\.ca
 1560658735	angussidney	geometryhub\.net(?#Temporarily watching to make sure the user doesn't promote their site any further)
 1560659473	Makyen	best\W*in\W*the\W*world\W*pack\W*drake\W*shirts?
-1560674945	Makyen	supplementsonlinestore\.com
 1560681037	double-beep	thenationalskincentre\.com
 1560722235	Makyen	williamsloans\d+(?:@yandex\.com)?(?#williamsloans6@yandex.com seen)
 1560744227	Nisse Engström	LoveCorner\.ph
@@ -10480,7 +10450,7 @@
 1561065702	Makyen	thecustomboxesprint\.us
 1561066677	Makyen	zpaa\.co\.za
 1561077763	Makyen	mvfernan@ra\.rockwell\.com
-1561077782	Makyen	(?<!\bmvfernan@)ra\.rockwell\.com
+1561077782	Makyen	ra\.rockwell\.com(?<!\bmvfernan@ra\.rockwell\.com)
 1561077836	Makyen	vonetta\W*fernandes
 1561077856	Makyen	brassring\.com
 1561099112	Shree	creative-enzymes\.com
@@ -10659,7 +10629,6 @@
 1561701408	Shree	assertive-media\.co\.uk
 1561706298	Makyen	rivexa\W*plus
 1561706334	Makyen	dealmecoupon\.com
-1561708752	Makyen	templeofanswer(?:@hotmail\.co\.uk)?
 1561708771	Makyen	gogbetsg\.com
 1561708789	Makyen	captionz\.biz
 1561712379	Shree	prohindiblogger\.com
@@ -10697,7 +10666,6 @@
 1561834381	Makyen	(?-i:N0keg\.jpg)
 1561834399	Makyen	ag7144427(?:@gmail\.com)?
 1561882214	Nisse Engström	bookishrestaurant\.com
-1561904692	Sonic the Anonymous WizHog	bbbootstrap\.com
 1561927733	Makyen	nutrifitsupplementsscamgmailcom
 1561927770	Makyen	gupivurewo
 1561927838	Makyen	nutri\W*fit\W*supplements(?!\.com(?<=nutrifitsupplements\.com))(?:\W*web)?
@@ -10841,7 +10809,6 @@
 1562345288	Makyen	mcafeecomactivateretailcard\.com
 1562346172	Makyen	(?-i:twSUz4Zh9cY)
 1562355411	Makyen	filehorse\.com
-1562369774	Makyen	atm\.tecnology(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
 1562374142	Makyen	dr\.oyalospellhome(?:@hotmail\.com)?
 1562382288	Machavity	magetop\.com
 1562390646	Makyen	^MrHimmler$
@@ -11066,7 +11033,6 @@
 1563247580	Nisse Engström	cliprify\.com
 1563247748	Makyen	sanatino\.com
 1563248232	Nisse Engström	techfrk\.com
-1563252787	tripleee	uxplanet\.org
 1563255370	tripleee	slajobs\.com
 1563256329	Makyen	(?-i:87uK8PMi6eYtNDnr6)
 1563257721	tripleee	sehzadi\.com
@@ -11988,7 +11954,6 @@
 1566203836	Makyen	agencytotec\.com
 1566203858	Makyen	allwoodbicycle\.com
 1566203899	Makyen	platinumfitketonew019\.mystrikingly\.com
-1566203935	Makyen	primedz\.com
 1566204000	Makyen	biogenx-reviews\.mystrikingly\.com
 1566204022	Makyen	biogenxtestobooste\.wixsite\.com
 1566204602	Makyen	biogenx-testosterone-booster-42\.webself\.net
@@ -12077,7 +12042,6 @@
 1566449907	Shree	jkdnsolution\.com
 1566450994	Makyen	cinderella[\W_]*solution(?:[\W_]*(?:review|\d+))*
 1566451014	Makyen	ultimatediethack\.com
-1566452226	Shree	curvearro\.com
 1566453992	Makyen	jemilorow
 1566454001	Makyen	(?-i:ANg5CdtHnuQ)
 1566454012	Makyen	Chebees
@@ -12130,7 +12094,6 @@
 1566541840	Makyen	essenceofargan\.org
 1566548764	Shree	dentist-pune\.com
 1566549639	Makyen	email-helplinecenter\.com
-1566549962	double-beep	grahaak\.com
 1566550019	double-beep	csspoints\.com
 1566550540	Makyen	jacksonbill_62284
 1566550611	Makyen	garciniavitahollandandbarrett\.blogspot\.com
@@ -12185,7 +12148,7 @@
 1566672245	Makyen	dunescorts\.in
 1566672294	Makyen	dunescortservice\.com
 1566675413	double-beep	nashreonline\.com
-1566696023	Makyen	(?<=[\s</.-])(?-i:MONEY)(?=\s*[\w(),:;.&/\\<?!£$€-])
+1566696023	Makyen	(?-i:MONEY)(?<=[\s</.-]MONEY)(?=\s*[\w(),:;.&/\\<?!£$€-])(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
 1566699593	Makyen	(?-i:AAAAAER1kBgdJKJDbx7XIw)
 1566706276	Makyen	guidenepal(?:@gmail\.com)?
 1566707607	Makyen	disability-card\.com
@@ -12425,7 +12388,7 @@
 1567355763	Makyen	healthlinesplus\.com
 1567368755	double-beep	warrensinvestors(?:@gmail\.com)
 1567361419	Stormblessed	bitrush
-1567369817	Makyen	(?<=fiverr\.com/)modern_writer
+1567369817	Makyen	modern_writer(?<=fiverr\.com/modern_writer)
 1567395005	Makyen	fastnewsfeed\.com
 1567395014	Makyen	grpsinternational\.com
 1567395024	Makyen	(?-i:UCjEADaiyImb8BIkMmwLTpEA)(?#YouTube channel)
@@ -12535,7 +12498,6 @@
 1567766305	Jeff Schaller	github\.com/gnu-linux-activation-technologies
 1567771826	double-beep	showbox\.kim
 1567784296	Machavity	signpath\.io
-1567785348	Machavity	shazebict\.com
 1567789379	Makyen	nuvoketosisreviews\.blogspot\.com
 1567789398	Makyen	showtheway\.io
 1567805380	Makyen	procv\.biz
@@ -12560,7 +12522,7 @@
 1567861150	Makyen	(?-i:7QmUG32Zrjk)
 1567861259	Makyen	pcasta\.com
 1567865052	Makyen	yesxenmagme\.tumblr\.com
-1567885092	Makyen	(?<=fiverr\.com/)shuvonill
+1567885092	Makyen	shuvonill(?<=fiverr\.com/shuvonill)
 1567886772	Makyen	infobazaar\.000webhostapp\.com
 1567908366	Machavity	wp-safepassword
 1567908548	Makyen	(?-i:Vg7KW\.png)
@@ -12812,7 +12774,7 @@
 1568854606	Makyen	mysore[\W_]*+one[\W_]*+day[\W_]*+trip(?!\.com(?<=mysoreonedaytrip\.com))
 1568854616	Makyen	rima[\W_]*+residence(?!\.com(?<=rimaresidence\.com))
 1568858295	Makyen	sharktankdietreviews\.hatenablog\.com
-1568858328	Makyen	(?<=>)interior designers?</a>\W*
+1568858328	Makyen	interior designer(?<=>interior designer)s?</a>\W*
 1568858337	Makyen	(?-i:8gvBs_hPoys)
 1568858380	Makyen	elite[\W_]*+male[\W_]*+performance
 1568858413	Makyen	jhorowitz33
@@ -13005,7 +12967,6 @@
 1569463649	Makyen	ampfibian\.com\.au
 1569463657	Makyen	(?-i:KGAFy\.png)
 1569467797	Makyen	travelgear\.vn
-1569467806	Makyen	pearltrees\.com
 1569469419	tripleee	appsnigeria\.com
 1569474813	tripleee	42gears\.com
 1569475710	Makyen	(?-i:UFkGr\.jpg)
@@ -13115,7 +13076,7 @@
 1569827833	tripleee	hulucomactivatecode\.com
 1569827842	tripleee	malwarebytes-mac\.com
 1569829092	Makyen	(?-i:yAs4O\.jpg)
-1569831760	tripleee	(?<!cciedump\.)spoto\.net
+1569831760	tripleee	spoto\.net(?<!cciedump\.spoto\.net)
 1569831818	tripleee	burniva
 1569835724	JoErNanO	aktis\.rent
 1569836648	Glorfindel	apialarm\.com
@@ -13496,7 +13457,6 @@
 1571349569	Makyen	davidwilliams53046(?:@gmail\.com)?
 1571366829	Makyen	sociallypro\.com
 1571378330	Makyen	(?-i:A2ioQ\.gif)
-1571378487	Shree	straitsresearch\.com
 1571379112	Makyen	josthought\.com
 1571380085	Makyen	hongweiru@huawei\.com
 1571380120	Makyen	quickbookssupportphonenumber247\.co
@@ -13815,7 +13775,6 @@
 1572527950	tripleee	congerfororegon\.com
 1572536571	Machavity	pelicula\.m-transtv\.me
 1572536795	Machavity	tohla\.in
-1572537156	Machavity	recursivearts\.com
 1572547001	Makyen	(?-i:OXo5dm7uKMz3bfpKWtjSgQ)
 1572547029	Makyen	carotone
 1572547083	Makyen	acknowbuzz\.com
@@ -14291,7 +14250,6 @@
 1574238129	tripleee	bombom\.host
 1574238152	tripleee	starblastgame\.tk
 1574238176	tripleee	bombom
-1574238204	tripleee	starblast
 1574238413	tripleee	defly2020
 1574239649	Jenayah	wisdomisgift\.blogspot\.com
 1574239750	tripleee	sofacle\.com
@@ -14587,7 +14545,6 @@
 1575017170	tripleee	Derena Milton
 1575018440	tripleee	muschi17\.com
 1575020558	tripleee	magespark\.com
-1575022322	tripleee	keto4us\.org
 1575026492	tripleee	aspirerankings
 1575029324	tripleee	wolfcareers\.com
 1575034449	tripleee	ryndatalab\.com
@@ -14754,7 +14711,7 @@
 1575575997	Makyen	sologenic\.com
 1575576020	Makyen	(?-i:1FAIpQLSdcpIL-u2FsqBZj0ikG7UyJe3l9If7sVr7MdTpVnINQJJbsQg)(?#Google Docs)
 1575576042	Makyen	fleur[\W_]*+alpha(?:[\W_]*+(?:cream|creme|in|canada|ca|\d++|[\da-f]{4,}+)s?)*
-1575576061	Makyen	prime[\W_]*+natural(?:[\W_]*+(?:oil|cbd|\d++|[\da-f]{4,}+)s?)*
+1575576061	Makyen	prime[\W_]*+natural(?![\W_]*+(?:number|factor))(?:[\W_]*+(?:oil|cbd|\d++|[\da-f]{4,}+)s?)*
 1575576308	Makyen	illumia[\W_]*+cream(?:[\W_]*+(?:canada|ca|\d++|[\da-f]{4,}+)s?)*
 1575576324	Makyen	(?-i:8j20mP9lcVM)
 1575576342	Makyen	darkweb\.com
@@ -14849,7 +14806,6 @@
 1575874364	Makyen	netgear-router-setup\.com
 1575877170	Makyen	e-1572084246
 1575878516	tripleee	dreams?[\W_]*+digital
-1575881799	tripleee	zigya\.com
 1575881826	tripleee	uzwifi\.com
 1575882056	tripleee	keylines\.net
 1575882206	tripleee	boimela\.in
@@ -15393,7 +15349,6 @@
 1577335418	Makyen	(?:films?|complets?|regarder(?:s|es)?|t[ée]l[ée]chargements|en\s*ligne|gratuits?|diffusion|courant)(?:[\W_]*+\w+){0,5}(?:[\W_]*+(?:films?|complets?|regarder(?:s|es)?|t[ée]l[ée]chargements|en\s*ligne|gratuits?|diffusion|courant)){2,}(?#French verion)
 1577338751	Shree	makepassportphoto\.com
 1577339554	Shree	contactusa-directory\.com
-1577339773	Makyen	dr[\W_]*+oselumen(?:@gmail\.com)?
 1577340434	Makyen	cerisea-medica01
 1577340448	Makyen	ukzfred\.hatenablog\.com
 1577342371	Eliah Kagan	routerlognnet\.us
@@ -15583,7 +15538,6 @@
 1577714521	tripleee	instaplusapk\.com
 1577714732	Eliah Kagan	acgil\.com
 1577714819	tripleee	wholeclear\.com
-1577716136	tripleee	xbytesolutions\.com
 1577716180	Eliah Kagan	marmosetmonkeysusa\.company\.com
 1577719680	tripleee	ugenly\.com
 1577726659	Das_Geek	boxofficehd\.club
@@ -15671,7 +15625,6 @@
 1577987280	double-beep	fany\.ro
 1577987304	double-beep	cfrcalatori\.ro
 1577987337	double-beep	blueairweb\.com
-1577987544	double-beep	rome2rio\.com
 1577988304	Makyen	workpage627(?:@gmail\.com)?
 1577995945	Machavity	mamaspellscaster\.doodlekit\.com
 1577996002	Makyen	usalostlovespellswordwidelluminati\.blogspot
@@ -15779,7 +15732,7 @@
 1578259014	Makyen	croydoncar\.co\.uk
 1578261911	Makyen	houldsbraxton\.hatenablog\.com
 1578261928	Makyen	ketothinstateofficial2020\.blogspot
-1578261947	Makyen	pinterest\.com(?<!api\.pinterest\.com)(?<!assets\.pinterest\.com)(?<!developers\.pinterest\.com)
+1578261947	Makyen	pinterest\.com(?<!api\.pinterest\.com)(?<!assets\.pinterest\.com)(?<!developers\.pinterest\.com)(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
 1578266769	Makyen	prime-calculator\.com
 1578273015	Makyen	you[\W_]*+can[\W_]*+not[\W_]*+block[\W_]*+me
 1578283035	Makyen	cakasalt\.com
@@ -15877,7 +15830,6 @@
 1578465756	tripleee	jennextmentors\.com
 1578471741	tripleee	webmdcorp\.com
 1578471775	tripleee	epicmusicla\.com
-1578471806	Makyen	herbal[\W_]*+native(?:[\W_]*+(?:oil|cbd|\d++|[\da-f]{4,}+))*
 1578471838	Makyen	denta[\W_]*+smile(?:[\W_]*+teeth[\W_]*+whitening)?(?:[\W_]*+(?:\d++|[\da-f]{4,}+))*
 1578472085	Makyen	(?-i:NPmeIdhJ-w0)(?#youtu.be)
 1578472105	Makyen	epic[\W_]*+music[\W_]*+la(?!\.com(?<=epicmusicla\.com))(?:[\W_]*+(?:\d++|[\da-f]{4,}+))*
@@ -16145,7 +16097,6 @@
 1579018822	Das_Geek	paypal\.me
 1579034022	Eliah Kagan	pb\.online
 1579066478	Makyen	get-youtube-video-thumbnail-image\.com
-1579066502	Makyen	tktech\.vn
 1579066596	Makyen	naturecraveketoofficial(?#sites.google.com)
 1579066614	Makyen	hectorcater\.pen\.io
 1579066630	Makyen	@hectorcater(?!\.pen\.io)
@@ -16376,7 +16327,7 @@
 1579576032	Eliah Kagan	bestlaptopshub\.com
 1579576225	Eliah Kagan	landumatt(?:@gmail\.com)?
 1579585282	Shree	apolonrugs\.com
-1579585744	tripleee	(?-i:^franzink‭$)
+1579585744	tripleee	(?-i:^franzink$)
 1579586348	Makyen	(?-i:e7m205ZIxBE)
 1579586384	Makyen	apolon[\W_]*+rugs(?!\.com(?<=apolonrugs\.com))
 1579586415	Makyen	mydigital[\W_]*+housing
@@ -16534,10 +16485,8 @@
 1579851225	Makyen	(?-i:Pvvrn\.jpg)
 1579852764	tripleee	gynecomastiahyderabad\.in
 1579855169	tripleee	quickly\.com
-1579855539	tripleee	tecteem\.com
 1579855711	tripleee	lyriccrunch\.com
 1579859633	tripleee	urbanpro\.com
-1579860264	tripleee	dialhumanhelp\.com
 1579864331	Shree	omsoftware\.wordpress\.com
 1579864378	tripleee	naukriorbit\.com
 1579864506	tripleee	strongeriptv\.com
@@ -16657,7 +16606,6 @@
 1580179421	Makyen	alexwallet49(?:@gmail\.com)?
 1580179989	Eliah Kagan	drawboard\.com
 1580180300	Eliah Kagan	(?:bitcoine?|btc)s?\W+rewarde?s?
-1580186120	Eliah Kagan	mastershareprice\.com
 1580186280	Eliah Kagan	excelr(?!\.com)
 1580187267	Shree	mainpasaran4d\.org
 1580190317	Makyen	(?-i:vkdFJhIvaSg)(?#youtu.be)
@@ -16707,7 +16655,6 @@
 1580246714	Eliah Kagan	hp-support-assistant\.us
 1580267966	Makyen	roundworldstory\.com
 1580267992	Makyen	financialagencyofficial(?:@gmail\.com)?
-1580269442	Eliah Kagan	hashcat64
 1580274839	tripleee	aresearchguide\.com
 1580280460	tripleee	infobets\.net
 1580280597	tripleee	powertechpollutioncontrols\.co\.in
@@ -16847,7 +16794,6 @@
 1580558213	double-beep	enlightenment\.com
 1580558863	double-beep	worldhealthpedia\.com
 1580568912	double-beep	winrgiftcard\.pw
-1580572451	double-beep	licenseapps\.com
 1580573467	Eliah Kagan	escortsdunia\.com
 1580575055	Eliah Kagan	elecmodule\.ir
 1580577016	Eliah Kagan	(?-i:kWcmGLOR4bA)(?#youtu.be)
@@ -17747,7 +17693,6 @@
 1582625192	Eliah Kagan	marvelmind\.com
 1582625260	Eliah Kagan	marvelmind(?!\.com)
 1582625398	Eliah Kagan	devmaster\W*app(?:@gmail\.com)?
-1582625877	Eliah Kagan	cash-cars\.sydney
 1582625976	Eliah Kagan	kmshiv(?:@amazon\.com)?
 1582626015	Eliah Kagan	(?-i:rG3a4YR1LGI)(?#youtu.be)
 1582626037	Eliah Kagan	redgillbistro\.com
@@ -17832,7 +17777,6 @@
 1582806737	Eliah Kagan	tibenabvi\.pk
 1582809622	Eliah Kagan	binduradigital\.com
 1582810877	Eliah Kagan	electroclinic\.co\.uk
-1582810972	Eliah Kagan	totalassignmenthelp\.com
 1582816334	Eliah Kagan	mo-apps\.com
 1582819157	Eliah Kagan	whatsappstatusimages\.com
 1582821785	Das_Geek	hotsexyescort\.com
@@ -17990,7 +17934,6 @@
 1583243265	Eliah Kagan	naadiamirza\.in
 1583244261	Eliah Kagan	(?-i:rHYWHOpm6DI)(?#youtu.be)
 1583244603	Eliah Kagan	ultimatefundrecovery(?:[\W_]*(?:@|at)[\W_]*gmail[\W_]*(?:\.|dot)[\W_]*com)?
-1583246034	Machavity	bagcottage\.com
 1583252286	Eliah Kagan	femalescortsinbangalore\.com
 1583252400	Eliah Kagan	777spinslot\.com
 1583261705	Das_Geek	twcroadrunneremail-rr\.com
@@ -18197,7 +18140,7 @@
 1583700175	Makyen	trailblazer\.me
 1583700198	Makyen	welcome15053
 1583719925	Machavity	oispice\.com
-1583719979	Machavity	(?-i:Dogcat\WZzs‭)
+1583719979	Machavity	(?-i:Dogcat\WZzs)
 1583722184	Makyen	gsmorigin\.com
 1583729483	Makyen	d(?:octo)?r[\W_]*+arans[\W_]*+turnner
 1583729506	Makyen	lyricsloobs\.com
@@ -18284,7 +18227,7 @@
 1583928859	tripleee	addhunters
 1583930090	tripleee	thenutracafe\.com
 1583930116	tripleee	safe[\W_]*+mask[\W_]*+pro
-1583930460	tripleee	DennisvanderGeest‭
+1583930460	tripleee	DennisvanderGeest
 1583942401	Makyen	(?-i:ZEyCUkuHOB0)(?#youtu.be)
 1583942424	Makyen	whatsappstatusquotesbest\.blogspot
 1583942449	Makyen	superstarsbio\.com
@@ -18318,7 +18261,6 @@
 1583979819	Eliah Kagan	99brides\.com
 1583980380	Eliah Kagan	tablighraygan\.ir
 1583985129	Shree	toletboard\.net
-1583989072	tripleee	intraday[\W_]*+trading
 1583990812	Shree	hpprinterdriverss\.com
 1583991948	tripleee	eviannce
 1583992058	tripleee	foligray
@@ -18458,7 +18400,6 @@
 1584348253	Eliah Kagan	eadatahandlers\.co\.ke
 1584348280	Shree	greletpatricia01(?:@gmail\.com)?
 1584348417	Eliah Kagan	chop\s+off\s+your\s+balls
-1584349127	Eliah Kagan	curiousviral\.com
 1584349171	Eliah Kagan	bbcworldservicetrust\.org
 1584349199	Eliah Kagan	ink-well\.org
 1584349224	Eliah Kagan	kanazspid\.ir
@@ -18909,7 +18850,7 @@
 1585746199	Makyen	zeenatrend\.com
 1585746223	Makyen	nativevanilla\.com
 1585746367	Machavity	(?-i:B06VY4S9V2)
-1585748495	Machavity	^Renu KumAri‭$
+1585748495	Machavity	^Renu KumAri$
 1585748656	Machavity	wa-web\.net
 1585764017	Makyen	signalspal\.com
 1585770536	Machavity	wordpress\.org/plugins/country-state-city-auto-dropdown
@@ -18932,7 +18873,6 @@
 1585830550	tripleee	hostimul\.com
 1585831169	Makyen	(?-i:CfIar\.jpg)
 1585834557	Machavity	wowdesk\.com
-1585836007	Machavity	cybertechhub100(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
 1585841982	Machavity	downloadalexa-app\.com
 1585847813	tripleee	swag(?:ing|ers?)
 1585848573	tripleee	blackpods1\.com
@@ -19112,7 +19052,6 @@
 1586374904	Makyen	seedboxco\.net
 1586386200	Nisse Engström	amlaa?k-?jahan\.com
 1586386957	Makyen	exceltalentsolutions\.com
-1586387083	Nisse Engström	digistore24\.com
 1586390462	Machavity	up-file\.com
 1586391182	Makyen	mynorton-com\.com
 1586399535	Makyen	hankstrucking\.ca
@@ -19547,7 +19486,7 @@
 1587837893	Makyen	first[\W_]*+person[\W_]*+science(?!\.com(?<=firstpersonscience\.podbean\.com))(?:[\W_]*+(?:podcast|\d++|[\da-f]{4,}+))*
 1587837917	Makyen	firstpersonscience\.podbean\.com
 1587838114	Makyen	(?:(?:revitali[sz](?:e[dr]?s?|ing)|moisturi[sz](?:e[dr]?s?|ing))[\W_]*+){2,}
-1587841503	Makyen	hemp[\W_]*+ex[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{4,}+))*
+1587841503	Makyen	(?:gvp[\W_]*+)?hemp[\W_]*+ex[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{4,}+))*
 1587844693	Makyen	reliant[\W_]*+keto(?:[\W_]*+(?:\d++|[\da-f]{4,}+))*
 1587847030	Nisse Engström	works35\.com
 1587851775	Nisse Engström	gem1music\.com
@@ -20418,7 +20357,6 @@
 1590393158	tripleee	bitdataconversion\.com
 1590394041	tripleee	it-seo\.pp\.ua
 1590397548	tripleee	yourdishwasherguide\.com
-1590406143	tripleee	(?-i:^Jack Sparrow$)
 1590407578	Makyen	american[\W_]*+liberty[\W_]*+cbd(?:[\W_]*+(?:\d++|[\da-f]{4,}+))*
 1590413364	Daniil	pixalive\.me
 1590415237	Daniil	nishant\.prasad(?<=medium\.com/@nishant\.prasad)
@@ -20666,7 +20604,6 @@
 1591157946	Makyen	(?-i:pDwSU\.jpg)
 1591157975	Makyen	(?-i:hcwy3\.jpg)
 1591158237	Makyen	talktowendys\.org
-1591159128	tripleee	6wresearch(?!\.com)
 1591161372	Makyen	downloadfilehere\.com
 1591161398	Makyen	domain[\W_]*+nerdz
 1591163874	Makyen	skpencerkill
@@ -21011,7 +20948,6 @@
 1592094214	Makyen	(?-i:63AbZ\.png)
 1592094249	Makyen	buccaneersvssaintsgame\.com
 1592094264	Makyen	integrated[\W_]*+assessment[\W_]*+services
-1592094280	Makyen	wayforpay\.com
 1592094297	Makyen	kozynets-volodymyr\.pp\.ua
 1592094314	Makyen	smartlandscap\.(?:ir|irwww)
 1592098574	Makyen	51786275041918(?#adfoc.us)
@@ -21098,7 +21034,6 @@
 1592436114	Makyen	(?-i:nwX6JX1nSP8)(?#youtu.be)
 1592436131	Makyen	socialexplainer\.com
 1592436167	Makyen	(?-i:A7eDc\.png)
-1592436187	Makyen	digitalindiagov\.in
 1592436201	Makyen	(?-i:tyj_dh7OHH4)(?#youtu.be)
 1592436218	Makyen	jeremyormier(?#twitter.com)
 1592436233	Makyen	inventive9\.com
@@ -21197,7 +21132,7 @@
 1592741326	Daniil	excelexpertblog\.blogspot\.com
 1592741341	Daniil	alljobalert\.info
 1592746146	Daniil	thestudyiq\.com
-1592746161	Daniil	(?-i:The Study IQ‭)
+1592746161	Daniil	(?-i:The Study IQ)
 1592759823	user12986714	dosya\.pro
 1592764844	NobodyNada	mydigitalfiling\.in
 1592769322	Daniil	ericahess(?<=jotform\.com/ericahess)
@@ -21306,7 +21241,7 @@
 1593104360	Machavity	ACE\WMoney\WTransfer
 1593104475	Makyen	palmastationery\.com
 1593105576	Machavity	(?-i:^William Penn$)
-1593112614	Machavity	(?-i:^nicklon khokhar‭$)
+1593112614	Machavity	(?-i:^nicklon khokhar$)
 1593140255	Machavity	(?-i:^Ahmed Aniss$)
 1593144138	Makyen	(?-i:j-mT3B2LPy4)(?#youtu.be)
 1593159177	Daniil	(?-i:End of (L|l)ease Melbourne)
@@ -21318,7 +21253,6 @@
 1593164366	Daniil	qqasean99\.com
 1593179336	Makyen	ultra[\W_]*+testo(?:[\W_]*+(?:extra|male|\d++|[\da-f]{5,}+)s?)*
 1593180104	Makyen	aolcustomercarenumberusa\.blogspot
-1593181657	Jeff Schaller	fox200\.com
 1593187067	Makyen	million[\W_]*+money(?:[\W_]*+(?:clone|script)s?)*
 1593191489	Makyen	indianwordpressexperts\.com
 1593194381	Daniil	(?-i:G3tr1ch)(?#Telegram)
@@ -21645,7 +21579,6 @@
 1594353027	Makyen	mikeyeahmusic
 1594354320	Makyen	shakkourshadi(?:@gmail\.com)?
 1594358287	Makyen	bestlegoset\.com
-1594358311	Makyen	fitnesscares4u\.com
 1594360979	Makyen	yo1\.com
 1594360996	Makyen	ayurveda
 1594361154	Makyen	ravidhruv
@@ -21829,7 +21762,6 @@
 1594987181	Machavity	shia[\W_]*asks
 1594987627	Daniil	form\.jotform\.com
 1594988160	Jeff Schaller	ukrainiantvcompany\.com
-1594989418	Daniil	cmdchallenge\.com
 1594990041	Daniil	iairtickets\.com
 1594990060	Daniil	(?-i:Allegiant Airlines)
 1594993312	Daniil	(?:brainhackers[\W_]*+(?:at[\W_]*+)?)?aol(?:[\W_]*+(?:dot[\W_]*+)?com)(#? obfuscated brainhackers@aol.com)
@@ -21917,7 +21849,6 @@
 1595306737	NobodyNada	novelstamil\.com
 1595269838	Jeff Schaller	readus247\.com
 1595316698	Makyen	a1myobcourse\.sg
-1595317195	Makyen	xcellerate(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)+
 1595317211	Makyen	viaxal(?:[\W_]*+(?:enhance(?:ment)?|male|\d++|[\da-f]{5,}+)s?)*
 1595317226	Makyen	(?-i:VT2WX\.jpg)
 1595317242	Makyen	(?-i:KetoXPOfficialReviews)(?#facebook.com)
@@ -22047,13 +21978,11 @@
 1595835156	tripleee	voyage\s*+watch(?:er(?!\.com))?
 1595835213	tripleee	gluco\W*+flow
 1595831368	Cody Gray	phdsc\.org
-1595835875	tripleee	feasycom\.com
 1595835914	tripleee	newforceltd\.com
 1595836126	tripleee	packersservices\.in
 1595836177	tripleee	dndgaragedoors\.com\.au
 1595836195	tripleee	uqrious\.in
 1595836253	tripleee	sharklean\.info
-1595836334	tripleee	tutelagestudy\.com
 1595839129	tripleee	voipbusiness\.com
 1595841854	tripleee	yourteaminindia\.com
 1595844328	tripleee	ondersteuning\.bravesites\.com
@@ -22084,7 +22013,6 @@
 1595993396	Makyen	prismatic\.io
 1595997703	tripleee	canottebasketnba\.net
 1595997747	tripleee	helamps\.com
-1595997763	tripleee	mekleid\.de
 1596007158	tripleee	justnorton\.com
 1596007175	tripleee	smnorton\.com
 1596011096	tripleee	qdrusa\.com
@@ -22092,7 +22020,6 @@
 1596014987	Daniil	butterfliesofindia\.wordpress\.com
 1596016135	tripleee	marketherono1(?# fiverr.com)
 1596018018	Daniil	couponhawkers\.com
-1596021500	tripleee	quickbookstoolhub\.com
 1596022261	tripleee	bestfanhub\.com
 1596024064	tripleee	directorysolutions\.co\.uk
 1596031103	tripleee	isoconsult
@@ -22121,7 +22048,7 @@
 1596097828	Nisse Engström	indiancallgirlindubai\.com
 1596102390	Daniil	typingdna\.com
 1596102624	Daniil	(?-i:39F2BbY)(?#bit.ly)
-1596103445	Daniil	(?<!hello@)72dpiskillz\.com
+1596103445	Daniil	72dpiskillz\.com(?<!hello@72dpiskillz\.com)
 1596103510	Daniil	seo-snel\.nl
 1596107248	tripleee	jcwebpros\.com
 1596108888	tripleee	justcabbie\.co\.uk
@@ -22303,7 +22230,7 @@
 1596826586	Makyen	addtalentsolutions\.com
 1596828373	Machavity	wizardsoft\.nl
 1596828528	Machavity	wizardsoft(?!\.nl)
-1596830289	Machavity	(?-i:^Anthony Dwayne Chapelle‭$)
+1596830289	Machavity	(?-i:^Anthony Dwayne Chapelle$)
 1596860965	Makyen	nhacchuong888(?:@gmail\.com)?
 1596860985	Makyen	tainhacchuong\.net
 1596861002	Makyen	(?-i:tainhacchuong)(?#facebook.com)
@@ -22463,7 +22390,7 @@
 1597392931	tripleee	(?-i:^rocky mosan$)
 1597393045	tripleee	(?-i:^/CDN\+Newswire/)(?# another streetinsider.com service)
 1597396924	tripleee	essayswriting\.org
-1597403061	tripleee	https?://(?:!0\.|10\.|127\.|169\.254\.|172\.(?:[12]\d|3[01])\.|192\.168\.|2(?:2[4-9]|[3-5]\d)\.)\d+\.\d+\.\d+\.\d+
+1597403061	tripleee	https?://(?!0\.|10\.|127\.|169\.254\.|172\.(?:[12]\d|3[01])\.|192\.168\.|2(?:2[4-9]|[3-5]\d)\.)\d+\.\d+\.\d+\.\d+(?<!(?:<code>|['"])https://[\d.]+)(?!:\d)
 1597403095	tripleee	138\.197\.11\.113
 1597403744	tripleee	theoffsetsmoker\.com
 1597403927	tripleee	homegardenscare\.com
@@ -22525,7 +22452,7 @@
 1597646033	tripleee	thesmsempire\.com
 1597646069	tripleee	the[\W_]*+sms[\W_]*+empire[\W_]*+(?!\.com)\w*+
 1597647432	tripleee	nova[\W_]*+keto[\_]*+avis
-1597649814	tripleee	aaaenos‭(?!\.com)
+1597649814	tripleee	aaaenos(?!\.com)
 1597650167	Mast	technobizzar\.com
 1597652175	tripleee	nozlapp\.com
 1597652958	tripleee	installmalwarebytes\.org
@@ -22697,7 +22624,7 @@
 1598215597	ArtOfCode	dumbshits?
 1598215611	ArtOfCode	patentediguidaitalianaonline\.com
 1598245244	tripleee	corywestropp\.com
-1598249405	tripleee	(?!jammer-mart\.com)[\w\d\-]*jammer[\w\d\-]*\.com?
+1598249405	tripleee	[\w-]*jammer[\w-]*\.com?(?<!\bjammer-mart\.com)
 1598254328	Mast	electricsmokeres\.com
 1598254192	Mast	kerishdp365\.com
 1598254348	Mast	khudothiecoparkhanoi\.com
@@ -22758,7 +22685,7 @@
 1598370909	Mast	market-scanner\.ru
 1598371138	Daniil	ukraine\.com\.ua
 1598372588	Daniil	app\.candidatezip\.com
-1598372637	Daniil	(?<!app\.)candidatezip\.com
+1598372637	Daniil	candidatezip\.com(?<!app\.candidatezip\.com)
 1598386397	Daniil	(?-i:93sg5K8M5x4)(?#YouTube)
 1598402062	Makyen	a1plumbersbristol\.co\.uk
 1598402079	Makyen	agbaforspelltemple(?:@gmail\.com)?
@@ -22766,7 +22693,6 @@
 1598402131	Makyen	d(?:octo)?r[\W_]*+agbafor
 1598403370	Makyen	seochicagoil\.com
 1598403385	Makyen	seo[\W_]*+chicago[\W_]*+il(?!\.com(?<=seochicagoil\.com))
-1598408593	Jeff Schaller	webuniversal\.pe
 1598424973	Makyen	anyfullform\.com
 1598448634	Machavity	abnaelaraby\.com
 1598449899	Mast	carenician\.com
@@ -22899,7 +22825,6 @@
 1598816190	Makyen	(?-i:15ead586c78a28461bfa02d4966ec744)(?#apnews.com)
 1598816206	Makyen	(?-i:236a4605a35bfd7898217cecdd79841a)(?#apnews.com)
 1598816222	Makyen	(?-i:26929a9aeee0de7d8f3bbe69e835536f)(?#apnews.com)
-1598815985	Mast	(?-i:ceb0476c868ecb2836afb52dd3f000ed)(?#apnews.com)
 1598816246	Makyen	(?-i:283413c30ea9cbe98995d2c213436f88)(?#apnews.com)
 1598816261	Makyen	(?-i:2ff1e22245edb5018748c9e304f10299)(?#apnews.com)
 1598815961	Mast	(?-i:b50c13ff26095a5320b1cbd5d0015823)(?#apnews.com)
@@ -23128,7 +23053,6 @@
 1599473188	tripleee	glamm[\W_]*+pop(?!\.com)
 1599482052	Mast	svgator\.com
 1599483184	Mast	debtquest\.com
-1599477005	Mast	scraperapi\.com
 1599480427	Mast	merestone\.com
 1599480577	Mast	comparecloud\.in
 1599486339	Mast	laptopified\.com
@@ -23165,7 +23089,6 @@
 1599606807	Spevacus	getfastpackaging\.com
 1599601974	Jeff Schaller	gramvi\.com
 1599611880	NobodyNada	vndrink\.com
-1599621169	Machavity	spinbackup\.com
 1599623580	Makyen	1herbs\.com
 1599623596	Makyen	1herbs(?!\.com)
 1599623644	Makyen	gregory[\W_]*+porter[\W_]*+all[\W_]*+rise[\W_]*+t[\W_]*+shirt
@@ -23181,7 +23104,6 @@
 1599637456	Mast	acerola[\W_]*+extract
 1599637628	Mast	(?-i:8b302e5ffe3597005f5e636216d4aa79)(?#apnews.com)
 1599639437	Mast	itmanagedsolution\.co\.uk
-1599642359	Mast	nareshit\.com
 1599651784	Eliah Kagan	2028end\.com
 1599664245	user12986714	cách sử dụng chi tiết
 1599664574	user12986714	(?-i:6WL-gG3-Hzg)(?#youtu.be)
@@ -23254,7 +23176,6 @@
 1599814162	Mithical	truflexen
 1599814741	Mast	(?-i:5774b06d7bb11a6c355c214cd673d5da)(?#apnews.com)
 1599814956	Mast	cosmos[\W_]*+atom[\W_]*+token
-1599816477	Mast	mydock365\.com
 1599816904	Mast	iron[\W_]*+stack[\W_]*+pro
 1599820025	Mast	talhamanzoor2\.blogspot\.com
 1599820112	Ryan M	claybag\.com
@@ -23284,8 +23205,6 @@
 1599896488	Makyen	creditcard[\W_]*+top[\W_]*+deals(?!\.com(?<=creditcardtopdeals\.com))
 1599897349	Mast	lilachbullock\.com
 1599900949	Makyen	glucafix(?:[\W_]*+(?:review|price|ingredient|of|advanced|weight|loss|formula|pill|\d++|[\da-f]{5,}+)s?)*
-1599924223	Machavity	groupdocs\.com
-1599937037	NobodyNada	apkinstallation\.com
 1599953635	Daniil	ielts\Wcertificates?(?! without exam)
 1599970923	Sonic the Masked Werehog	jobeducationbd\.com
 1599988270	tripleee	probolit
@@ -23371,7 +23290,6 @@
 1600164120	Mast	authenticcounterfeit\.com
 1600164137	Mast	counterfeitmoneyonline\.net
 1600161675	Mast	24hoursmedia\.com
-1600161093	Mast	iexponet\.com
 1600159741	Mast	starzspeak\.com
 1600156876	Mast	florida[\W_]*+aerial[\W_]*+survey[\W_]*+technologies
 1600158074	Mast	cupangjambi\.com
@@ -23459,12 +23377,11 @@
 1600324800	tripleee	carsstore\.xyz
 1600325055	tripleee	coydoll(?!\.com)
 1600326078	tripleee	(?-i:YCMRZkCDUN0)(?# youtube)
-1600326567	tripleee	venbadeepika934‭
+1600326567	tripleee	venbadeepika934
 1600330238	Mast	bloggingvalue\.com
 1600330318	Mast	engineer\.adnanalam(?:@gmail\.com)?
 1600331679	tripleee	alpha[\W_]*+jym
 1600332898	Nisse Engström	canadapleasure\.com
-1600334986	tripleee	gospeedcheck\.com
 1600335023	tripleee	muralcrm\.com
 1600342247	Mast	dressesbylindaandagnes\.com
 1600342293	Mast	email@contactprivacy\.com
@@ -23474,8 +23391,6 @@
 1600342568	Mast	bangladeshsurvey\.com
 1600342610	Mast	bangladeshsurvey(?!\.com)
 1600342661	Mast	takeescorts\.com
-1600346621	Kulfy	productscrack\.com
-1600345200	Spevacus	cryptograph\.life
 1600281179	Rubiksmoose	info-4geek\.com
 1600272872	Rubiksmoose	itsedupoint\.com
 1600353595	Mast	rankifyweb\.com
@@ -23487,7 +23402,6 @@
 1600371656	Makyen	imoprizebox
 1600375032	Thomas Ward	screwlinux\.com
 1600406232	Makyen	(?:offici[ae]l[\W_]*+)keto[\W_]*+premiere(?:[\W_]*+(?:australia|spain|\d++|[\da-f]{5,}+)s?)*
-1600410335	Mast	ashstyles\.com
 1600411847	Makyen	(?-i:1c12a94359f4be0e3660df5ff164ba2f)(?#apnews.com)
 1600411861	Makyen	alpha[\W_]*+evolution[\W_]*+keto
 1600411884	Mast	ts-newswire
@@ -23568,7 +23482,6 @@
 1600703011	Makyen	jeremie\.zimmer(?<=medium\.com/@jeremie\.zimmer)
 1600705685	Makyen	natcoffoloud\.com
 1600710049	Spevacus	drugruger\.com
-1600711369	Spevacus	homeheavenz\.com
 1600715243	Mast	stocktipsandethicalhacking2020(?:@gmail\.com)?
 1600723844	Spevacus	vbuksgenerator\.com
 1600723899	NobodyNada	bux\.dev
@@ -23699,7 +23612,6 @@
 1601038725	Spevacus	bangaloreupvcwindows\.in
 1601038785	Spevacus	bangaloreupvcp(?:@gmail\.com)?
 1601041263	Mast	hbloom\.freshdesk\.com
-1601041708	Spevacus	syghtglass\.com
 1601042697	Mast	viral481\.com
 1601097291	Makyen	keto[\W_]*+burning(?:[\W_]*+(?:australia|\d++|[\da-f]{5,}+)s?)*
 1601116719	Mast	filmyduniya\.in
@@ -23771,7 +23683,6 @@
 1601367163	tripleee	chandakagro(?!\.com)
 1601371136	Glorfindel	fittingguy\.com
 1601371539	Victor VosMottor	mysystem-mechanic\.com
-1601369520	Victor VosMottor	flipkart\.com
 1601312670	Kulfy	aveebaba\.com
 1601027480	Victor VosMottor	jok3r\.us
 1601374634	K.Dᴀᴠɪs	jok3rshop
@@ -23806,7 +23717,6 @@
 1601463141	tripleee	kitchensty\.com
 1601463495	tripleee	vanityliving\.com
 1601463511	tripleee	vanity[\W_]*+living(?!\.com)
-1601479931	Makyen	buy2health\.com
 1601481073	Machavity	plumberbuckscounty\.com
 1601504809	Makyen	gurumaragy[\W_]*+brother(?:hood)?
 1601504835	Makyen	(?-i:PLDVHqYteFtBvoC4KcP6C3BRT88RmQckqV)
@@ -23885,7 +23795,6 @@
 1601839277	Robert Columbia	delphican\.com
 1601842107	NobodyNada	beautifulnotifications\.com
 1601874863	Makyen	(?:official[\W_]*+)?max[\W_]*+prime[\W_]*+labs
-1601879464	tripleee	office-settup\.com
 1601879511	Makyen	sansonetworks\.com
 1601879596	tripleee	utmios-solution\.com
 1601876163	Daniel Widdis	howtouselinux\.com
@@ -24146,7 +24055,6 @@
 1602853165	Ryan M	rich[\W_]*+herbs[\W_]*+foundation
 1602853288	Ryan M	yesornogenerator\.com
 1602853398	Mast	findgoodproduct\.com
-1602854859	Jeff Schaller	aakash\.ac\.in
 1602856347	Jeff Schaller	bangaloretomysorecab\.com
 1602860906	Spevacus	nutrapillsneed\.ezyro\.com
 1602862196	Mast	lelangan[\W_]*+khusus
@@ -24158,7 +24066,6 @@
 1602913913	NobodyNada	mylifemyroad\.com
 1602921294	Ryan M	distributorbanradial\.com
 1602921608	Ryan M	inforesepmasakansederhana\.com
-1602923420	Makyen	synapse[\W_]*+xt
 1602925843	Ryan M	jewish collaborat(?:ors|ion)
 1602927500	Ryan M	(?-i:THE[\W_]*+(?:HECK|HELL|SHIT))
 1602927990	Ryan M	(?:islam(?:ic)?|muslims?|gays?|jew(?:s|ish)?)\W++(\w+\W++){0,6}(?:cancer|plague|pox|bane|vermin)
@@ -24205,7 +24112,6 @@
 1603075364	Makyen	禮品卡
 1603075377	Makyen	付款方法
 1603083573	Jeff Schaller	counterfeitmoney\.biz
-1603086186	Zoe	emailhelps\.org
 1603090233	Mast	chennaitraining\.in
 1603091628	Mast	rokutechnicalsupportnumber\.com
 1603091881	Mast	(?-i:S31qQPlnP44)(?#youtu.be)
@@ -24229,7 +24135,6 @@
 1603161076	Ryan M	brought[\W_]*+my[\W_]*+(?:husband|wife)[\W_]*+back
 1603161569	Makyen	drstanlyspelltemple(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
 1603162658	Ryan M	(?:zero|one|two|three|four|five|six|seven|eight|nine|ten)\b(?!.{0,25}three\W++four\W++five\W++six\W++seven\W++eight\W++nine)(?:\W++(?:p\W++)*+(?:zero|one|two|three|four|five|six|seven|eight|nine|ten)){8,}+(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
-1603163661	Ryan M	fiverr\.com/\w++(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
 1603165440	Ryan M	easy[\W_]*+ways?[\W_]*+(\w++[\W_]*+){0,4}make[\W_]*+money
 1603167811	Ryan M	^(?-i:suman rajput)$
 1603170360	tripleee	seesaw\.me
@@ -24246,7 +24151,6 @@
 1603177295	tripleee	officeonlinechat\.com
 1603177374	tripleee	cracksoul\.com
 1603181422	tripleee	vaobong\.tv
-1603182923	tripleee	alletec\.com
 1603185140	Ryan M	akus\.co\.ke
 1603185527	Ryan M	fixallerror\.com
 1603186968	Ryan M	qr-creator\.blogspot\.com
@@ -24269,7 +24173,6 @@
 1603233989	Ryan M	food[\W_]*+service(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
 1603236671	Ryan M	(?:top|best).{0,50}in 20\d\d
 1603237467	Ryan M	alivegeek\.com
-1603242025	Ryan M	mtouch[\W_]*+labs
 1603242871	Ryan M	(?:Google|Facebook).{0,50}(?:\$\s*+\d++|\d++\s*+\$).{0,20}(?:hour|day|week|month)|(?:\$\s*+\d++|\d++\s*+\$).{0,20}(?:hour|day|week|month).{0,50}(?:Google|Facebook)
 1603245956	Ryan M	afoagroservices\.com
 1603250233	Ryan M	^(?-i:jheones)$
@@ -24303,7 +24206,6 @@
 1603282576	Spevacus	matebiz\.com
 1603283675	Jeff Schaller	propmoneybank\.com
 1603284065	tripleee	appstan\.com
-1603297608	Mast	monosnap\.com
 1603298685	Mast	coinfirm\.com
 1603300158	Spevacus	makeawikipage\.net
 1603306424	Jeff Schaller	sexybaccarat\.kickoffbets\.com
@@ -24327,7 +24229,7 @@
 1603357623	Ryan M	visetech(?!\.org)
 1603357953	Ryan M	goharddrive\.com
 1603358007	Ryan M	smartfinil\.com
-1603358124	Ryan M	^Manohar\W?Parakh‭$
+1603358124	Ryan M	^Manohar\W?Parakh$
 1603358210	Ryan M	Etizolam
 1603359247	Makyen	p[\W_]*+s[\W_]*+s[\W_]*+39[\W_]*+(?:dot[\W_]*+)?net
 1603360885	Victor VosMottor	city-cleaner\.com
@@ -24338,7 +24240,6 @@
 1603376481	Spevacus	hpsloyalty\.in
 1603377605	Spevacus	opendatascience\.com
 1603385343	Spevacus	thefilmyseries\.com
-1603388692	Ryan M	java37\.com
 1603389293	Ryan M	vandenberg-berlin\.de
 1603396540	Glorfindel	thesarkarijobportal\.in
 1603402224	Machavity	nissiyahv\.wixsite\.com
@@ -24396,7 +24297,6 @@
 1603553622	Makyen	biramjih\.blogspot
 1603555085	Spevacus	jobs87\.com
 1603555106	Spevacus	movies-us\.xyz
-1603555121	Spevacus	lifehealthsource\.com
 1603566039	NobodyNada	CryptoDredge
 1603566825	NobodyNada	^Charcoal\w*+(?=.{0,32}$)
 1603566955	NobodyNada	erwaysoftware\.com
@@ -24436,7 +24336,6 @@
 1603733304	Mast	(?-i:^Ulric kaka$)
 1603738900	Machavity	trucoat\.us
 1603751807	Jeff Schaller	immersify\.co\.uk
-1603758593	Someone_Evil	webnews21\.com
 1603650937	Robert Columbia	passwordwrench\.com
 1603765762	Machavity	mapcite\.com
 1603765887	Ryan M	SF[\W_]*+180[\W_]*+Brain|180[\W_]*+Brain[\W_]*+SF
@@ -24482,21 +24381,18 @@
 1603862047	tripleee	(?-i:-GNC0wpsH-k)(?# youtube)
 1603868064	Sonic the K-Day Hedgehog	chamsocweb247\.vn
 1603872827	tripleee	palline\.com\.sg
-1603872891	tripleee	tuckeat\.com
 1603873020	tripleee	lumiman\.com
 1603873511	tripleee	vigor[\W_]*+smart(?:[\W_]*+pills?)(?:[\W_]*+official)?(?:[\W_]*+buy)?\d*
 1603873587	tripleee	smart[\W_]*+brain(?:[\W_]*+canada)?\d*
 1603874179	Ryan M	prompthelp\.us
 1603875656	tripleee	freespinsnodep\.com
 1603880815	tripleee	xecurify\.com
-1603880835	tripleee	miniorange\.com
 1603882401	rene	bestelectricshaver2021\.com
 1603885250	tripleee	lawswoodclaims\.co\.uk
 1603887693	Spevacus	adisoftwares\.com
 1603888355	Spevacus	bettergiftflowers\.com
 1603850146	Robert Columbia	getenroute\.io
 1603889314	Spevacus	twobarefeet\.co\.uk
-1603891177	Machavity	^haroldcoyer$
 1603895083	Jeff Schaller	krd\.ru
 1603895165	Jeff Schaller	t\.ly/IpMJ
 1603896361	Jeff Schaller	Vhasnvi
@@ -24549,7 +24445,6 @@
 1604044284	tripleee	furnitureadda\.com
 1604045279	tripleee	hiyajewellers\.com
 1604046564	tripleee	bc\.game
-1604050058	tripleee	upsavesenergy\.com
 1604053087	tripleee	agilefingers\.com
 1604053166	tripleee	informationpapa\.com
 1604053263	Mast	southwest[\W_]*+airlines[\W_]*+reservation
@@ -24629,7 +24524,6 @@
 1604325303	Machavity	deskshare\.com
 1604325813	tripleee	essaypapers\.reviews
 1604325830	tripleee	myyellowbiz\.com
-1604372255	Makyen	(?-i:^joy clark$)
 1604372280	Makyen	cyalix
 1604375144	Ryan M	mynet\.vn
 1604375868	Machavity	allwebpost\.com
@@ -24641,7 +24535,6 @@
 1604384541	Makyen	charlottes[\W_]*+web[\W_]*+cbd[\W_]*+oil
 1604386145	tripleee	klay[\W_]*+thompson[\W_]*+cbd[\W_]*+oil
 1604389452	tripleee	maxibutt
-1604389506	tripleee	harga
 1604389780	Ryan M	theleaker\.com
 1604390395	Ryan M	suncountryphonenumber\.com
 1604392360	tripleee	chatuchak\.vn
@@ -24668,7 +24561,6 @@
 1604463663	Makyen	anonymous_ccs?
 1604469254	tripleee	barobjects\.com
 1604470649	tripleee	kirk[\W_]*+cameron[\W_]*+cbd[\W_]*+oil
-1604473885	Ryan M	cannagenix
 1604474858	tripleee	tesmino\.com
 1604476843	Ryan M	^(?-i:[A-Z][a-z]{8,}+)0?18$
 1604478231	tripleee	viskytech\.com
@@ -24719,7 +24611,6 @@
 1604576238	tripleee	pristonglobal\.com
 1604576265	tripleee	priston[\W_]*+global(?!\.com)
 1604576673	tripleee	google[\W_]*+play[\W_]*+cards[\W_]*+bot
-1604577802	Jeff Schaller	agenter\.com
 1604577871	Jeff Schaller	healthlinebangla\.com
 1604578198	tripleee	filessky\.com
 1604580722	Jeff Schaller	portalgps\.com\.br
@@ -24756,7 +24647,6 @@
 1604665499	tripleee	vellko\.com
 1604668535	Machavity	cosmo\.lot-free\.com
 1604674794	Spevacus	singaporetuitionteachers\.com
-1604686467	Makyen	thekatynews\.com
 1604689734	Victor VosMottor	prophotoshopexpert\.com
 1604690845	Spevacus	bloorwestsmiles\.com
 1604701972	Mast	ifyblog\.com\.ng
@@ -24765,7 +24655,6 @@
 1604732642	Makyen	buyrealfollows\.com
 1604732658	Makyen	replica\.donghochat8668\.com
 1604732675	Makyen	getacos\.com
-1604732686	Makyen	reeves[\W_]*+cbd[\W_]*+oil
 1604750105	Mast	dr\.[\W_]*+todd[\W_]*+website
 1604763522	Spevacus	e-startuprajasthan\.com
 1604768819	Makyen	notairedenis\.voyer(?:@gmail\.com)?
@@ -24778,8 +24667,1943 @@
 1604846792	Makyen	ммц-москва\.рф
 1604846812	Makyen	xn----8sbf5aiabq1a0c\.xn--p1ai
 1604853745	Makyen	aiven\.io
-1604853767	Makyen	summarylover\.com
 1604854252	Makyen	(?-i:k5MNyW3)(?#ibb.co)
 1604855515	Makyen	sadistic[\W_]*+mind[\W_]*+games
 1604855618	Makyen	c:\\Users\\John doe\\Desktop\\Libreoffice_7\.0\.3_win_x64\.msi
 1604856647	Makyen	scantype[\W_]*+3
+1604890880	Makyen	superpages\.uk\.com
+1604895602	Nisse Engström	wordcounter\.tools
+1604897968	Nisse Engström	skystarcleaning\.com
+1604902002	tripleee	florenceoregonatvrentals\.com
+1604905894	Mast	wowrooms\.co\.in
+1604905926	Mast	viparticle\.com
+1604906636	Mast	probestclub\.com
+1604910014	tripleee	helpforiit\.com
+1604911506	tripleee	puzzlejigsaw24\.com
+1604912507	tripleee	chocolatemelangeur\.com
+1604915122	tripleee	thanhhuongshop\.com
+1604916760	tripleee	getmecrack\.com
+1604916780	tripleee	portabledownloads\.com
+1604919035	tripleee	rodeonfr\.blogspot\.com
+1604920522	tripleee	acconpit\.com
+1604920710	tripleee	justcol\.com
+1604921801	tripleee	remotehub\.com
+1604923809	tripleee	thepetitionsite\.com
+1604926161	Victor VosMottor	loanerjovita\.loanlender\.org(?:@gmail\.com)
+1604926447	tripleee	abnabat\.com
+1604926933	Machavity	eonlineshoppingstore\.com
+1604928499	tripleee	thesolvetech\.com
+1604931087	Mast	smmstores\.com
+1604931107	Mast	freelancerparvez\.com
+1604931135	Mast	reviewservicesusa\.com
+1604931541	Mast	jessedittmar\.com
+1604931879	Mast	relaxme69\.com
+1604933743	Spevacus	rtop\.amz(?:@gmail\.com)?
+1604944679	Spevacus	race-linecompetitions\.co\.uk
+1604945149	Spevacus	bitcoinretrieval2018(?:@gmail\.com)?
+1604947351	Ryan M	hack(?:er)?\b.{0,50}\b(?:call|contact|texts|phone|(?:(?:text|messages?|call|phone|logs?)\W*+){2,}+)(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
+1604951088	Ryan M	stackpk\.com
+1604951678	Ryan M	donghochat8668\.com
+1604951770	Ryan M	marvelofficial\.com
+1604951935	Ryan M	etsglobalscores(?:@gmail\.com)?
+1604951952	Ryan M	infodoccumentssuport(?:@gmail\.com)?
+1604951971	Ryan M	Legaldocuments190
+1604966124	Ryan M	(?:alpha|testo(?:sterone)?)\W?staxx|staxx\W?(?:alpha|testo(?:sterone)?)
+1604972273	Ryan M	desertadventuregroup\.com
+1604973153	Ryan M	khonia\.vn
+1604981101	Makyen	airporttransfersonline\.co\.uk
+1604981265	Makyen	referral\.hostgator\.com
+1604981284	Makyen	(?-i:ztjtbbr0yyi09ro)
+1604984817	Ryan M	vosshop\.uk
+1604985105	Ryan M	buy\b.{0,40}\bwatches
+1604986640	Ryan M	topblogclub\.com
+1604990476	tripleee	reportcrux\.com
+1604991170	Ryan M	brandpromotions
+1604991187	tripleee	brand\.com\.au
+1604993769	tripleee	assetzpropertymarq\.com
+1604995881	tripleee	promoshop\.com\.au
+1604996472	Ryan M	buy customized
+1605000813	Ryan M	easilyknowit\.com
+1605006666	tripleee	medicalpillsonline\.com
+1605006684	tripleee	allbengalkittens\.com
+1605006703	tripleee	legitarmsdealer\.com
+1605010824	tripleee	pcfanatics\.pk
+1605013307	Victor VosMottor	loophack\.org
+1605014173	Victor VosMottor	hackloop606(?:@gmail\.com)?
+1605014928	Spevacus	digibizzonline\.com
+1605016079	tripleee	paperwriter\.com
+1605016149	tripleee	windowsgyaan\.com
+1605016254	tripleee	xingyun\.blog\.csdn\.net
+1605016387	tripleee	qatrainingusa\.com
+1605016997	Spevacus	hdpcgames\.com
+1605037942	Ryan M	sarkarijobdekho\.com
+1605037991	Ryan M	allfreshersjob\.com
+1605038289	Ryan M	grabsarkarinaukri\.in
+1605038346	Ryan M	durgajobs\.com
+1605038363	Ryan M	freshers-job\.com
+1605043364	Spevacus	qassim-sa\.com
+1605046125	Makyen	maxeffect\.ir
+1605054554	Ryan M	www\.behance\.net/\w++(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
+1605059047	Ryan M	jovian\b.{0,100}(?:testosterone|supplement|hormone)\w*+
+1605068923	tripleee	cloudpowerall\.com
+1605076213	tripleee	instructure\.com
+1605076624	tripleee	kolus\.in
+1605077799	Ryan M	thepornposts\.com
+1605078117	Ryan M	roadrunneremails\.net
+1605080136	Ryan M	spy on\b.{0,20}\bphone
+1605080219	tripleee	essaywritersrank\.com
+1605080349	Ryan M	hacker\b.{0,40}\b(?:track|spy)
+1605080534	Makyen	canvas\.elsevier\.com
+1605080557	Makyen	eportfolios
+1605081311	Makyen	tocal\.instructure\.com
+1605081470	Ryan M	easypeasytales\.com
+1605081486	Makyen	ketoxpdiet\.com
+1605081504	Makyen	keto[\W_]*+xp(?!diet\.com(?<=ketoxpdiet\.com))(?:[\W_]*+(?:diet|pill|\d++|[\da-f]{5,}+)s?)*
+1605081817	Ryan M	howtogalaxy\.com
+1605082779	Ryan M	uber clone
+1605083191	Ryan M	Skype:\W*+(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
+1605084270	Ryan M	(?:diamonds?|gold[\W_]*+(?:bars?|nuggets?))\b.{0,50}\W++(?:sale|sell)
+1605086143	tripleee	sifars\.com
+1605086895	Mast	thelocation3\.com
+1605087963	Mast	maticek\.cz
+1605093064	tripleee	orbitgraphics\.com
+1605093083	tripleee	theflyy\.com
+1605095330	tripleee	nortoncomsetupp\.uk
+1605095807	tripleee	hr365\.us
+1605100098	tripleee	fluix\.io
+1605100213	tripleee	alpacked\.io
+1605100235	tripleee	airslate\.com
+1605100269	tripleee	akveo\.com
+1605100346	tripleee	nexxytech\.com
+1605104172	Mast	^(?-i:Mojae)$
+1605104406	Spevacus	adibian724\.ir
+1605109511	tripleee	bizcommunity\.com
+1605109529	tripleee	pacclean\.com
+1605112816	tripleee	techstudycorner\.com
+1605112937	tripleee	jiocomjio\.com
+1605113424	tripleee	qiangc\.net
+1605139905	Spevacus	hdiptv24\.de
+1605148187	Makyen	copiadelamontres\.blogspot
+1605148209	Makyen	watchesaaa\.blogspot
+1605159515	Ryan M	supersitenet\.com
+1605160973	Ryan M	agility\.im
+1605161337	Ryan M	codingwithsid\.in
+1605162154	tripleee	applelaptopservicecenter\.net
+1605162172	tripleee	happydesertsafari\.com
+1605162239	tripleee	worldtechnicians\.com
+1605162429	tripleee	airlinesupports\.com
+1605164462	tripleee	burburinho\.com
+1605165492	tripleee	spgtechnologies\.com
+1605170407	tripleee	suryatendamembrane\.com
+1605170484	tripleee	tenda[\W_]*+membrane
+1605171939	tripleee	salesaladin\.com
+1605171964	tripleee	elmex\.net
+1605172395	tripleee	iwatobipen\.wordpress\.com
+1605179447	Makyen	matkasattabazzar\.com
+1605179649	Mast	(?-i:^Sales aladin$)
+1605179750	Makyen	arnhost\.com
+1605179766	Makyen	doha-clean\.com
+1605180594	tripleee	missmv\.com
+1605183929	Ryan M	ladigi\.vn
+1605183968	Ryan M	bone[\W_]*+control[\W_]*+gel
+1605184306	Ryan M	epicfollowers\.co\.uk
+1605184515	Ryan M	Emabahi_Inc
+1605187114	tripleee	caralho
+1605190380	Ryan M	en-us-office\.com
+1605202659	Mast	vpnbestoffers\.com
+1605204023	tripleee	sugarlove\.one
+1605204967	tripleee	insta[\W_]*+watt
+1605205405	Mast	you[\W_]*+should[\W_]*+visit
+1605209473	tripleee	citimarinestore\.com
+1605210389	tripleee	Georges[\W_]*+Koussouros
+1605220077	Makyen	lomiultimatetemple(?:@gmail\.com)?
+1605242228	Ryan M	magicnumbertrading\.com
+1605242443	Makyen	pegasushackingservice(?:@gmail\.com)?
+1605242667	Ryan M	modapkclub\.com
+1605245828	Ryan M	bookmywizard\.com
+1605247482	Ryan M	sendgb\.com(?!/\w+)(?# spam for SendGB itself, but not files hosted there)
+1605247578	tripleee	genericvilla\.com
+1605248871	Makyen	himsedpills\.com
+1605251219	Ryan M	Agenter(?!\.com)
+1605251437	Ryan M	make[\W_]*+money[\W_]*+from[\W_]*+home
+1605253334	Ryan M	aglowpackers\.com
+1605253547	Ryan M	dealmarkaz\.pk
+1605253741	Mast	windowsgyaan(?!\.com)
+1605257542	Ryan M	triedandsolved\.com
+1605261855	tripleee	girlion\.in
+1605267557	tripleee	busrentalinmysore\.com
+1605267650	tripleee	rbcclean\.com
+1605271721	tripleee	stalker1807@gmail\.com
+1605273002	tripleee	klantenservicenederland\.co
+1605273091	Spevacus	ondersteuningtech\.blogspot
+1605282528	Spevacus	shinetowine\.com
+1605289149	Spevacus	schoolofpositivetransformation\.com
+1605290473	Makyen	444seo\.com
+1605297463	Machavity	ankamods
+1605343705	Makyen	coupweb\.com
+1605342886	Sonic the K-Day Hedgehog	taf\.vn
+1605349185	Mast	khaleejtoys\.com
+1605354695	Mast	xybmusicinstruments\.com
+1605355373	Jeff Schaller	kitchenappliancepackages\.com
+1605363773	Jeff Schaller	scp096\.co
+1605369843	Mast	bestprojector2021\.com
+1605377555	Makyen	onwardticketvisa\.com
+1605380735	Mast	(?-i:^dimachaerus$) # troll, history of offensive posts
+1605395427	Ryan M	vceoreteconvert\.com
+1605416659	Makyen	bulksmsdelhincr\.com
+1605416676	Makyen	workoutsforjudo\.com
+1605440532	Jeff Schaller	hmix13\.medium\.com
+1605461247	Makyen	wizard[\W_]*+charles[\W_]*+group[\W_]*+hackers(?!\.com(?<=wizardcharlesgrouphackers\.com))
+1605461265	Makyen	(?:info@)?wizardcharlesgrouphackers\.com
+1605462963	Makyen	cardr\.com
+1605463105	Makyen	(?-i:f9pOz\.gif)
+1605463130	Makyen	yenilikseninle\.com
+1605467731	Makyen	tjsport\.xyz
+1605484680	Makyen	cyberdev49(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
+1605507212	tripleee	nissanclub\.com\.vn
+1605507297	tripleee	subaruclub\.vn
+1605507374	tripleee	lifelongtechsummit\.com
+1605509706	tripleee	seosolution\.uk
+1605513153	tripleee	wblw\.uk
+1605513211	tripleee	addevice\.io
+1605515736	tripleee	jdoqocy\.com
+1605532652	tripleee	bactenormin
+1605535190	Machavity	evdeneveizmir\.com\.tr
+1605542994	tripleee	(?-i:47Bg0sV6uiw)(?# youtube)
+1605544924	tripleee	areflect\.com
+1605546593	Victor VosMottor	n166[4a]5?
+1605546649	Victor VosMottor	si55y
+1605549624	Mast	aw391loanagency(?:@gmail\.com)?
+1605552418	Mast	viptextgenerator\.com
+1605553659	tripleee	chairsaccent\.com
+1605565824	Ryan M	gapsystudio\.com
+1605593175	Ryan M	trollbridge\.info
+1605596666	Ryan M	virtualagentchat\.com
+1605596893	Ryan M	soy[\W_]*+boy
+1605597392	Ryan M	watch\Wfree(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
+1605599100	tripleee	healix
+1605599500	tripleee	(?-i:^priyanka avhad$)
+1605600006	tripleee	tobet\d*
+1605601358	tripleee	ohgood\.vn
+1605604068	tripleee	topnzcasinos\.co\.nz
+1605605048	tripleee	if-elsesolution\.com
+1605608477	Jeff Schaller	newdawnawning\.net
+1605614198	tripleee	monalikakkar\.com
+1605614222	tripleee	klantenservicebelgies\.com
+1605615664	tripleee	(?-i:soneya_pro)(?#fiverr)
+1605618519	tripleee	exlens\.in
+1605621575	Spevacus	onderstuening\.weebly\.com
+1605621595	Spevacus	angelaangie\.doodlekit\.com
+1605622709	Victor VosMottor	cowàrds?
+1605624770	tripleee	expresspros\.com
+1605625105	tripleee	(?-i:^Wesley Atwood?$)
+1605626194	tripleee	moderation team
+1605626325	Spevacus	crucialkali\.blogspot
+1605628660	tripleee	(?:[WѡᎳＷｗ](?!(?<=W)(?:ea?sley|ensley|elsley|eksley|exley)))?(?:[3€ÈÉÊËéêëĒēĔĕĖėĘĚěΕЕеᎬＥｅ](?:(?<=[WѡᎳＷｗ][3€ÈÉÊËéêëĒēĔĕĖėĘĚěΕЕеᎬＥｅ])|(?<=\\\/\\\/[3€ÈÉÊËéêëĒēĔĕĖėĘĚěΕЕеᎬＥｅ]))|e(?:(?<=[WѡᎳＷｗ]e)|(?<=\\\/\\\/e)).?)[s$ЅՏႽᏚР堠Ｓｓl1£ʟιاᏞⅬⅼＬｌ]{1,2}(?:[3€ÈÉÊËéêëĒēĔĕĖėĘĚěΕЕеᎬＥｅ]|e.?)(?:[ʏΥγуҮＹｙ]|y.?)
+1605630300	tripleee	dexsins\.com
+1605631433	tripleee	your[\W_]*+455
+1605634179	tripleee	Wesley(?<=<i>\s*Wesley)
+1605636086	tripleee	dotnetlearn\.com/fa/Article
+1605639835	Makyen	(?-i:952cd38772)(?#fiverr.com)
+1605657870	Jeff Schaller	seedfinancial\.edu\.np
+1605676978	tripleee	devtools\.cn
+1605679027	Ryan M	247manandvan\.co\.uk
+1605679044	Ryan M	fastocloud\.com
+1605681807	Ryan M	callinolondon\.com
+1605682334	Ryan M	hh\.ru/vacancy
+1605683013	Ryan M	on[\W_]*+demand[\W_]*+marketplace
+1605683203	Ryan M	arlo[\W_]*+(?:security|phone|pro|baby|camera|netgear|hub|app|login|base|integration|tech|contact|support|account)s?
+1605685456	Ryan M	drakonoved\.org
+1605692094	tripleee	callgirldelhincr\.com
+1605692423	tripleee	(?-i:^sifars$)
+1605692587	tripleee	askjosiyar\.com
+1605692695	tripleee	niniland-shop\.com
+1605692714	tripleee	nail-shop\.ir
+1605692732	tripleee	sepidehasadi\.ir
+1605692749	tripleee	chap-pasargad\.com
+1605693690	Makyen	australianopentennis2021\.com
+1605693712	Makyen	ausopen2021(?#twitter.com)
+1605693736	Makyen	1325287557450526722(?#twitter event)
+1605693755	Makyen	099fe1b8-c535-4480-87d3-b881f4cc363e(?#community.ibm.com)
+1605693773	Makyen	australianopentennis2021live
+1605693792	Makyen	user/6930895(?#peatix.com)
+1605693910	Makyen	androiddata-recovery\.com
+1605695692	Makyen	(?-i:pediaadvise)(?#sites.google.com)
+1605695709	Makyen	ketoyou
+1605695907	tripleee	ameyamarketing\.com
+1605695932	Makyen	nature[\W_]*+tonics[\W_]*+keto
+1605696832	tripleee	oduduwa(?<!(?:cheif|d(?:octo)?r)[\W_]+oduduwa)
+1605697192	tripleee	(?-i:cid\.bb534496aa95aec5)(?#skype)
+1605697282	tripleee	financeandstrategyltd(?:[\W_]*(?:at[\W_]*+)?gmail[\W_]*+(?:dot[\W_]*+)?com)?
+1605699877	Makyen	prysmsystems\.com
+1605699954	tripleee	klocrix\.com
+1605700976	Jeff Schaller	essayedge\.com
+1605701338	Victor VosMottor	blogexpert\.in
+1605705253	Machavity	plab\.co
+1605705558	Kulfy	texaslocksmithandsecurity\.com
+1605706217	Spevacus	xbul\.net
+1605708710	tripleee	samedayessay\.com
+1605708731	tripleee	eascode\.com
+1605709120	tripleee	(?-i:^excel maps$)
+1605709434	Spevacus	neverlessa1wear\.com
+1605709535	Spevacus	gyanipandit\.com
+1605717522	Makyen	top10-bestpro\.blogspot
+1605718754	Spevacus	acesincusa\.com
+1605720482	tripleee	94b9a1cb614f(?# do.co referral code)
+1605722576	Makyen	learn-game-development-with-pygame
+1605761412	tripleee	viredfinance\.com
+1605767044	tripleee	docpulse\.com
+1605771680	tripleee	zeusbtc\.com
+1605771911	tripleee	water[\W_]*+level[\W_]*+controllers?
+1605771933	tripleee	kavitha[\W_]*+ktronics
+1605772705	tripleee	apparelnbags\.com
+1605776507	tripleee	24hoursalcoholdelivery\.co\.uk
+1605777050	tripleee	netsolitsolution\.com
+1605777220	tripleee	mega888slots\.com
+1605777878	tripleee	hariompackersmovers\.com
+1605779612	tripleee	northerntaxi\.com\.au
+1605796779	Spevacus	sharesap\.com
+1605797597	Spevacus	onlineessayshelp\.co\.uk
+1605798612	tripleee	essaykeeper\.com
+1605798833	tripleee	thepestcontrolusa\.com
+1605806239	tripleee	samevaginaforever\.com
+1605809982	Mast	songslyricss\.online
+1605833380	Ryan M	chattanoogatnlawfirm\.com
+1605837831	Ryan M	bitcoinheat\.com
+1605841935	Ryan M	julydenisseortiz33\.wixsite\.com
+1605849239	Makyen	theheartsong\.in
+1605849261	Makyen	capitalbyexperion\.in
+1605849279	Makyen	experion\.co
+1605849297	Makyen	experionvirsa\.com
+1605849313	Makyen	thewesterlies\.in
+1605849336	Makyen	windchants\.in
+1605852317	Makyen	programmingshark\.com
+1605852566	Makyen	matchaslim\.org
+1605852583	Makyen	potterjimmy04
+1605852603	Makyen	(?-i:fozp/xchh)
+1605856559	Makyen	divyaescort\.com
+1605858586	Ryan M	vivomobileservicecenterinchennai\.in
+1605859138	Ryan M	UaFtxFcT_4(?# YouTube video)
+1605859953	Ryan M	mldatasciences\.com
+1605860240	Ryan M	mysolutionwellbeing\.com
+1605864105	Ryan M	leva[\W_]*+cbd
+1605874840	Jeff Schaller	srisanjeevniedu\.com
+1605884576	Spevacus	spincity-games\.com
+1605884798	Spevacus	healthgardeners\.com
+1605884817	Spevacus	crooked\.in
+1605887946	Spevacus	statybosabc\.lt
+1605902574	Jeff Schaller	crackmix\.com
+1605904559	Mast	mcleoneldispensary\.com
+1605904791	Machavity	thetechknowledge\.com
+1605924551	Cody Gray	ultra-gamers\.com
+1605936313	Ryan M	relate13\.com
+1605939113	Ryan M	pazzzy\.com
+1605939344	Ryan M	helpinhomework\.org
+1605940146	Ryan M	elinformatico\.org
+1605940268	Ryan M	autocadprojects\.com
+1605942169	Ryan M	myyellowsetup\.com
+1605942190	Ryan M	officecomsetup
+1605942238	Ryan M	nortoncomsetup
+1605942260	Ryan M	mcafeecomactivate
+1605942283	Ryan M	howinuk\.com
+1605942554	Ryan M	missrani\.com
+1605946467	Mast	avatto\.com
+1605947321	Cody Gray	infotechzone\.org
+1605947781	Mast	avatto\.in
+1605943782	Cody Gray	walespublicationsltd\.com
+1605951929	Mast	luxurycarrental\.ae
+1605955442	Cody Gray	eggheadexperts\.com
+1605958713	Ryan M	whatiswhatis\.com
+1605958749	Ryan M	tmehra1006(?:@gmail\.com)?
+1605958874	Ryan M	^(?-i:WhatisWhatis)$
+1605960773	Ryan M	novinvoip\.com
+1605964449	Mast	bolnewshelpline\.com
+1605965195	Mast	harkin\.in
+1605966607	Ryan M	solix\.com
+1605966630	Ryan M	solix[\W_]*+cloud
+1605968541	Ryan M	brillassignment
+1605981172	Makyen	cracksoftwaress\.com
+1606043145	Nisse Engström	weldinginfocenter\.com
+1606078458	Makyen	unyearbook\.un\.org
+1606078474	Makyen	iamladp\.org
+1606087705	Jeff Schaller	asadalishaukat\.com
+1606097655	Makyen	watamate\.com
+1606100921	Spevacus	crackother\.com
+1606108592	Makyen	ketogen[\W_]*+tropfen(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1606111971	Mast	chinatourstar\.com
+1606117743	tripleee	thecontentnew\.com
+1606118165	Makyen	getpostonline\.com
+1606118241	tripleee	itsolz\.com
+1606121286	Mast	advicedam(?#sites.google.com)
+1606126913	Makyen	green[\W_]*+vibration[\W_]*+keto(?:[\W_]*+(?:pills|diet|\d++|[\da-f]{5,}+)s?)*
+1606126933	Makyen	livematka\.co
+1606129173	tripleee	henryharvin\.com
+1606130909	tripleee	functioncube\.com
+1606134284	rene	yolofame\.com
+1606139158	Spevacus	j-turkey\.com
+1606149311	Spevacus	daadyab\.com
+1606174402	Makyen	mrmichealblankatmcard(?:@gmail\.com)?
+1606183993	Makyen	ridiculouslyben\.com
+1606190095	Makyen	cheatcodesweb\.com
+1606198946	Makyen	fitburn[\W_]*+keto(?:[\W_]*+(?:reviews|\d++|[\da-f]{5,}+)s?)*
+1606195710	Cody Gray	johnnythehealer\.com
+1606199662	Makyen	aktiv[\W_]*+keto(?:[\W_]*+(?:review|\d++|[\da-f]{5,}+)s?)*
+1606200750	Makyen	greekwings\.com
+1606200820	tripleee	academicswritingservice\.co\.uk
+1606202884	tripleee	gudangkomik\.com
+1606202919	tripleee	shaneperrymarketing\.com
+1606203080	tripleee	protopblogger\.com
+1606203125	tripleee	liquormasters\.com\.au
+1606206786	tripleee	bajaj[\W_]*+finance
+1606209187	tripleee	hardshell\.ae
+1606209441	Glorfindel	accountsnextgen\.com
+1606210184	tripleee	maketripusa\.com
+1606215201	tripleee	liaoxuefeng\.com
+1606221693	tripleee	travel-monke\.com
+1606221928	tripleee	bluecrane\.in
+1606222793	tripleee	homecinemaclub\.org
+1606224933	Spevacus	whitehatranker\.com
+1606235205	Jeff Schaller	getcellphonespy\.com
+1606237373	tripleee	pepipost\.com
+1606239997	tripleee	outdoorbasketballguide\.com
+1606245043	Mast	business[\W_]*+analyst[\W_]*+training
+1606271969	Ryan M	amarujalas\.com
+1606283434	tripleee	actualseomedia\.com
+1606286319	Ryan M	shrmarketing360\.com
+1606286767	Mast	hostnetindia\.com
+1606287607	tripleee	companynamegenerator\.net
+1606289376	tripleee	siamruay\.com
+1606289396	tripleee	netmatic\.ca
+1606295394	tripleee	fibroidsmiracle\.co
+1606298334	tripleee	oncredit\.vn
+1606299823	tripleee	7thheavenhomes\.com
+1606299863	tripleee	wearecodenation\.com
+1606299933	tripleee	akashdayalgroups\.com
+1606313620	tripleee	datamechanics\.co
+1606326314	tripleee	atha2015
+1606326955	Jeff Schaller	isetech\.co
+1606327575	tripleee	ketogen[\W_]*+tropfen
+1606335979	Spevacus	laptab\.com\.pk
+1606368034	Mast	illuminate0302(?:@gmail\.com)?
+1606368058	Mast	illuminatiofficial\.org
+1606372506	Cody Gray	anankafasteners\.com
+1606377861	tripleee	ixly[\W_]*+technologies
+1606377890	tripleee	dewaapprovals\.ae
+1606377968	tripleee	harpreetmahajan\.com
+1606377986	tripleee	guggy\.in
+1606378033	tripleee	startubefittings\.com
+1606378874	tripleee	vjmglobal\.com
+1606379515	tripleee	manremnhua\.net
+1606379909	tripleee	kpschome\.com
+1606380130	tripleee	belletrist\.com
+1606386839	tripleee	internationalestimating\.com
+1606390505	tripleee	smoothsolutions\.com
+1606391627	tripleee	onlinepillswww\.com
+1606397910	tripleee	anehdidunia\.com
+1606409285	tripleee	forpc\.onl
+1606409304	tripleee	jiofilocalhtml\.run
+1606409351	tripleee	trungnt53(?# github)
+1606414477	tripleee	pestemal\.com
+1606417137	tripleee	shasthokotha\.xyz
+1606439738	Makyen	(?-i:4TY5k\.png)
+1606440518	Makyen	goddayspiritualhome(?:@gmail\.com)?
+1606440570	Makyen	d(?:octo)?r[\W_]*+godday
+1606443032	Makyen	rajawaliqq\.my\.id
+1606455920	Makyen	m2activate\.co\.uk
+1606455938	Makyen	karenmintonwp\.wordpress\.com
+1606456310	Makyen	icarus96119(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
+1606456327	Makyen	cid\.495d87ed10aad322
+1606456370	tripleee	testprepkart\.com
+1606457678	tripleee	renediazphotography\.com
+1606458425	Makyen	officed+\.uk\.net
+1606458935	Makyen	mtouch[\W_]*+labs(?!\.com(?<=mtouchlabs\.com))
+1606458956	Makyen	mtouchlabs\.com
+1606459250	Makyen	jobalertclub\.com
+1606463895	tripleee	synergisticit\.com
+1606463928	tripleee	uptons\.net\.au
+1606464883	tripleee	laxminarasimhahospital\.in
+1606473203	tripleee	thegadgethelp\.com
+1606473220	tripleee	lornemarrfitafter45\.ca
+1606475542	tripleee	protigwelders\.com
+1606477967	tripleee	escalesolutions\.com
+1606478016	tripleee	aquafreshropurifier\.com
+1606480687	Mast	analaticg2(?:@gmail\.com)?
+1606483382	tripleee	(?-i:6d0NcUougD4)(#! youtube "consider the game" plagiarism post)
+1606483443	tripleee	(?-i:^taimoor khan$)
+1606483554	tripleee	apkonline\.net
+1606486443	Mast	bestonlineclasshelp\.com
+1606500226	Makyen	live-online-tvchannel\.blogspot
+1606514081	Makyen	crackpropc\.com
+1606514100	Makyen	crackpropc(?!\.com)
+1606519468	Makyen	asad[\W_]*+shaukat[\W_]*+ali(?!\.com(?<=asadshaukatali\.com))
+1606528819	Sonic the K-Day Hedgehog	cryptocoinlatest
+1606536324	Makyen	infinite[\W_]*+force[\W_]*+xl
+1606536362	Makyen	health[\W_]*+power[\W_]*+supplement
+1606538709	Makyen	kavin2john\.medium\.com
+1606542677	Makyen	pro[\W_]*+essay[\W_]*+writing[\W_]*+service(?!\.pk(?<=proessaywritingservice\.pk))
+1606542772	Makyen	exponenta-bc\.com
+1606544827	Makyen	kankusta[\W_]*+duo(?:[\W_]*+(?:slovakia|\d++|[\da-f]{5,}+)s?)*
+1606553113	Ryan M	free[\W_]*+disney[\W_]*+plus
+1606553196	Ryan M	jdailytalk
+1606562200	Mast	6dollaressay\.com
+1606562577	Mast	carzout\.com
+1606562778	Mast	spotlightmediawire
+1606563867	Mast	CocaQQ
+1606567323	Mast	springtimesoftware\.ca
+1606573895	Jeff Schaller	SaleLeads\.Net
+1606578648	Jeff Schaller	thehadilawfirm\.com
+1606583757	Mast	apksclub\.com
+1606584608	Mast	optimal[\W_]*+recovery[\W_]*+dot[\W_]*+org
+1606595643	Mast	bitdegree\.org
+1606595781	Mast	cryptominertips\.com
+1606650592	rene	playpianotips\.com
+1606661749	Mast	naijanex\.com\.ng
+1606661903	Mast	myco[\W_]*+nuker
+1606663987	Mast	gamerequirments\.com
+1606664853	Mast	studyjk\.com
+1606664887	Mast	softage\.net
+1606668906	Spevacus	sanjaykumarro\.com
+1606670637	Spevacus	inail\.vn
+1606670821	Makyen	hotro\.inail(?:@gmail\.com)?
+1606670840	Makyen	lamdepinail
+1606670858	Makyen	(?-i:UCM517t0NvYSHIHAm8J6hs-w)(?#YouTube channel)
+1606670888	Makyen	inailvn
+1606670913	Makyen	phukiennail\.tumblr\.com
+1606671193	Makyen	sigiaysenviet\.com
+1606671209	Makyen	senviet20(?:@gmail\.com)?
+1606713361	Mast	lmovers\.ae
+1606717667	Mast	hashmoon\.us
+1606718002	Makyen	poolwiseliving\.com\.au
+1606718504	Makyen	thesiswritingservices\.com\.pk
+1606718720	tripleee	ebooksearch\.top
+1606723276	tripleee	sukuto\.com
+1606726453	tripleee	amazndigital\.com
+1606727866	tripleee	centralcoastseo\.com\.au
+1606728059	tripleee	realcertificates\.com
+1606728240	tripleee	dycables\.com
+1606737010	tripleee	xtremeinjector\.com
+1606737585	tripleee	betbuilder\.com
+1606738475	Jeff Schaller	downloadwap\.com
+1606741761	Spevacus	mailtrim\.com
+1606742055	Spevacus	bloggingacademy\.net
+1606742517	Spevacus	deepakfencingwires\.com
+1606745804	tripleee	(?-i:w01QJWK1CuE)(?# youtube)
+1606746367	Spevacus	nnamegenerators\.com
+1606746675	Mast	best[\W_]*+survey[\W_]*+sites
+1606749816	Mast	sites\.google\.com\/site\/id10047100052
+1606749978	tripleee	cashflows571(?:[\W_]*+(?:at[\W_]*+)?gmail[\W_]*+(?:dot[\W_]*+)?com)?
+1606755376	tripleee	redot\.com
+1606755416	tripleee	redot_?com
+1606756698	tripleee	cmbc\.be
+1606757020	Mithical	^.{0,13}Wesley.{0,13}$
+1606757125	Victor VosMottor	Your buddy Wesley
+1606763587	Spevacus	pinjaradrama\.com
+1606770480	NobodyNada	(?-i:BR><BR(?<=<BR><BR)(?=>))
+1606784945	Jeff Schaller	yanrefitness\.com
+1606801310	tripleee	treezone\.org
+1606801331	tripleee	contentrally\.com
+1606802898	tripleee	easymovelift\.com
+1606806280	Ryan M	sreyas\.com
+1606806912	Makyen	techcrownhacker(?:@gmail\.com)?
+1606806929	Makyen	moneyguides\.in
+1606806961	Makyen	(?-i:kfkQJ\.jpg)
+1606806979	Makyen	thapgiainhietliangchi\.com
+1606806996	Makyen	(?-i:fansuriarrumi)(?#t.me)
+1606807116	Ryan M	suusoft\.com
+1606807197	Makyen	(?-i:LiNtN\.jpg)
+1606807216	Makyen	(?-i:V2rFX\.jpg)
+1606807235	Makyen	(?-i:jg7bi\.jpg)
+1606807433	Ryan M	utm_\w*+=stack\w*+
+1606808995	Ryan M	coimobile\.com
+1606811673	tripleee	huboftutorials\.com
+1606814426	tripleee	sbbth\.com
+1606814495	tripleee	autosbbth
+1606818004	tripleee	urlzs\.com
+1606818273	tripleee	fairbanksbuilders\.com
+1606818895	tripleee	saketa\.com
+1606820871	tripleee	skindex
+1606821270	tripleee	workingingermany\.de
+1606821348	tripleee	thecolourmoon\.com
+1606825939	tripleee	ykmgroup\.com
+1606827829	Machavity	my-rokcomlink\.com
+1606833878	Spevacus	kissanimeapps\.com
+1606834182	Makyen	I will not bother myself to let you know of it in advance(?#photo copyright scam)
+1606834411	Makyen	to use stolen images and it's(?#photo copyright scam)
+1606834583	Makyen	download it (?:right )?now and check this out for yourself(?#photo copyright scam)
+1606838049	Makyen	ceiwei\.com
+1606840678	tripleee	jiwandhara\.com
+1606849323	tripleee	yourdomainbritish\.xyz
+1606849341	Machavity	cutle\.co
+1606850540	Makyen	simlab-soft\.com
+1606862182	Makyen	alliedrecoverygroup(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
+1606862222	Makyen	cyber[\W_]*+gurus
+1606864007	bmike	telnum\.net
+1606873047	Makyen	jrtraders
+1606880583	Makyen	blood[\W_]*+pressure[\W_]*+911(?:[\W_]*+(?:review|phytage|lab|\d++|[\da-f]{5,}+)s?)*
+1606880599	Makyen	terrilyn[\W_]*+lillerd(?!\.wixsite\.com(?<=terrilynlillerd\.wixsite\.com))
+1606880621	Makyen	(?-i:nulavancecreme)(?#sites.google.com)
+1606880632	Makyen	terrilynlillerd\.wixsite\.com
+1606880887	Jeff Schaller	blog360\.vn
+1606892954	Cody Gray	dreambecomereality\.com
+1606894197	Ryan M	beltonengratis\.net
+1606897028	Cody Gray	mohajeryar\.company
+1606898699	tripleee	servicedealz\.com
+1606900060	Ryan M	ctiparty\.dk
+1606903804	tripleee	puzzle-jigsaw\.com
+1606906110	tripleee	ortezinfotech\.in
+1606914419	Jeff Schaller	vocal\.media
+1606914562	Jeff Schaller	countertoprefinishingbuffalony\.com
+1606914894	Machavity	beebom\.com
+1606916717	tripleee	payforessay\.net
+1606917719	tripleee	versatile[\W_]*+(?:solution|tool)[\W_]*+for[\W_]*+connecting[\W_]*+cloud[\W_]*+storage
+1606921264	tripleee	596701104(?# foursquare user id)
+1606931038	Spevacus	shopipersia\.com
+1606938958	Machavity	rgray\.io
+1606960517	Ryan M	niqqa
+1606973817	Makyen	manor[\W_]*+tower[\W_]*+lao[\W_]*+cai
+1606973836	Makyen	meeyland\.com
+1606973983	Makyen	macro-supreme-keto-44\.webselfsite\.net
+1606974081	Makyen	macro[\W_]*+supreme[\W_]*+keto(?!-44\.webselfsite\.net(?<=macro-supreme-keto-44\.webselfsite\.net))(?:[\W_]*+(?:review|\d++|[\da-f]{5,}+)s?)*
+1606978833	tripleee	facepdf\.com
+1606979779	tripleee	bestblockja\.com
+1606980607	Glorfindel	(the)?colourmo(o|n)n
+1606982377	Ryan M	UC4qpDjn1Q2FPqOUz2W7jFig(?# YouTube channel)
+1606988145	tripleee	adisafarms\.com
+1606988179	tripleee	besenior\.ir
+1606996465	tripleee	adequatetravel\.com
+1606996533	Ryan M	this is \w+ and I am an? (?:qualified|licensed|professional|certified)(?! (?:photographer|illustrator))(?# keywords in lookahead are blacklisted)
+1606997028	Ryan M	motoservicecenterinbangalore\.com
+1606998952	Makyen	helpforbank\.com
+1607007431	Spevacus	apkzoon\.com
+1607008499	Spevacus	sexgo\.in
+1607008637	Ryan M	freeaccountsgen\.com
+1607010759	A J	landandwildlife\.com
+1607016713	Spevacus	raghavdigitalmarketingbiz\.com
+1607024097	Machavity	SANGOMA\W*ABIA
+1607030534	Spevacus	touchinghearts\.com
+1607037953	NobodyNada	amlakerfan\.com
+1607041274	Makyen	farmslik\.com
+1607041298	Makyen	loudslik\.com
+1607048724	NobodyNada	sites\.google\.com/view/id\d++(?!/google/drive/file/downloads/storage)
+1607048775	Spevacus	getmonita\.io
+1607049124	NobodyNada	sites\.google\.com\S*/(?:google)?drive/(?:file/downloads/storage)?+(?<!sites\.google\.com/view/id\d++/google/drive/file/downloads/storage)(?#sites.google.com masquerading as drive.google.com)
+1607052385	Makyen	newtopfree\.com
+1607055663	Makyen	noithaticon\.vn
+1607055682	Makyen	(?-i:ol7Qd\.jpg)
+1607061550	tripleee	bincodes\.net
+1607061712	tripleee	n5setup\.co\.uk
+1607061728	tripleee	m7setup\.co\.uk
+1607061755	tripleee	mcafee\.com/activate
+1607061771	tripleee	norton\.com/setup
+1607061788	tripleee	office\.com/setup
+1607071523	Ryan M	jacquidelorenzo\.com
+1607072118	Ryan M	cesaro\.io
+1607072382	Ryan M	yuksinau\.co\.id
+1607072651	Ryan M	palmgear\.com
+1607073449	tripleee	best-tools\.shop
+1607074449	tripleee	testbanksonline\.com
+1607074507	tripleee	jhoncarter(?# publitas.com user name)
+1607074612	tripleee	thai4fit\.com
+1607074652	tripleee	blogfreely\.net
+1607074710	Ryan M	payusall\.xyz
+1607075380	tripleee	minhlongmoto\.com
+1607098717	Spevacus	dalesac\.com
+1607132154	Makyen	jeux4all\.com
+1607139674	Spevacus	andromama\.com
+1607146298	Makyen	erecerxyn(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1607155522	Makyen	academicswritingservice\.com
+1607170272	Cody Gray	smarttechguys\.com
+1607171619	Mast	senior\.ua
+1607188014	Makyen	crypto[\W_]*+scam[\W_]*+solution
+1607188029	Makyen	one[\W_]*+six[\W_]*+one[\W_]*+nine[\W_]*+three[\W_]*+twenty[\W_]*+five[\W_]*+seven[\W_]*+one[\W_]*+four
+1607193288	Spevacus	fitnessadviser\.in
+1607193701	Spevacus	(?-i:SVF6eaT5kNQ)(?#youtu.be)
+1607201166	Makyen	shaukatkhanum\.org\.pk
+1607202505	Glorfindel	torontoflora
+1607237395	Makyen	thepornsitelists\.com
+1607246430	Mast	whiteisreal577(?:@gmail\.com)?
+1607269852	Cody Gray	thetechnicalmaster\.com
+1607275457	Makyen	digimarketing\.tech
+1607278846	Machavity	citeeasy\.com
+1607282857	Zoe	mxtakatak\.com
+1607282938	Zoe	easypresale\.com
+1607285125	Spevacus	(?-i:bMOT_wlYlso)(?#Youtube)
+1607285579	Spevacus	daamazeonline\.com
+1607297385	Spevacus	slot-online\.eu\.org
+1607308093	Spevacus	batdongsan\.kiengiang\.vn
+1607308845	Spevacus	iget4free\.com
+1607319755	Makyen	tony[\W_]*+hawk[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:review|and|where|to|buy|\d++|[\da-f]{5,}+)s?)*
+1607322737	Makyen	remedy[\W_]*+leaf[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1607324732	Makyen	doodem\.io
+1607325511	Makyen	supplementscare\.co\.za
+1607325551	Makyen	dr\.olorunvoodoos(?:@yahoo\.com)?
+1607325567	Makyen	onlinebestnet\.com
+1607326711	Makyen	(?-i:0r59qSWPH1g)(?#youtu.be)
+1607326796	Makyen	(?-i:CVrcNFPn5n7AjDAho2TvtP)(?#chat.whatsapp.com)
+1607326814	Makyen	aap[\W_]*+sab[\W_]*+hamari
+1607326972	Makyen	(?-i:w5poez)(?#rb.gy)
+1607331066	tripleee	jennycasino\.com
+1607331091	tripleee	os-system\.com
+1607331570	Ryan M	harga(?!(?:[^<]|<(?!\/?code>))*+<\/code>)
+1607339243	Glorfindel	greatinnovus\.com
+1607339742	tripleee	sociallegy\.com
+1607339832	tripleee	soundbarscan\.com
+1607345580	Jeff Schaller	fragyonlinestore\.com
+1607345966	Jeff Schaller	xactivators\.com
+1607348099	tripleee	postindustria\.com
+1607348240	Zoe	1word4pics\.com
+1607348257	Spevacus	gosmartagro\.com
+1607348686	tripleee	jemrare\.com
+1607350744	tripleee	(?-i:1Ky5Yr)(?# fiverr)
+1607352398	Zoe	com\.blink\.flashlight\.controller\.b\.c\.moto\.flash\.app
+1607356119	Spevacus	reviewerguides\.com
+1607356689	Spevacus	govschemes\.in
+1607357957	Spevacus	niveshmarket\.com
+1607359002	Zoe	trexgames\.co
+1607364792	Machavity	mindgems\.com
+1607366294	Spevacus	horoscopelovemoney\.com
+1607370719	Spevacus	niknesh\.ir
+1607392458	Ryan M	(?-i:^Mel$)
+1607392479	Ryan M	howtofixit\.net
+1607400778	Spevacus	deltacoupon\.com
+1607404139	Cody Gray	projectarticle\.com
+1607413301	tripleee	(?-i:37J52tN)(?# bit.ly)
+1607413354	tripleee	madanswer\.com
+1607416821	tripleee	(?-i:3n8JLAh)(?# bit.ly)
+1607420004	Makyen	pennysaviour\.com
+1607420100	Makyen	nefoundations\.com
+1607421553	Jeff Schaller	crave\.menu
+1607432904	Spevacus	clippingpathview\.com
+1607433283	Spevacus	aerocityincall\.com
+1607433392	Spevacus	studentsofeconomics\.com
+1607434261	Spevacus	gplonly\.com
+1607434434	Zoe	bazinga\.ae
+1607434885	Spevacus	ucc\.com
+1607435392	Spevacus	thepublicmantra\.com
+1607436498	Jeff Schaller	giga-bits\.com
+1607439106	Spevacus	ftp-mac\.com
+1607440891	Zoe	h[0oøuüôöõ][l1][t7]\W*j[4aåà]cks[0oøuüôöõ]n
+1607441280	Zoe	sh[0oøuüôöõ]g{2,}9
+1607443656	Zoe	y(?:[0oøuüôöõ]{2}|[3eé]+)\W*kn[0oøuüôöõ]w\W*wh[0oøuüôöõ]'?\W*i?s?\W*(?:\_?/\W*|w)+r[1i]t[1i]ng?\W*it
+1607444254	Zoe	(?:\\_?/\W*|w)+[\.\W]*(?:[eé3]+\W*(?:[s5]\W*[l1]\W*|[l1]\W*[s5]\W*)+[eé3]\W*.?|.*[a@]t?(?:\\_?/\W*|w)*\W*[0oøuüôöõ]{2}\W*d)+
+1607446410	Spevacus	pornmonde\.com
+1607456635	Spevacus	fontspool\.com
+1607494145	tripleee	hydromaxcaj\.com
+1607495317	Makyen	(?-i:yW3GNz)(?#fiverr.com)
+1607498886	Ryan M	californiamediauae\.com
+1607501026	Ryan M	makemkv\.net
+1607501063	Ryan M	onlinevoicerecorder\.net
+1607501189	Ryan M	freeapkpro\.com
+1607501319	tripleee	homes247\.in
+1607501919	tripleee	usalocksmithinc\.com
+1607504835	Zoe	captchas\.io
+1607513617	tripleee	bookmyflightticket\.com
+1607513801	tripleee	vitaitexpert\.com
+1607514918	tripleee	cpprinter\.com
+1607521034	tripleee	apkdownloadhunt\.com
+1607523688	tripleee	belvg\.de
+1607526549	Spevacus	lemeilleurschoix\.com
+1607531601	Spevacus	if\W*+you\W*+don't\W*+(?:get\W*+rid\W*+of|remove|delete)\W*+the\W*+images\W*+mentioned
+1607535433	Makyen	123hp-setupus\.com
+1607535656	Spevacus	victoriamilan\.dk
+1607536778	Makyen	com\.seds\.tyrnik
+1607536797	Makyen	kach\.pro
+1607541056	Mast	residentadvisor\.net
+1607541559	Spevacus	cordic-bibliography\.blogspot
+1607541578	Spevacus	baykov\.de
+1607543329	Spevacus	webhostingschoice\.com
+1607544095	Spevacus	mobileshippo\.com
+1607550309	Makyen	lucrativehoodd\.com
+1607550370	cigien	mybestrobotvacuum\.com
+1607555694	cigien	kennethhome\.com\.au
+1607560308	Spevacus	mercatoday\.com
+1607570361	Makyen	proskills[\W_]*+edushala(?!\.com(?<=proskillsedushala\.com))
+1607570378	Makyen	proskillsedushala\.com
+1607570398	Makyen	cybershield[\W_]*+technologies(?:[\W_]*+(?:pvt|ltd|\d++|[\da-f]{5,}+)s?)*
+1607577827	Mast	borellisecuritysoftware\.com
+1607579962	cigien	contentbestonline\.com
+1607580858	tripleee	kodlogs\.com
+1607581784	Makyen	verywellweightloss\.com
+1607583379	Makyen	energy[\W_]*+saver[\W_]*+pro
+1607584638	Makyen	gymmanufacturersindia\.com
+1607585155	rene	maps123\.net
+1607586008	tripleee	try\s*+to\s*+explore\s*+the\s*+new\s*+"(?:<a\s*+href="https://docs.microsoft.com/en-us/answers/[^"]*+"\s*+rel="[^"]*+">)?Microsoft\s*+Q&A
+1607587796	tripleee	dubaimachines\.com
+1607592719	tripleee	exceed-team\.com
+1607592737	tripleee	globaldezigns\.com
+1607595922	tripleee	rajwadafarms\.com
+1607596728	tripleee	socialflydigital\.com
+1607599067	Makyen	green[\W_]*+estates[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:order|review|\d++|[\da-f]{5,}+)s?)*
+1607606281	tripleee	dasidime\.in
+1607607922	Spevacus	ijset\.in
+1607625499	Spevacus	slamdunkmarketing\.com
+1607629297	Spevacus	sattarpro\.com
+1607630365	cigien	pakseoservices\.com
+1607653435	cigien	titiktok\.com
+1607664174	tripleee	alsafarahservices\.com
+1607664191	tripleee	alsafarah[\W_]*+services(?!\.com)
+1607666954	Makyen	dominx(?:[\W_]*+(?:enhancement|male|review|\d++|[\da-f]{5,}+)s?)*
+1607665843	cigien	routerwebaid\.com
+1607668139	tripleee	bitcoinbarcodegenerator\.com
+1607668288	tripleee	disujarock2312(?:[\W_]*+(?:at[\W_]*+)?gmail(?:dot[\W_]*+)?com)?
+1607671458	cigien	jbimmigration\.com
+1607681345	cigien	alfarajioil\.com
+1607683271	tripleee	shriramsproperties\.com
+1607683306	tripleee	prestige-pinewood\.com
+1607685637	cigien	7searchppc\.com
+1607691221	cigien	filesrecoverytools\.com
+1607696398	Spevacus	(?-i:^Joy Miller$)
+1607698691	cigien	wikitechproducts\.com
+1607705951	cigien	dailyexcel\.net
+1607710859	cigien	masterarts\.net
+1607712231	Spevacus	biancamiele\.com
+1607723463	Mast	mediafanavari\.ir
+1607724943	Mast	bestofficeschair\.com
+1607750840	Makyen	medterra(?:[\W_]*+(?:oil|cbd|muscle|review|\d++|[\da-f]{5,}+)s?)*
+1607751919	Makyen	shridharuniversity\.ac\.in
+1607754088	Cody Gray	techpeat\.com
+1607764967	cigien	wikibiofacts\.com
+1607765105	Cody Gray	kredibankalar\.com
+1607765923	Cody Gray	digitalmarketers\.biz
+1607771178	cigien	mayoornoida\.net
+1607777229	Mast	nutrigolabreviews\.com
+1607783662	Mast	sktrainings\.com
+1607788654	Mast	heil\Whitler
+1607799721	Mast	samcovina\.vn
+1607799864	Mast	richardprycewizard7(?:@gmail\.com)?
+1607801283	Mast	(?-i:^Innovation Discoveries$)
+1607782254	cigien	randmcnallygpsupdates\.com
+1607781646	cigien	wearebeginner\.com
+1607781522	cigien	dreamzacademy\.com
+1607778193	cigien	saffyjewels\.com
+1607823223	Machavity	superiorabs\.org
+1607851314	Cody Gray	bloggingnavigation\.com
+1607858054	Jeff Schaller	alltinomteknik
+1607858075	Jeff Schaller	everythingabouttech
+1607858779	Makyen	airco2ntroller
+1607859305	Yatin	thebestpaintballgun\.info
+1607870102	Jeff Schaller	lordbubuzamiraclework
+1607870683	cigien	lord bubuza
+1607877843	Jeff Schaller	malaysiasocialmediamarketing\.com
+1607871854	cigien	banlampra\.ac\.th
+1607879301	cigien	drwazobiatemple
+1607873454	cigien	gamecarddelivery\.com
+1607896901	Makyen	directfbhelps(?:[\W_]*+(?:at[\W_]*+)?outlook(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
+1607896923	Makyen	officialhelpfb(?:@gmail\.com)?
+1607920328	Ryan M	thepolykids\.com
+1607921787	cigien	solitairespider\.co
+1607924612	cigien	biz1\.co\.il
+1607926755	Ryan M	bestessayshelp\.co\.uk
+1607927185	tripleee	inoxsteelindia\.net
+1607927216	Ryan M	writemyessaysuk\.co\.uk
+1607928494	tripleee	247camerahelp\.com
+1607928672	Ryan M	^.{0,30}your (?:mother|mom).{0,30}$
+1607929214	Ryan M	twexpresscars\.co\.uk
+1607930600	tripleee	eyesight[\W_]*+max
+1607930623	tripleee	nananke\.com
+1607930765	tripleee	iron[\W_]*+slim(?:[\W_]*+(?:keto|diet))*
+1607934056	tripleee	thaoduocducthinh\.com
+1607934515	tripleee	evidya\.in
+1607935062	tripleee	koyowater\.com
+1607935431	tripleee	tophindigyan\.in
+1607935482	Yatin	healthytubes\.com
+1607938406	tripleee	tool-rocket\.com
+1607943945	tripleee	mondaymorningmediaquarterback\.com
+1607943985	tripleee	swilearn\.com
+1607944226	tripleee	(?-i:^Drew Stelward$)
+1607944969	tripleee	gomediiinternational\.com
+1607946282	tripleee	perfectus1\.com
+1607946310	tripleee	bestdslrcamera\.net
+1607946766	tripleee	omahcake\.com
+1607950461	Yatin	zeftacademy\.com
+1607951173	tripleee	(?-i:NWRrwo)(?# fiverr.com)
+1607951224	tripleee	seorigan(?# fiverr.com)
+1607953537	tripleee	(?-i:^nini land$)
+1607954246	tripleee	fligrab\.com
+1607956440	Spevacus	sonmuhur\.com
+1607971453	Makyen	theclw\.in
+1607982732	Jeff Schaller	securecapitalsolutions\.com
+1607986325	Makyen	(?-i:3a0CWcZ)(?#bit.ly)
+1607986448	Makyen	bythebuyers(?!\.com(?<=bythebuyers\.com))(?:@gmail\.com)?
+1607986464	Makyen	bythebuyers\.com
+1608003620	cigien	eyellowiki\.com
+1608005104	Yatin	2kmtcentral\.com
+1608015668	Makyen	mandime[\W_]*+harde(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1608015722	tripleee	newspiner\.com
+1608017911	Makyen	mizzy[\W_]*+(?:reviews|price)(?:[\W_]*+(?:in|india|\d++|[\da-f]{5,}+)s?)*
+1608017829	cigien	healthywellness\.in
+1608019851	cigien	nowgoal3\.com
+1608023055	tripleee	mithrascribing\.com
+1608024398	tripleee	drywalljacksonvillefl\.com
+1608024728	tripleee	proboosting\.net
+1608029975	tripleee	ocbf\.co\.uk
+1608031907	tripleee	pharma[\W_]*+bloom(?:[\W_]*+cbd)?
+1608032449	tripleee	l2e-global\.com
+1608034063	Ryan M	appsquadz\.com
+1608042497	Spevacus	menshairstyleslist\.com
+1608049059	tripleee	whatwebcando\.today
+1608049653	Mast	bestbeardtrimmer2021\.com
+1608050435	tripleee	(?-i:kavin2john)(?# medium.com)
+1608059795	tripleee	emmamaria66\.com
+1608071317	Spevacus	cheap-cigarettes\.co
+1608094458	tripleee	garnersupply\.com
+1608096082	tripleee	nvchemicals\.com\.au
+1608098178	tripleee	cestin\.net
+1608098259	tripleee	192routerlogin\.com
+1608099037	cigien	helpsyahoo\.com
+1608100249	tripleee	magespider\.com
+1608100269	tripleee	magespider(?!\.com)
+1608105215	Glorfindel	^Fji\sA$
+1608107542	tripleee	oflox\.com
+1608108451	tripleee	vasundharavision\.com
+1608108479	tripleee	rogws\.com
+1608112528	tripleee	milkbaby\.com\.au
+1608112941	Jeff Schaller	naturalketodiets\.com
+1608114618	tripleee	govtjobpost\.in
+1608114737	tripleee	govtjob(?!(?:kb|s(?:assam|post|rch))\.com|alertindia)
+1608120337	tripleee	sweifel\.com
+1608126430	tripleee	equestriadaily\.com
+1608130009	tripleee	blocksdk\.com
+1608137020	tripleee	b4x\.com
+1608144219	tripleee	satta-matka\.net
+1608144237	tripleee	sattamatka\.es
+1608151925	Makyen	drobhohomesolution(?:@gmail\.com)?
+1608173585	Machavity	arrows-hobby\.net
+1608173645	Machavity	phonesurgeons\.co\.nz
+1608188167	tripleee	gamutgurus\.com
+1608186709	cigien	pasukkanreseller\.com
+1608190957	cigien	httprouterasus\.com
+1608016402	cigien	blueappleimports\.com
+1608016422	cigien	sonarajewelry\.com
+1608088971	cigien	irenderfarm\.net
+1608089032	cigien	app\.gpuhub\.net
+1608198488	tripleee	financeworld\.io
+1608198883	cigien	rhythmtravel2000\.com
+1608207347	tripleee	(?-i:G7r54P4Oukk1Rf1343WhnP)(?# whatsapp group chat)
+1608208516	tripleee	youracademicwriter\.com
+1608211237	tripleee	freetestiq\.com
+1608211655	tripleee	followersanalysis\.com
+1608219032	Spevacus	statisticsassignmentexperts\.com
+1608226580	Spevacus	youradultworld\.com
+1608238840	cigien	scrumlotus\.com
+1608238356	cigien	vajica\.com
+1608245914	cigien	dicksonharryblankatmharckers(?:@gmail\.com)?
+1608256040	Makyen	kangdandi\.com
+1608259333	Makyen	(?-i:PXn2xET5W54)(?#YouTube)
+1608265014	Yatin	mekleid\.com
+1608266977	tripleee	codexdindia
+1608269188	tripleee	office-product-activate\.com
+1608269206	tripleee	msofficesquad\.com
+1608269227	tripleee	office-setup-com\.us
+1608269245	tripleee	office-comm-setup\.com
+1608271211	Makyen	(?-i:styphdxfirolreviews)(?#sites.google.com)
+1608272854	Cody Gray	soft365setup\.com
+1608275639	Makyen	homebuildmortgage\.com
+1608276882	Makyen	healing[\W_]*+green[\W_]*+cbd(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608276908	Makyen	ceremony[\W_]*+cbd(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608276918	Makyen	mark[\W_]*+levin[\W_]*+cbd(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608276929	Makyen	canadian[\W_]*+extracts[\W_]*+hemp(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608276945	Makyen	anderson[\W_]*+cooper[\W_]*+cbd(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608276957	Makyen	organic[\W_]*+recover[\W_]*+cbd(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608276970	Makyen	tommy[\W_]*+chong[\W_]*+cbd(?:[\W_]*+(?:store|oil|review|order|hemp|buy|online|\d++|[\da-f]{5,}+)s?)*
+1608271956	cigien	hnewyear\.com
+1608274631	cigien	ez2kmt\.com
+1608279490	cigien	(?-i:GFYGtlSY1yY)(?#YouTube)
+1608279553	cigien	(?-i:e5f1sAk889g)(?#YouTube)
+1608279809	tripleee	techsciresearch\.com
+1608280546	tripleee	gingerdomain\.com
+1608286403	tripleee	skillseducationacademy\.com
+1608286833	tripleee	g︆︆︆︆g\.︆︆︆︆gg
+1608286854	tripleee	niztl(?# gg.gg redirect)
+1608287545	Glorfindel	l︆︆s︆t\.︆︆︆to
+1608287853	Cody Gray	zsport-shop\.ir
+1608288107	tripleee	yomck(?# lst.to redirect)
+1608288321	tripleee	mywifiiextnet\.com
+1608288489	tripleee	sattaking-sattaking\.com
+1608290170	tripleee	9o93789l42
+1608290189	tripleee	musician[\W_]*+choice
+1608291030	tripleee	allinstoreindia\.blogspot\.com
+1608291817	tripleee	customwritingservice\.com
+1608295148	tripleee	imoneyslots\.com
+1608295166	tripleee	jpost\.com
+1608296157	tripleee	todaykhoe\.com
+1608298479	tripleee	nivessa\.com
+1608281975	Cody Gray	proarticlepost\.com
+1608316705	cigien	hopper-express\.com
+1608327728	cigien	releasethehounds\.ca
+1608331150	Makyen	(?-i:QNK6KW8)
+1608332713	Makyen	(?-i:P5GT)(?<=\bv︆︆\.ht/P5GT)
+1608335184	cigien	hackperfectlord(?:@gmail\.com)?
+1608345743	cigien	kiperline\.com
+1608352828	Makyen	lija\.akter
+1608356287	Makyen	androcharge(?:[\W_]*+(?:enhancement|male|pills|official|muscle|\d++|[\da-f]{5,}+)s?)*
+1608367647	Makyen	alex[\W_]*+trebek[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:review|\d++|[\da-f]{5,}+)s?)*
+1608367658	Makyen	hemp[\W_]*+max[\W_]*+lab[\W_]*+cbd[\W_]*+gummies(?:[\W_]*+(?:body|pain|canada|\d++|[\da-f]{5,}+)s?)*
+1608368865	Makyen	eigenfruit\.nl
+1608376481	Yatin	wikiengage\.com
+1608375025	Yatin	papislot\.com
+1608373926	Cody Gray	bongda360\.org
+1608364735	Cody Gray	instantpotreview\.us
+1608370598	Cody Gray	premiumqualityevents\.com
+1608370623	Cody Gray	eventplannersinflorida\.blogspot\.com
+1608381262	Jeff Schaller	TracyInste
+1608388412	Jeff Schaller	robinbuckler
+1608388792	Cody Gray	medyaankara\.com
+1608388801	Cody Gray	gdmedya\.net
+1608393023	cigien	knowledgetweak\.com
+1608411924	cigien	spbo\.news
+1608345949	cigien	wminecraft\.net
+1608382908	Yatin	customroms\.in
+1608416129	Spevacus	neptune\.ai\/blog
+1608437373	Spevacus	freefitdiet\.com
+1608439956	Spevacus	chanbuz\.com
+1608449211	cigien	kiit\.ac\.in
+1608479528	cigien	avrilklia\.com
+1608490204	cigien	bigdata-world\.net
+1608445220	cigien	quotesforfriend\.com
+1608489759	cigien	zivoke\.com
+1608490483	Spevacus	bitcoinrecoverlord(?:@gmail\.com)?
+1608513173	cigien	veriforma\.com
+1608528420	Makyen	com\.rs\.indira(?#play.google.com)
+1608528438	Makyen	indira[\W_]*+securities
+1608528548	tripleee	trade[\W_]*+insta
+1608530333	tripleee	perfectdatasolutions\.com
+1608531520	tripleee	advancetech\.co\.in
+1608531560	tripleee	advance[\W_]*+tech(?!\.co\.in)
+1608533493	Makyen	mike[\W_]*+wolfe[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1608543880	tripleee	viagrawholesaler\.com
+1608543914	tripleee	specfurn\.com\.au
+1608545011	cigien	nidmjayanagar\.com
+1608545804	cigien	yotonos\.com
+1608546979	tripleee	weidert\.com
+1608549616	cigien	digitalearn\.in
+1608551164	cigien	ledp\.ictd\.gov\.bd
+1608552240	tripleee	(?-i:yaHcanOBCMY)(?# youtube)
+1608552408	tripleee	software[\W_]*+study
+1608555399	Zoe	socialprawn\.com
+1608557889	tripleee	drypython
+1608559999	Spevacus	prmtyms\.com
+1608564703	Spevacus	maxstrength\.net
+1608565778	Spevacus	procustombox\.com
+1608567009	Jeff Schaller	desmondthesongwriter\.com
+1608567322	Jeff Schaller	North York Roofing Team
+1608568269	Spevacus	mysewings\.com
+1608569005	Ollie	rmol\.co
+1608569194	Jeff Schaller	geniuzmedia\.com
+1608570137	Spevacus	zenwebnet\.com
+1608575069	Makyen	(?-i:fdjJn\.jpg)
+1608577823	Spevacus	aedaero\.com
+1608581087	Ryan M	ttok\.online
+1608584670	Spevacus	33rapfemp3\.com
+1608596550	Makyen	(?-i:^TREND TOP$)
+1608604888	ppwater	(?i)kala(\s*)jadu(?-i:).*
+1608591356	Sonic the Curiouser Hedgehog	doctoranytime\.mx
+1608616605	tripleee	pornsitepost\.com
+1608617608	Ryan M	cliowebsites\.com
+1608617953	tripleee	zebravo\.com
+1608618990	Cody Gray	topgiftsreview\.com
+1608621887	Cody Gray	soyentrepreneur\.com
+1608623407	tripleee	alternate\.parts
+1608624977	tripleee	employcoder\.com
+1608626872	tripleee	topvoucherscode\.co\.uk
+1608630068	Cody Gray	topcookman\.angelfire\.com
+1608632936	Cody Gray	softenica\.com
+1608633717	Yatin	arabfish\.net
+1608634708	tripleee	yellow[\W_]*+xanax
+1608635237	tripleee	goodrxpharma\.com
+1608635223	Cody Gray	sonneriepro\.com
+1608635409	tripleee	fitskinstore\.com
+1608636047	tripleee	stzgists\.com
+1608639987	Ryan M	up4growth\.com
+1608642632	Jeff Schaller	Treatassignmenthelp
+1608642936	Jeff Schaller	biocardin-cijena\.launchrock\.com
+1608643050	Jeff Schaller	BioCardin
+1608643260	Jeff Schaller	tractordir\.com
+1608644002	Yatin	gbskw\.com
+1608645188	Yatin	kupper-mounts\.myshopify\.com
+1608645137	Yatin	KupperMounts\.com
+1608645258	tripleee	zealousweb\.com
+1608647022	Spevacus	niftyplaza\.com
+1608650238	cigien	crackclick\.com
+1608650973	cigien	amakosz(?:@gmail\.com)?
+1608661033	Zoe	&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#119;&#119;&#119;&#46;&#112;&#111;&#114;&#110;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#101;&#109;&#98;&#101;&#100;&#47;&#49;&#55;&#51;&#48;&#49;&#51;&#54;&#51;&#50;&#48;
+1608662043	Zoe	iuuqt;00xxx/qpsoivc/dpn0fncfe02841247431
+1608663658	Spevacus	poschcare\.com
+1608663891	Zoe	𝓦𝓮𝓼𝓵𝓮𝔂\W*𝓐𝓽𝔀𝓸+𝓭
+1608668926	Ryan M	(?-i:BLOGIC)
+1608669643	Ryan M	bluehost\.com/track
+1608684010	Sonic the Curiouser Hedgehog	aisakya\.in
+1608688475	Spevacus	[\s.>]*➤➤+\W*
+1608688502	Spevacus	[\s.>]*★★+\W*
+1608688890	Spevacus	[\s.>]*❤❤+\W*
+1608697965	Ryan M	peak[\W_]*+surge
+1608698563	Ryan M	casinotructuyen\.vn
+1608701718	Ryan M	AZ-104 exam
+1608703962	tripleee	badshahstatushindi\.blogspot\.com
+1608393569	cigien	phillip-kruger\.com
+1608707106	cigien	pillsdaddy\.com
+1608707568	tripleee	digidir\.com
+1608711024	Glorfindel	knifesgeek\.com
+1608711582	tripleee	amoyshare\.com
+1608711983	tripleee	(?-i: nkn41)(?# gg.gg redirect)
+1608714297	tripleee	akshartours\.us
+1608714794	tripleee	crackdj\.com
+1608716667	Glorfindel	ArmandaVape
+1608718264	Cody Gray	albertgonzalezwizard@gmail\.com
+1608719545	tripleee	bp[\W_]*+zone
+1608723528	tripleee	caseconverter\.us
+1608727545	Victor VosMottor	podklyuchitinternet\.ru
+1608734593	Zoe	bridgecitycabinetry\.ca
+1608736870	Cody Gray	keylok\.com
+1608742041	Cody Gray	learncsharpythoncheap\.blogspot\.com
+1608744613	Ollie	felezmall\.com
+1608745902	Spevacus	axiomprint\.com
+1608754963	Spevacus	khalabanemoshaver\.ir
+1608785912	Makyen	m[\W_]*+o[\W_]*+n[\W_]*+e[\W_]*+y[\W_]*+r[\W_]*+e[\W_]*+c[\W_]*+o[\W_]*+v[\W_]*+e[\W_]*+r[\W_]*+y[\W_]*+0[\W_]*+0[\W_]*+1[\W_]*+(?:a[\W_]*+t[\W_]*+)?s[\W_]*+o[\W_]*+l[\W_]*+u[\W_]*+t[\W_]*+i[\W_]*+o[\W_]*+n[\W_]*+4[\W_]*+u[\W_]*+(?:d[\W_]*+o[\W_]*+t[\W_]*+)?c[\W_]*+o[\W_]*+m(?#obfuscated moneyrecovery001@solution4u.com)
+1608786684	Makyen	trustableshop\.com
+1608792556	cigien	sneed4speed\.com
+1608809367	Glorfindel	wifisecureaccess\.com
+1608809383	Glorfindel	homewifisecureaccess\.blogspot\.com
+1608808923	Cody Gray	cifiyah\.com
+1608811977	Jeff Schaller	eShop code(s)?
+1608807489	Yatin	gothicattitude\.com
+1608787272	cigien	maxim9\.com
+1608788740	cigien	votrecollierphoto\.fr
+1608795273	cigien	uaevisaonline\.com
+1608798927	Cody Gray	dreamcast\.in
+1608807151	Yatin	31west\.net
+1608814784	ppwater	[\s.>]*\(｡❤‿❤｡\)+\W*
+1608745057	Victor VosMottor	𝚆𝚎𝚜𝚕𝚎𝚢 𝙰𝚝𝚠𝚘𝚘𝚍
+1608817298	Spevacus	sexyadultdirectory\.com
+1608819126	Spevacus	nowpayments\.io
+1608827323	Makyen	sachpak\.org
+1608830675	Makyen	converteu\.com
+1608831166	Yatin	netgearsetup\.com
+1608832973	Makyen	mobitsoultions\.com
+1608832990	Makyen	mobit[\W_]*+soultions(?!\.com(?<=mobitsoultions\.com))
+1608856492	Makyen	onobunwinhome(?:@gmail\.com)?
+1608884543	Nisse Engström	vietnamtransformer\.com
+1608885509	rene	vanmfc\.net
+1608919608	Makyen	bestprinterhelp\.com
+1608921264	Mast	newmeaccelerator\.com
+1608921312	Mast	(?-i:^newmeaccelerator site$)
+1608922593	Makyen	laravelwithfirebase\.blogspot
+1608871003	cigien	taxitaisaigon\.vn
+1608949828	Makyen	ectipakistan\.com
+1608952165	Makyen	casino-topseom\.com
+1608980627	Yatin	thepennsyl\.com
+1608981447	Yatin	10tv\.in
+1608985233	ppwater	https://sites\.google\.com/view/.*\-oil\-.*
+1608984399	ppwater	sites\.google\.com/view/acidaburn\-.+
+1608966260	cigien	(?-i:fZ2YjmNrSnU)(?#youtube)
+1608986525	Zoe	hindigalaxy0077\.blogspot\.
+1608986573	ppwater	www\.fita\.in
+1608961393	cigien	kingsfirmware\.com
+1608952808	cigien	(?:^Big Dick$)
+1608866906	cigien	crunchytricks\.com
+1608987933	Zoe	sound-buttons\.com
+1609001319	cigien	pornpics\.com
+1609011739	cigien	bong365\.asia
+1609025170	Makyen	dr\.carrollee(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
+1609031202	Makyen	kickoffbet789\.com
+1609032406	Jeff Schaller	groupdocs\.com
+1609056424	ppwater	minecraftskins\.store
+1609057009	ppwater	yismxplusc\.blogspot\.com
+1609043682	ppwater	govtjobs\.com\.pk
+1609052236	Cody Gray	appsdeveloperchennai\.com
+1609055873	ppwater	4th\.co\.in
+1609056499	ppwater	aboutfitnesssuggestions\.co\.uk
+1609056719	ppwater	absafter40order\.com
+1609057842	ppwater	aaryashree\.in
+1609057947	ppwater	aarsunwoods\.com
+1609058302	ppwater	advertisingflux\.com
+1609058226	ppwater	acoffeeground\.com
+1609070644	Mast	keepflick\.com
+1609072021	Mast	(?-i:^PeytonCam$)
+1609074702	Zoe	manolito19651968@gmail\.com
+1609075486	ppwater	24x7supplement\.com
+1609082516	Jeff Schaller	softwaresfun\.com
+1609089382	Makyen	samirabhaskar\.com
+1609089789	Makyen	jihosoft\.com
+1609088523	cigien	helloinstru\.com
+1609095803	Ollie	fatelossidea\.blogspot
+1609102479	Makyen	\w{4,6}</p>$(?<=︆\w*/\w{4,6}</p>$)(?#Contains a non-printing character)
+1609105298	Makyen	(?-i:q7mck)
+1609105315	Makyen	(?-i:6jmck)
+1609122951	Spevacus	pixelsauce\.co
+1609124080	Makyen	makeupformelaningirls\.com
+1609127834	cigien	pso2ah\.com
+1609126493	cigien	extremefliers\.com
+1609131365	Sonic the Curiouser Hedgehog	bizboostup\.com
+1609135144	Ryan M	renhotecic
+1609136614	Ryan M	muhammadqasimawan12(?:@gmail\.com)?
+1609141482	tripleee	createtaxibookingapp\.com
+1609142182	tripleee	crackmypc\.com
+1609142502	tripleee	circuitvpn\.com
+1609149937	tripleee	repeatertplink\.net
+1609150367	tripleee	appicsoftwares\.com
+1609128769	cigien	(?-i:^Joshrichards78$)
+1609151004	Zoe	printerofflinetech\.com
+1609152322	tripleee	(?-i:^James krock$)
+1609156183	tripleee	theweedlink\.com
+1609156395	tripleee	mssionline\.com
+1609156717	tripleee	letsmakeiteasy\.tech
+1609163447	Makyen	tekclue\.com
+1609164589	Spevacus	blog\.checkio\.org
+1609166846	Spevacus	grademiners\.com
+1609180703	Ollie	greenleafair\.com
+1609181694	Yatin	okcrack\.com
+1609188435	Spevacus	rivierebyfraser\.com
+1609188452	Spevacus	hyllonholland-showflat\.com
+1609188476	Spevacus	florencesresidences-condo\.com
+1609188498	Spevacus	the-woodleighsresidences\.com
+1609188405	Yatin	theparcsclematis-condo\.com
+1609188425	Yatin	theclavons-condo\.com
+1609190487	Makyen	avenuesouth-residence-showflat\.com
+1609195439	cigien	ugift529\.com
+1609188360	Yatin	thetreasureattampines\.com
+1609174925	Victor VosMottor	becky\W*hudson
+1609198466	cigien	mundopajaros\.com
+1609200155	cigien	alpinols\.com
+1609206037	cigien	oxygenmag\.com
+1609207606	cigien	sliding-glass-door-repair-pros\.com
+1609211584	cigien	alpinols\.ch
+1609221465	tripleee	weixin_\d+(?# https://blog.csdn.net/)
+1609223627	cigien	groupxit\.com
+1609228458	Mast	(?-i:^SabrineSinglee$)
+1609228753	tripleee	kutt\.it
+1609228777	tripleee	(?-i:UqsfGy)(?# kutt.it redirect)
+1609228618	cigien	(?-i:fMdEm)(?# bit.do)
+1609228818	tripleee	antier[\W_]*+solutions
+1609205400	cigien	beseductiv\.com
+1609197646	cigien	quierounapagina\.com
+1609204594	cigien	africastalking\.com
+1609230880	tripleee	appdevelopmenttexas\.net
+1609235534	Ryan M	^(?-i:Pe Pl)$
+1609238063	tripleee	clickspeeder\.com
+1609239488	Ryan M	9jabeatz\.com
+1609243024	tripleee	airprint\.us
+1609255163	Spevacus	dinhcongcanh272(?:@gmail\.com)?
+1609255866	Spevacus	gamesapkworld\.com
+1609262106	Mast	ajinomoto\.com(?!\.hk)
+1609272246	Makyen	thepawdynasty\.com
+1609272264	Makyen	the[\W_]*+paw[\W_]*+dynasty(?!\.com(?<=thepawdynasty\.com))
+1609295032	Ryan M	boranebb\.medium\.com
+1609298893	Makyen	guelphfamilydentistry\.ca
+1609305076	cigien	adultfunlist\.com
+1609301973	cigien	thecafeacademy\.com
+1609286043	ppwater	nplink\.net
+1609305838	ppwater	hungthinhfnt\.com
+1609306659	tripleee	(?-i:^himanshi03$)
+1609308741	tripleee	industechie\.com
+1609308359	cigien	mamawata85(?:@gmail\.com)?
+1609308584	cigien	windowserrortool\.com
+1609310888	Makyen	stayhome2safelife
+1609310911	Makyen	dll-box\.com
+1609312753	Makyen	amarose(?:[\W_]*+(?:boosting|moisturizer|\d++|[\da-f]{5,}+)s?)*
+1609312772	Makyen	lumostat(?:[\W_]*+(?:cream|\d++|[\da-f]{5,}+)s?)*
+1609312785	Makyen	tincture[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1609312800	Makyen	lester[\W_]*+holt[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1609312827	Makyen	hydracort(?:[\W_]*+(?:serum|united|kingdom|uk|\d++|[\da-f]{5,}+)s?)*
+1609314413	cigien	softwareunplugged\.com
+1609313746	cigien	martechlive\.com
+1609315539	Cody Gray	lootahperfumes\.ae
+1609318641	Cody Gray	otherwhatsapp\.com
+1609320279	tripleee	syren\.vip
+1609320295	tripleee	officefurniture\.center
+1609320314	ppwater	dazhuo\.ir
+1609310677	cigien	ipsky-tech\.com
+1609312112	cigien	lambangnhanh\.com
+1609312213	Yatin	imdp\.us
+1609322655	cigien	easymb\.xyz
+1609324236	cigien	freshfarmcbd\.com
+1609328451	tripleee	com\.opula
+1609328424	Yatin	opulasoft\.com
+1609330266	Cody Gray	cometinsure\.com
+1609332053	Mast	rtlfixer\.com
+1609340015	Spevacus	walkingfactory\.com
+1609347046	Machavity	thealashraf\.com
+1609347433	Makyen	ghaniassociate\.com
+1609362913	Spevacus	faisalabadshop\.com
+1609365354	Ollie	skillsoniq\.com
+1609386130	Ryan M	machinelearninginhindi\.in
+1609390607	Makyen	martweb\.in
+1609394159	cigien	nyc-movers-packers\.blogspot
+1609397768	Ryan M	fiverr\.com(?=/\w++(?!(?:[^<]|<(?!\/?code>))*+<\/code>)|$)
+1609398352	tripleee	nordic[\W_]*+oil(?:[\W_]*+cbd)?(?:[\W_]*+oi?l)?\d*+
+1609401979	Mast	(?-i:^SK Trainings$)
+1609403513	Makyen	domin[\W_]*+xt(?:[\W_]*+(?:pill|order|official|\d++|[\da-f]{5,}+)s?)*
+1609404905	tripleee	moduleszone\.com
+1609404823	ppwater	greatlivings\.com
+1609405333	ppwater	bkinds\.in
+1609401824	Cody Gray	Hugsangeloveden
+1609406861	ppwater	dreamworkphotography\.com
+1609407136	tripleee	amarine\.store
+1609413703	Ryan M	firmwareflashfiles\.com
+1609416788	Jeff Schaller	betavare\.com
+1609417960	tripleee	partclone\.org
+1609420533	ppwater	trademarkterminal\.com
+1609421527	Spevacus	netligy\.com
+1609425301	Glorfindel	pointpay\.io
+1609436204	Jeff Schaller	linuxways\.net
+1609436560	cigien	pureapkmod\.com
+1609438045	Spevacus	liamsophia39(?:@gmail\.com)?
+1609443192	Spevacus	tokyvideo\.com
+1609443169	cigien	movieimdbfilm\.blogspot
+1609448607	cigien	xdarom\.com
+1609459572	cigien	nb-agency\.com
+1609468282	Makyen	paulwigmore\.co\.uk
+1609472940	cigien	siapmadrasah\.blogspot
+1609487429	cigien	apkguru\.net
+1609487272	cigien	myofferstowinforsure\.blogspot
+1609488466	cigien	androidoyun-club\.com
+1609490862	cigien	suriainternational\.com
+1609493184	cigien	theangeltrust\.com
+1609498629	Cody Gray	7aref\.com
+1609501062	cigien	fixedfootballbets\.com
+1609552142	cigien	wifisecureaccess2\.blogspot
+1609555525	Spevacus	wikilogy\.com
+1609559249	Makyen	g[\W_]++mail[\W_]++com
+1609562647	Spevacus	learninghub\.guru
+1609564642	Makyen	bdezonia
+1609564659	Makyen	zorbage
+1609567266	Makyen	optmum[\W_]*+blaze(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1609567347	Makyen	healthstoresnowrev\.wixsite\.com
+1609567367	Makyen	thunder[\W_]*+rock[\W_]*+rx
+1609570593	Makyen	divatrim[\W_]*+keto(?:[\W_]*+(?:canada|ca|review|benefit|buy|customer|pill|diet|\d++|[\da-f]{5,}+)s?)*
+1609607130	Makyen	mgplus\.basebit\.net
+1609607146	Makyen	(?-i:yrxoe\.jpg)
+1609588756	Cody Gray	uk-international\.com
+1609572946	cigien	drbacti\.com
+1609574770	cigien	studentspdf\.com
+1609578208	cigien	myseodr\.com
+1609484519	ppwater	cheapskatesguide\.org
+1609620246	Spevacus	genietrvx\.com
+1609675343	cigien	elaent\.com
+1609687604	Andrew T.	minerev\.com
+1609671803	cigien	codenblog\.com
+1609668302	cigien	coffeewithmagento\.in
+1609652684	Yatin	happyeventday\.com
+1609656551	cigien	(?-i:SuperfasteasyAirdrop)(?#t.me)
+1609653443	ppwater	5starprocessing\.com
+1609651777	cigien	aarbit\.com
+1609694719	Spevacus	besttoasterovenguides\.com
+1609695632	Spevacus	cethosting\.com
+1609715325	cigien	viennamusicus\.com
+1609728392	Makyen	saigongreenland\.vn
+1609729592	Spevacus	engsci\.utoronto\.ca
+1609733512	cigien	gnvacademy\.com
+1609572731	cigien	(?-i:_cBOBJ2z9LA)(?#youtu.be)
+1609739815	tripleee	webviotechnologies\.com
+1609741340	tripleee	createadatingapp\.com
+1609741384	tripleee	developapplike\.com
+1609743797	cigien	tekconsultants\.club
+1609744137	cigien	worldescortshub\.com
+1609746752	cigien	koldkraft\.com
+1609748375	ppwater	theoneshotketo\.com
+1609749469	cigien	(?-i:XStBqNmqlcQ)(?#youtu.be)
+1609754741	tripleee	regoo\.com
+1609754911	tripleee	freefireguru\.in
+1609756744	tripleee	adeenaskitchen\.co\.uk
+1609757436	tripleee	busywinsoftware\.in
+1609762645	tripleee	web[\W_]*+hostech
+1609765618	Spevacus	softwaredeveloperspro\.com
+1609771797	Spevacus	pak-poetry\.com
+1609774916	Spevacus	techohalic\.com
+1609777022	Spevacus	theappsolutions\.com
+1609778365	Spevacus	nationalcapex\.com
+1609779771	Ollie	hindimatka\.com
+1609782563	Spevacus	jmarquesdatabeyond\.medium
+1609793842	Spevacus	cybersecuritylawsrc\.com
+1609800298	cigien	cirsy\.com
+1609803698	cigien	inspireglobalsolutions\.com
+1609805966	Spevacus	kamiikk2869(?:@yahoo\.com)?
+1609828080	ppwater	(?-i:lEljmD3jODM)(?#youtu\.be)
+1609814677	cigien	comixie\.com
+1609829255	tripleee	agilarasu100(?:[\W_]*+(?:at[\W_]*+)?gmail[\W_]*+(?:dot[\W_]*+)?com)?
+1609829286	tripleee	qtreetechnologies\.in
+1609833343	tripleee	decagon[\W_]*+scaffolding
+1609833382	tripleee	arforms[\W_]*+lite
+1609842456	tripleee	dollarexcel\.com
+1609842575	tripleee	fotislaw\.com
+1609842802	tripleee	surabooks\.com
+1609845914	cigien	thewebfactory\.us
+1609845460	cigien	pinoyflixteleserye\.su
+1609847141	cigien	thejumblesolver\.com
+1609848225	cigien	optimum[\W_]*+blaze(?:[\W_]*+(?:order|buy|official|\d++|[\da-f]{5,}+)s?)*
+1609848799	cigien	faraitfusion\.com
+1609851974	Spevacus	ababeelmoversuae\.com
+1609852029	tripleee	zuariinfra\.com
+1609852047	cigien	thekeyup\.com
+1609852311	cigien	eurekaws\.com
+1609852974	rene	app\.carve\.finance
+1609852992	rene	biofarm\.app
+1609854230	cigien	snapseedforpcguide\.co
+1609855221	tripleee	bestsmarttvsinindia\.in
+1609861087	Yatin	rohitking\.com
+1609861211	Spevacus	karabantech\.com
+1609862699	Spevacus	superplasts\.com
+1609866102	Ollie	cenforceinfo\.com
+1609866946	Zoe	snugnights\.co\.uk
+1609868803	Mast	att688\.com
+1609868892	Spevacus	(like|drives|local)[\W_]*+CloudMounter(?:[\W_*]+drives)?[\W_*]+(which|including|that[\W_*]+includes)
+1609868820	Ollie	abhiarts\.in
+1609877396	Spevacus	onlineduplicatebills\.com
+1609879066	Spevacus	(?-i:2nPzn)(?#jpst.it)
+1609879740	Spevacus	coachellasbestdates\.com
+1609893769	Makyen	sauronhealingsorcerer(?:@(?:gmail|hotmail)\.com)?
+1609918995	Cody Gray	yourlifeforless\.com
+1609919762	Cody Gray	couponcodify\.com
+1609921007	Cody Gray	utterbug\.com
+1609929455	cigien	maktrick\.com
+1609926331	cigien	webinfomatrix\.com
+1609925194	cigien	whitelabelmarketplace\.co\.uk
+1609916965	cigien	sumitron\.com
+1609910701	cigien	xttblog\.com
+1609910333	cigien	technews786\.com
+1609916154	cigien	(?-i:T2QnSad1GGc)(?#youtu.be)
+1609940181	Spevacus	androidsharks\.com
+1609940219	Spevacus	ocanalytica\.com
+1609949582	Mast	lucid[\W_]*+[\W_]*+shield[\W_]*+reviews?
+1609950056	Spevacus	casinowonderland\.net
+1609954626	Spevacus	bestlovestatus\.net
+1609957355	Makyen	instamerchanthelp(?:@gmail\.com)?
+1609958949	Makyen	whiteladykirtan
+1609961166	Makyen	cracksz\.com
+1609961725	cigien	918kissvault\.com
+1609971569	cigien	britishcouncil\.idp(?:@yahoo\.com)?
+1609971952	Makyen	pmpexamquestions
+1609971980	Makyen	d(?:octo)?r[\W_]*+emwanta(?:@gmail\.com)?
+1609973205	Makyen	global[\W_]*+kos
+1609976197	cigien	meeradatascience\.wordpress\.com
+1609985144	Makyen	kredoll\.com
+1609998586	cigien	gotarticle\.com
+1609901335	cigien	(?-i:Lz1Fcv2k6RI)(?#youtu.be)
+1609915210	cigien	canna[\W_]*+organic[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1609916446	cigien	kristen[\W_]*+bell[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1609916583	cigien	cbd[\W_]*+turmeric[\W_]*+canada(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1609985676	cigien	bitcoinsv\.com
+1609990233	cigien	(?:info@)?haochee\.com
+1609993387	cigien	eagleapk\.com
+1609993779	cigien	batdongsanviet247\.net
+1609994000	cigien	zengliyang\.wordpress
+1609996426	cigien	theinspirespy\.com
+1609999732	tripleee	contact-customer-service\.net
+1609997107	cigien	boulder[\W_]*+farms[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1609994202	cigien	motherboardinfo\.com
+1610000630	cigien	duck[\W_]*+dynasty[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:official|store|\d++|[\da-f]{5,}+)s?)*
+1610003036	tripleee	jiomarts\.xyz
+1610008386	tripleee	getlove-vipladies1\.com
+1610008778	cigien	(?-i:cWxWXhC6494)(?#youtu.be)
+1610008841	cigien	allproductreview\.org
+1610012947	tripleee	(?i:^Joanna Leslie Paragas$)
+1610013165	tripleee	dbmci\.com
+1610014410	tripleee	themotorbiker\.com
+1610017186	tripleee	router-help\.com
+1610020283	cigien	freejobnaukri\.info
+1610021823	tripleee	miptvservices\.com
+1610022178	tripleee	isoftzone\.com
+1610022198	tripleee	yoappstore\.com
+1610023559	cigien	mylaptopvan\.com
+1610025215	tripleee	assignmenttask\.com
+1610028404	Spevacus	justinder\.com
+1610021498	cigien	bestespressomachine2021\.com
+1610030544	Spevacus	esaleknives\.com
+1610042098	Ollie	gmcouncil\.weebly\.com
+1610044529	Spevacus	nullpk\.com
+1610044758	Ollie	worldwidebestofficechairs\.com
+1610045738	10 Rep says get vaccinated	planetduct\.com
+1610054940	Spevacus	hardgreenshop\.com
+1610070573	Spevacus	portraitaustralia\.com
+1610076852	Spevacus	quantageeks\.in
+1610084545	Makyen	organic[\W_]*+relief[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610084595	Makyen	mobilerepairingcourses\.com
+1610084923	tripleee	thủ tục thành lập
+1610085028	tripleee	công ty luật
+1610087361	Makyen	sattaking-satta-king\.com
+1610087753	Makyen	nidmindia\.in
+1610087783	Makyen	astrologyswami\.com
+1610087828	Makyen	keto[\W_]*+wave(?:[\W_]*+(?:store|official|\d++|[\da-f]{5,}+)s?)*
+1610091482	Makyen	gurusattaking\.com
+1610091723	Makyen	chinnica\.net
+1610092061	tripleee	scholarlywriteups\.com
+1610092271	Makyen	eleburic\.com
+1610093388	tripleee	[?&]utm_campaign=
+1610093435	tripleee	lcntercume\.com
+1610094918	Makyen	stag[\W_]*+performance[\W_]*+testosterone[\W_]*+booster(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610096107	Makyen	mbbs[\W_]*+in[\W_]*+georgia
+1610097555	Makyen	(?-i:nomikhan153)(?#fiverr.com)
+1610099289	cigien	northern[\W_]*+sense[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610099442	cigien	shaip\.com
+1610039984	Ian Campbell	backlinkn\.com
+1610061107	Ollie	en\.uoa\.gr
+1610061129	Ollie	dirac\.ch
+1610100847	cigien	encyl\.offerstrack\.net
+1610074762	ppwater	[\s.>]*😍😍+\W*
+1610101787	tripleee	mediablindspot\.com
+1610102705	cigien	theomegacode\.com
+1610103570	cigien	muthooth\.finance(?:@gmail\.com)?
+1610106790	cigien	blockchaindownload\.store
+1610107011	cigien	pharmaceuticalpharma\.com
+1610108238	cigien	olive-route\.in
+1610107930	cigien	(?:SALES@)?CHEAPDRUGSFORSALE\.COM
+1610110682	tripleee	amitmusic\.in
+1610111980	Glorfindel	powerfulsight\.com
+1610125086	Ollie	getphotoblanket\.com\.au
+1610125932	Makyen	bestmassagechair\.us
+1610126489	10 Rep says get vaccinated	smartslix\.com
+1610135530	10 Rep says get vaccinated	aliskanlik\.com
+1610105488	cigien	aliganz\.com
+1610106956	cigien	wikibit\.cc
+1610130950	cigien	(?-i:54ywfFZJ0TY)(?#youtube)
+1610130982	cigien	(?-i:l0-Yx0XQHYI)(?#youtube)
+1610155669	cigien	d4rkshop\.com
+1610158137	cigien	live:d4rkshop(?#Skype)
+1610175521	cigien	myfreelancerbook\.com
+1610178272	Makyen	peppermint[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1610182149	cigien	drrachnadubey\.com
+1610183544	Mast	activatev1\.co\.uk
+1610183580	Mast	wabroot\.citywikia\.com
+1610184010	Mast	ooffiice-setup\.com
+1610174136	cigien	filltofull\.com
+1610184475	Mast	fpspoint\.com
+1610186580	cigien	ijstartcanonx\.com
+1610198842	Cody Gray	nextbrain\.ca
+1610202102	Jeff Schaller	digigrains\.com
+1610195543	Cody Gray	learning\.itexperttraining\.com
+1610208886	Makyen	d(?:octo)?r[\W_]*+zabaza
+1610217567	Spevacus	atlasmountainbike\.com
+1610223714	Glorfindel	linuxbubble\.in
+1610224308	Makyen	ligabet24\.renderforestsites\.com
+1610224326	Makyen	ligabet24(?!\.renderforestsites\.com)
+1610243305	cigien	lookmovie\.io
+1610249971	Makyen	534823bf3cf6ed948e2b7ec4bf1c12db665bc71dd0d8fe710fe8eae01eebaa65
+1610250935	Spevacus	oklifecare\.com
+1610262648	Makyen	rell\.com
+1610262663	Makyen	wakeupnow(?:@yahoo\.com)?
+1610267168	cigien	logicindia\.net
+1610267671	cigien	androidalexa\.com
+1610267700	cigien	techriki\.tech
+1610268446	cigien	projectstoreroom\.com
+1610273984	cigien	hardwarebee\.com
+1610276295	cigien	(?-i:ejz58ph)(?#cutt.ly)
+1610151778	cigien	dynamictonality\.com
+1610153643	Ollie	rastafarianreggae\.com
+1610241591	cigien	sashwindowspecialist\.com
+1610251684	cigien	freefillsponsorOK35977145(?:@gmail\.com)?
+1610251769	cigien	(?-i:gcmA5hsZudw)(?#youtu.be)
+1610251842	cigien	(?-i:tFmLw0ZuDMw)(?#youtu.be)
+1610252234	cigien	(?-i:PLpiOBVqzbzV3RtUp7s7J39-eH-blSV1DL)(?#youtube playlist)
+1610293533	rene	thelatestnewsnow\.com
+1610293687	Glorfindel	mesheble\.com
+1610299267	Makyen	i-hate\.retarded-people\.online
+1610301726	Makyen	(?-i:w5Kur\.png)
+1610306713	Spevacus	indoleads\.com
+1610338316	Makyen	nycmoverspackers\.com
+1610344353	tripleee	com\.hotvpn
+1610344369	tripleee	ufo_vpn
+1610342532	cigien	samptelenergy\.com
+1610338349	Yatin	thuoctaydactri\.com
+1610246442	cigien	natur(?:e|al)[\W_]*+relief[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610345397	tripleee	zigya\.com
+1610345730	Makyen	wedgatematrimony\.com
+1610347140	tripleee	topz\.edu\.vn
+1610348440	cigien	examsaway\.com
+1610350383	cigien	martha[\W_]*+stewart[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610352995	cigien	talib\.pk
+1610357678	tripleee	(?-i:02a4070af0)(?# fiverr)
+1610364165	tripleee	chinapcbsmt\.com
+1610359303	cigien	ringtonesfans\.com
+1610363172	cigien	invatechs\.com
+1610361409	cigien	phoenix\.selise\.ch
+1610360442	cigien	full4kmovies\.com
+1610360184	cigien	frontenderguy(?<=medium\.com/@frontenderguy)
+1610359979	cigien	agrobloggers\.com
+1610365856	cigien	sattachart\.co
+1610367491	cigien	internet-marketing\.company
+1610368429	cigien	sibinfotech\.com
+1610370316	tripleee	worknector\.de
+1610370086	cigien	worldsdecor\.in
+1610374764	cigien	neboshvspmp\.blogspot
+1610370465	cigien	(?:a\.brnic@)?worknector\.com
+1610377228	cigien	air1\.xyz
+1610378622	cigien	phongkhamdakhoabienhoa\.webflow\.io
+1610382445	cigien	randomharvest\.co\.za
+1610383935	cigien	blogmeyeucon\.com
+1610386659	Yatin	codefencers\.com
+1610387384	Ollie	malesensepro\.com
+1610388167	Spevacus	trainingbusinessanalyst\.com
+1610390233	rene	innervisionsbooks\.com
+1610393185	Spevacus	247sports\.com
+1610410617	cigien	exnp\.com
+1610408922	cigien	architecture-rendering\.com
+1610384875	cigien	anandkerai12345\.wixsite\.com
+1610384471	cigien	kanthchandra543\.medium\.com
+1610420184	Spevacus	topwellwrite\.com
+1610431705	tripleee	mit[\W_]*+to[\W_]*+pink
+1610431723	tripleee	noithathttl
+1610434681	Makyen	rejuv[\W_]*+boost[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610434750	tripleee	surveyz\.onl
+1610378875	cigien	PMP Exam Questions(?#Skype-ID)
+1610412741	cigien	repas[\W_]*+keto(?:[\W_]*+(?:review|\d++|[\da-f]{5,}+)s?)*
+1610424006	Yatin	iowndolphins\.xyz
+1610387506	Yatin	audd\.io
+1610436359	Cody Gray	securiumsolutions\.com
+1610437340	Glorfindel	autofun\.co\.th
+1610437648	Cody Gray	rmcedu\.com
+1610437707	Cody Gray	pcbmake\.com
+1610439505	tripleee	bizzoelife\.com
+1610443035	cigien	brilliance[\W_]*+new[\W_]*+skin(?:[\W_]*+(?:cream|ca|\d++|[\da-f]{5,}+)s?)*
+1610443088	cigien	(?-i:xOKDRRqXTeY)(?#youtu.be)
+1610443258	cigien	greg[\W_]*+gutfeld[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610446095	tripleee	pcloudy\.com
+1610446974	cigien	wearableworld\.co
+1610448064	tripleee	center42\.tech
+1610448998	cigien	(?-i:iMz9YkDbQ)(?#fb.me/e)
+1610449151	cigien	ksachospitals\.com
+1610452362	Yatin	courseafter12th\.com
+1610453634	tripleee	nextideatech\.com
+1610453652	tripleee	innovationm\.com
+1610454165	tripleee	dummyevm\.com
+1610457523	cigien	tetra[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610462155	cigien	moodle_task(?:@litdps\.de)?
+1610469749	Spevacus	freelancetechnique\.com
+1610474062	Ollie	goldbee\.com
+1610476129	Spevacus	mayweathervspul\.com
+1610480366	Spevacus	scraperapi\.com\/pricing
+1610483288	Spevacus	anycard\.games
+1610486201	cigien	keepfitspot\.com
+1610488049	cigien	besttabletsguide\.com
+1610488563	cigien	sadik-dev\.medium\.com
+1610510238	cigien	museumfacts\.co\.uk
+1610511974	cigien	typingspeedtestonline\.com
+1610514371	cigien	(?-i:QgKrg5Q6b5rLWa7GA)(?#forms.gle)
+1610514488	cigien	warrior[\W_]*+keto(?:[\W_]*+(?:canada|\d++|[\da-f]{5,}+)s?)*
+1610518148	cigien	bill[\W_]*+maher[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:tincture|\d++|[\da-f]{5,}+)s?)*
+1610523348	tripleee	worlddata\.ai
+1610526623	cigien	solvermax\.com
+1610527841	cigien	torch[\W_]*+keto(?:[\W_]*+(?:diet|\d++|[\da-f]{5,}+)s?)*
+1610529025	Ryan M	requestum\.com
+1610531685	cigien	potentlift\.com
+1610535490	tripleee	workmanship\.in
+1610536834	Ryan M	houseoffaiza\.co\.uk
+1610536874	Ryan M	cigatisolutions\.com
+1610539534	Ryan M	electionmaterials\.in
+1610549601	Spevacus	nextgenapk\.com
+1610555165	Spevacus	(?-i:cid\.71ec9df2e36c0365)(?#Skype)
+1610560146	Ollie	thesnowdaypredictor\.com
+1610561126	Spevacus	brandedmobile\.in
+1610564548	Spevacus	outdoorbasketballhub\.com
+1610570638	cigien	marketplace\.digitalocean\.com
+1610573345	Spevacus	paternityusa\.com
+1610587687	cigien	billspk\.com
+1610588120	cigien	blitzz\.io
+1610600489	ppwater	aspiresoftwareconsultancy\.com
+1610601072	cigien	vakiltop\.com
+1610602429	ppwater	fingerskilz\.tv
+1610603015	cigien	salesforceninjacom\.wordpress
+1610606553	tripleee	homepetusa\.com
+1610606608	tripleee	(?-i:69fU72GxTuA)(?# youtube)
+1610606771	tripleee	mw[\W_]*+tech
+1610607205	tripleee	international[\W_]*+panaacea
+1610607480	cigien	daisy[\W_]*+may[\W_]*+cooper[\W_]*+keto(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1610607663	cigien	mf[\W_]*+doom[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610609336	Yatin	dienmayhoanglien\.vn
+1610609767	Cody Gray	(?-i:q5yxIzs5Wug)(?#youtube)
+1610611021	tripleee	h[oó]a[\W_]*+ch[aấ]t[\W_]*+r[uử]a[\W_]*+xe
+1610611193	tripleee	sabscars\.co\.uk
+1610611212	tripleee	sabscars(?!\.co\.uk)
+1610612890	tripleee	(?-i:XXgVgbTXJQQ)(?# youtube)
+1610614039	tripleee	(?-i:NQFwDWD8hiM)(?# youtube)
+1610614117	tripleee	(?-i:PLC1cQ5P4I84lQz4GsJyWlOm57qmg8GGRz)(?# youtube)
+1610614154	tripleee	(?-i:NoOMnx-fylE)(?# youtube)
+1610614177	cigien	(?-i:IBNgJQ6PhcM)(?#youtube)
+1610614294	cigien	top10gadgets\.shop
+1610616180	cigien	climbingreviewed\.com
+1610618045	Ryan M	manibhadrafittings\.com
+1610618726	cigien	akaimetal\.com
+1610620749	cigien	golaunche\.com
+1610622623	cigien	lyte[\W_]*+advanced[\W_]*+keto[\W_]*+pills(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1610626910	cigien	bestairpurifier2021\.com
+1610627268	cigien	siddiqui\.tak(?:@gmail\.com)?
+1610634102	Spevacus	bulkdevices\.co\.uk
+1610636776	Spevacus	smartwatchguru\.com
+1610648807	Ollie	kiltsclothing\.com
+1610649170	tripleee	mbs88\.net
+1610644085	Ollie	pauzmauz\.com
+1610649417	tripleee	nedrochi\.com
+1610649471	tripleee	osproductkey\.com
+1610651288	tripleee	tipsonunix\.com
+1610654301	tripleee	adultlove\.life
+1610655106	Victor VosMottor	цыпоче?к[иа]?
+1610661323	cigien	(?-i:CDqhfyHPOXU)(?#youtube)
+1610661726	cigien	improv\.mx
+1610663436	cigien	esolem-production\.com
+1610663467	cigien	esolem-production(?!\.com)
+1610671277	cigien	clippingpathfix\.com
+1610692844	cigien	prismleadindia\.in
+1610694208	cigien	humboldt[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610695283	tripleee	uptodrivers\.com
+1610695459	cigien	free-btc\.biz
+1610695627	cigien	finddeviceinfo\.com
+1610697148	tripleee	recursivearts\.com
+1610700034	Yatin	thesuperarticle\.com
+1610701108	cigien	gearsireview\.com
+1610704085	cigien	walkertimonthy(?<=medium\.com/@walkertimonthy)
+1610705567	cigien	drbest\.in
+1610706484	Glorfindel	Encore\W+DT
+1610708829	cigien	firsthealth24x7\.com
+1610709477	Yatin	fresnowebdesign\.net
+1610710008	Yatin	surveytoearn\.us
+1610711502	tripleee	netrack
+1610717218	Spevacus	swbeautybar\.ch
+1610717298	Spevacus	passfixer\.com
+1610717336	Spevacus	v2nwork\.com
+1610717510	Spevacus	pall-review\.com
+1610724548	Spevacus	classicgeneratorpower\.com
+1610749102	Spevacus	courses\.bangimo\.com
+1610749629	Spevacus	montegobayphotographer\.com
+1610749651	Spevacus	livelimerecords\.com
+1610762465	cigien	(?-i:GermanAizek)(?#github)
+1610774659	Makyen	ultra[\W_]*+x[\W_]*+boost(?:[\W_]*+(?:supplement|diet|\d++|[\da-f]{5,}+)s?)*
+1610779877	ppwater	gwmdoor\.com
+1610780497	Nisse Engström	smee\.io
+1610780652	cigien	photographyarticle\.com
+1610780590	ppwater	ConstantinMariusNedelcu499(?:@gmail\.com)?
+1610781547	ppwater	(?-i:cashappgiftcardgive)(?#bit.ly)
+1610784111	cigien	gameexp\.com
+1610782950	ppwater	buysellads\.com
+1610784593	cigien	(?-i:423NMSN1-DY)(?#youtube)
+1610784839	Cody Gray	raykujoe@gmail\.com
+1610784905	Cody Gray	카톡dia49
+1610785349	Cody Gray	fashiontiy\.com
+1610789163	cigien	norman[\W_]*+reedus[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1610790036	Cody Gray	havecamerawilltravel\.com
+1610792216	cigien	jeevangupta\.com
+1610793162	cigien	bestdehumidifier2021\.com
+1610794309	cigien	baexamresult\.in
+1610795153	Cody Gray	ghosting\.ge
+1610802916	Cody Gray	pivoi\.com
+1610804830	cigien	packagenamechecker\.com
+1610805959	Cody Gray	how-to-auto-verify-otp-in-flutter-with\.html
+1610806579	cigien	technovichar\.com
+1610806946	cigien	biowellnessx[\W_]*+cbd[\W_]*+gummies(?:[\W_]*+(?:review|\d++|[\da-f]{5,}+)s?)*
+1610826064	Makyen	philtrat\.org
+1610845263	Jeff Schaller	allreviewsmarket\.com
+1610852790	cigien	globalsms\.io
+1610864455	Yatin	randomapk\.com
+1610864793	Cody Gray	T\.Robinson0225(?:@gmail\.com)?
+1610868746	cigien	t4tutorials\.com
+1610878110	Cody Gray	teknolojio\.com\.tr
+1610880826	Cody Gray	swiftlymoveable\.com
+1610883653	cigien	verifiedcouponcode\.com
+1610905197	Yatin	erectiledyfunction\.com
+1610905558	Yatin	centauriinsurance\.com
+1610907079	Mast	playit\.app
+1610907204	Mast	myauktion\.at
+1610918577	Makyen	bookingreservationforvisa\.com
+1610924455	Makyen	thechurchofdevil(?:@gmail\.com)?
+1610928430	Makyen	georgbednorzhackers(?:@gmail\.com)?
+1610890855	Yatin	golfclubsadvisor\.com
+1610934505	cigien	techmasterdesign\.com
+1610934524	cigien	com\.gamezauk\.ballzvsbricks(?#play.google.com)
+1610935616	cigien	parrot-coder\.com
+1610945051	cigien	debtsupportservice\.co\.uk
+1610945935	Yatin	teachmehow\.net
+1610949081	Yatin	livegovjob\.com
+1610949928	Yatin	mritsolution\.net
+1610949954	Yatin	plcpasswordunlocksoftware\.com
+1610951448	Yatin	myfitnessweb\.com
+1610952705	cigien	symbolsname\.com
+1610953049	Yatin	uklivestreaming\.blogspot
+1610951824	Yatin	iroidtechnologies\.com
+1610954165	cigien	ten[\W_]*+acres[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1610954328	Yatin	reiolo\.sitey\.me
+1610954989	cigien	geehii[\W_]*+keto(?:[\W_]*+(?:pill|review|\d++|[\da-f]{5,}+)s?)*
+1610954941	Yatin	roohanielaj\.com
+1610961636	cigien	router-setting\.com
+1610962588	Yatin	itssoftservice\.com
+1610965332	Yatin	flotillaiot\.com
+1610966540	tripleee	tamilactressescorts\.com
+1610972354	tripleee	namazbooks\.blogspot
+1610972384	tripleee	daroodsharifpaak\.blogspot
+1610972409	tripleee	namazejanaza\.blogspot
+1610969401	Yatin	himcom\.in
+1610962530	Yatin	axel@reddle\.de
+1610968314	Yatin	fortunesoftit\.com
+1610968860	Yatin	talentshiksha\.com
+1610973786	tripleee	(?-i:3umRHBou0HE)(?# youtube)
+1610976311	cigien	onlinechat247\.org
+1610976638	Spevacus	scamdoctor\.org
+1610977551	cigien	mevsim\.org
+1610978542	cigien	anwalt-zuerich\.attorney
+1610978560	cigien	wittib-law\.ch
+1610982759	cigien	(?-i:BTJ3qyYnetfxjHyJA)(?#forms.gle)
+1610982865	cigien	(?-i:playfulpetdesign)(?#facebook.com)
+1610996738	cigien	pjrlancermedia\.wixsite\.com
+1610998379	Ollie	ijam3ana\.com
+1611009739	Cody Gray	wuzzuf\.net
+1611009761	Cody Gray	asadshaukat
+1611013087	cigien	doctor_?ogbetemple(?:@gmail\.com)?
+1611013911	cigien	besdocumentservice\.com
+1611019132	cigien	samomijie635(?:@gmail\.com)?
+1611031640	cigien	(?-i:3sCXT7S)(?#bit.ly)
+1611031658	Makyen	tunepat(?!\.com)
+1611033571	cigien	maujitrip\.com
+1611033591	cigien	maujitrip(?!\.com)
+1611035864	tripleee	apnews\.com/press-release/kisspr
+1611038961	cigien	humboldts[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1611040444	cigien	instantreviewsguide\.com
+1611041216	tripleee	customerservicehelp-number\.net
+1611041989	cigien	qualityenergy\.com\.au
+1611042677	cigien	mfluxuryfurniture\.co\.uk
+1611043408	tripleee	resizeimage\.io
+1611046494	Makyen	cbslim(?:[\W_]*+(?:de|deutschland|germany|\d++|[\da-f]{5,}+)s?)*
+1611048009	cigien	a2zairportparking\.co\.uk
+1611049857	cigien	clothingandsale\.com
+1611050816	cigien	centralparksohna\.com
+1611051376	cigien	kaniktools(?:@gmail\.com)?
+1611051579	cigien	(?-i:3p1uFxo)(?#bit.ly)
+1611053441	cigien	speckpro\.com
+1611054229	tripleee	tespoin\.com
+1611056293	tripleee	6wresearch(?!\.com|(?-i:(?<=6Wresearch) Market Intelligence$))
+1611058685	tripleee	lasmarthome\.com
+1611060615	Yatin	mhapks\.com
+1611062815	tripleee	(?-i:ejPzhSb)(?# cutt.ly)
+1611081484	Makyen	(?-i:bc1qwahws0jcyhglc2z9zf7cj8thvlarmmd6gnj2vl)
+1611081506	Makyen	(?-i:qr7w0k22t6sc0st5s5p025p8he80mzhgnsus89ydzf)
+1611081528	Makyen	0x9D8Fe0E31a6C85B6E31dEd4145d3bE6407358cc2
+1611081546	Makyen	(?-i:rGJ6MYN1q7DUrWPkL6dp1EjajuYyKJSCqm)
+1611081569	Makyen	(?-i:ASNPWHRZ2RY66)
+1611081426	Yatin	byn@protonmail\.com
+1611082343	Spevacus	drivernvehiclelicensing\.com
+1611084579	Spevacus	livetheorangelife\.me
+1611094862	Makyen	(?-i:yeasirshohag)(?#fiverr.com)
+1611097318	cigien	legalwiser\.in
+1611097556	cigien	drogunsnya(?:@gmail\.com)?
+1611098238	cigien	enochpreciousadeboye\.medium\.com
+1611099930	Ollie	turkiyeyapayzeka\.com
+1611106015	cigien	go(?:[\W_]*+(?:ahead|and|to)?)*+ban[\W_]*+me
+1611115046	Ryan M	3696f3daed4e(?# uxplanet.org)
+1611118069	tripleee	abbs\.edu\.in
+1611119675	cigien	govreports\.com\.au
+1611123978	tripleee	infyseo\.com
+1611124009	cigien	jocosa[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:\d++|[\da-f]{5,}+)s?)*
+1611125632	cigien	herlihyfamilylaw\.com
+1611126058	Cody Gray	spro\.vn
+1611126074	Cody Gray	may-thao-vo
+1611126225	Cody Gray	hotrospro(?:@gmail\.com)?
+1611126683	cigien	jaguarsoftwareindia\.com
+1611126735	Ryan M	sharmaacademy\.com
+1611127240	cigien	duro[\W_]*+xl(?:[\W_]*+(?:male|review|enhancement|\d++|[\da-f]{5,}+)s?)*
+1611127461	Ryan M	top[\W_]*+\d++\b.{0,50}\bcompanies
+1611129090	tripleee	travelogyindia\.com
+1611129396	Yatin	enter\.online
+1611129612	Yatin	macrocalculator\.org
+1611134151	Ryan M	bizzrun\.com
+1611139292	tripleee	mtalkz
+1611139101	Yatin	ethereumtopaypal\.com
+1611139683	tripleee	sertyarticles\.com
+1611141454	tripleee	officemyoffice\.com
+1611137713	Yatin	hyderabadforce\.com
+1611137427	Yatin	meeracfo\.com
+1611141794	Yatin	cubeinfotech\.com
+1611142592	Yatin	Bruce\W?Springsteen\W?Jacket
+1611144064	Yatin	justgiving\.com
+1611144629	Yatin	salon\.glossnglass\.com
+1611144753	tripleee	webscraping\.us
+1611148294	Spevacus	constructionnews\.co\.in
+1611145221	Yatin	disclosure\.substack\.com
+1611145375	Yatin	(?-i:UCYvin_F73BoNJ_VibPvtSjg)(?# youtube)
+1611149074	Spevacus	orthopatna\.com
+1611150676	Spevacus	(?-i:3nZHkzp)(?#bit.ly)
+1611152015	Spevacus	iprovpn\.com
+1611152912	Spevacus	certssolution\.com
+1611154359	Spevacus	bhtnews\.com
+1611160057	Suraj Rao	aexa\.uk
+1611161731	Ollie	iwin88\.asia
+1611162231	Makyen	ericmarkatm88(?:@gmail\.com)?
+1611165625	Cody Gray	openproductreview\.com
+1611180951	Makyen	ym43or71of6\.typeform\.com
+1611196466	cigien	arentved(?:@guardian\.com)?
+1611205732	cigien	bcskill\.com
+1611207208	cigien	bookn\.net
+1611144891	Yatin	unitedexchange\.io
+1611210917	cigien	reditcoins\.com
+1611211733	Yatin	advisorwellness\.org
+1611211875	cigien	happy[\W_]*+dance[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1611211896	Cody Gray	globaltensiles\.com
+1611212129	Cody Gray	chemzone\.co\.in
+1611212853	Makyen	sobujmandal801(?:@gmail\.com)?
+1611213215	Cody Gray	ciscochinhhang\.com
+1611213931	Cody Gray	socklikeit\.com
+1611214026	Cody Gray	truehopepharmacy\.com
+1611214049	Cody Gray	clinicpills66(?:@gmail\.com)?
+1611211645	Yatin	keto-bodytone-australia-44\.webself\.net
+1611214304	cigien	vita\W+balance
+1611214959	Makyen	maricanna[\W_]*+rx(?:[\W_]*+(?:oil|cbd|buy|order|\d++|[\da-f]{5,}+)s?)*
+1611215258	Cody Gray	learningjoan\.com
+1611215378	cigien	vlucht(en)?volgen\.(com|nl)
+1611215411	cigien	vliegtuigenvolgen\.nl
+1611215428	cigien	flugeverfolgen\.de
+1611217037	cigien	instasafe\.com
+1611218373	cigien	sintk2123(?:@gmail\.com)?
+1611218421	cigien	kokosint2580(?:@emal\.com)?
+1611218910	cigien	bestmonitorshz\.com
+1611219664	cigien	weheat\.co\.uk
+1611219851	cigien	sunandaglobal\.com
+1611224343	Ryan M	emailsignatureguru\.com
+1611224914	cigien	soniofficemate\.com
+1611225958	tripleee	(?-i:efzfZM-0G-I)(?# youtube)
+1611226047	cigien	hackprotection\.net
+1611226849	cigien	uploadcare\.com
+1611226973	cigien	floatingkayaks\.com
+1611227318	tripleee	ragstorichesmoving\.com
+1611227920	cigien	customrecords\.com
+1611228478	tripleee	klantenondersteuning991803786\.wordpress\.com
+1611228647	cigien	ignite[\W_]*+cbd[\W_]*+oil(?:[\W_]*+(?:buy|order|\d++|[\da-f]{5,}+)s?)*
+1611231194	Ryan M	a2zrecruitments2021(?:@gmail\.com)?
+1611234319	tripleee	study4u\.xyz
+1611234337	tripleee	new-iphone\.com
+1611239473	cigien	govtjobcircular\.net
+1611248232	cigien	indianfresher\.com
+1611249523	Ryan M	apkabout\.com
+1611249546	Ryan M	apkhanger\.com
+1611257466	double-beep	solankijenish\.medium\.com
+1611271982	Makyen	babaleggo(?:[\W_]*+(?:at[\W_]*+)?gmail(?:[\W_]*+(?:dot[\W_]*+)?com)?)?
+1611280258	cigien	fazeelusmani\.com
+1611281700	cigien	bmsoftware\.org
+1611284569	cigien	maphotocalecon\.fr
+1611290301	Makyen	asphaltpavinglancaster\.com
+1611290453	Ryan M	cheapestdegree\.com
+1611290470	Ryan M	cheapestsoftware\.org
+1611294060	Cody Gray	digitalakki\.com
+1611294251	tripleee	adgroups
+1611294268	tripleee	akash[\W_]*+digital[\W_]*+groups?
+1611294908	Yatin	bryanandcandy\.com
+1611295059	cigien	tekalook\.com
+1611299059	cigien	crackcool\.com
+1611299452	Cody Gray	jiandajx\.com
+1611299983	cigien	agenpkv\.8b\.io
+1611300134	tripleee	icreativez\.com
+1611300150	tripleee	icreativez(?!\.com)
+1611300523	cigien	onlinercasino\.ca
+1611300569	cigien	alwujood\.com
+1611301200	Cody Gray	pkv
+1611301930	tripleee	dissertationproposal\.co\.uk
+1611303164	Nisse Engström	kishorepallapothu\.com
+1611304770	Cody Gray	2Soft\sSolutions\sPvt\sLtd
+1611305137	Cody Gray	techlame\.com
+1611309136	cigien	(?-i:qC9BKo-95xg)(?#youtu.be)
+1611309178	cigien	(?-i:wO2rU-Vr5eA)(?#youtu.be)
+1611309232	cigien	(?-i:Fo_kAeCOElk)(?#youtu.be)
+1611310551	cigien	dollarskings\.com
+1611311171	cigien	leatherena\.com
+1611313222	tripleee	ipalclinic\.com
+1611313247	tripleee	helpforsales\.com
+1611313664	tripleee	symbols123\.com
+1611317727	Glorfindel	microsoft365-apps\.com
+1611319748	Victor VosMottor	lakeviewloanllc(?:@hotmail\.com)?
+1611327129	Spevacus	naturesblendshop\.com
+1611335200	Mast	deskflex\.com
+1611337041	cigien	firstheritagefinan?ce(?:@(?:aol|gmail)\.com)?

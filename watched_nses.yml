@@ -461,6 +461,9 @@ items:
   - kara.ns.cloudflare.com.
 - ns:
   - elinore.ns.cloudflare.com.
+  - igor.ns.cloudflare.com.
+- ns:
+  - elinore.ns.cloudflare.com.
   - sam.ns.cloudflare.com.
 - ns:
   - elliot.ns.cloudflare.com.
@@ -831,6 +834,9 @@ items:
   - marge.ns.cloudflare.com.
   - skip.ns.cloudflare.com.
 - ns:
+  - marlowe.ns.cloudflare.com.
+  - salvador.ns.cloudflare.com.
+- ns:
   - mark.ns.cloudflare.com.
   - wanda.ns.cloudflare.com.
 - ns:
@@ -869,6 +875,9 @@ items:
 - ns:
   - mira.ns.cloudflare.com.
   - sergi.ns.cloudflare.com.
+- ns:
+  - mitchell.ns.cloudflare.com.
+  - nancy.ns.cloudflare.com.
 - ns:
   - molly.ns.cloudflare.com.
   - rudy.ns.cloudflare.com.
@@ -1052,7 +1061,9 @@ items:
   ns: dynamicnetips.com.
 - ns: w3softech.com.
 - ns: blockchainhelp.pro.
-- ns: specializedtest.com.
+- comment: no longer responding 2020-11-11
+  disable: true
+  ns: specializedtest.com.
 - ns: macsol.co.in.
 - comment: 37/216 over 6 months
   disable: true
@@ -1073,7 +1084,9 @@ items:
 - ns: hostspicy.com.
 - ns: ewebguru.com.
 - ns: dnsowl.com.
-- ns: elitegifthouse.com.
+- comment: no longer responding 2020-11-10
+  disable: true
+  ns: elitegifthouse.com.
 - comment: no longer responding 2020-04-02
   disable: true
   ns: teclab.info.
@@ -1124,7 +1137,9 @@ items:
   ns: asurawebhosting.com.
 - ns: dnspod.net.
 - ns: hostwhitelabel.com.
-- ns: xpertns.com.
+- comment: no longer responding 2020-11-11
+  disable: true
+  ns: xpertns.com.
 - ns: site4now.net.
 - ns:
   - vip1.alidns.com.
@@ -1221,7 +1236,9 @@ items:
 - ns: hostinger.vn.
 - ns: hostnac.com.
 - ns: iserverplanet.net.
-- ns: usm1804.sgded.com.
+- comment: no longer responding 2020-11-11
+  disable: true
+  ns: usm1804.sgded.com.
 - ns: stackdns.com.
 - ns: permainanceme.online.
 - ns: resourcesofnet.net.
